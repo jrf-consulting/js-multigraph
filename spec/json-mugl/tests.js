@@ -6,5 +6,6 @@ module.exports = {
         { "mugl": "acis-webservice.json",         "width": 1000, "height": 400, "web": true },
         { "mugl": "crn-webservice.json",          "width": 1000, "height": 400, "web": true },
         { "mugl": "minimal_graph.json",                                         "web": true },
-		{ "mugl": "yearly-yadkin.json",                                         "web": true }
+		{ "mugl": "yearly-yadkin.json",                                         "web": true },
+		{ "mugl": "yearly-yadkin2.json",                                        "web": true }
     ]};
