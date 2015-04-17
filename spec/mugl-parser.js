@@ -8,20 +8,29 @@ var parser = new xml2js.Parser({
 	charkey: "text"
 });
 
-fs.readFile(__dirname + '/mugl/yearly-yadkin.xml', function(err, data) {
-    parser.parseString(data, function (err, result) {
-		standardizeWindow(result);
-		standardizePlotarea(result);
-		standardizePlots(result);
-		standardizeLegend(result);
-		standardizeTitle(result);
-		standardizeBackground(result);
-		standardizeParentData(result);
-		standardizeAxes(result, "verticalaxis", "verticalaxes");
-		standardizeAxes(result, "horizontalaxis", "horizontalaxes");
-		fs.writeFile('yearly-yadkin2.json', JSON.stringify(result, null, 2), function () {});
-    });
-});
+fs.readdir(__dirname + '/mugl', function (err, files) {
+	var i, l;
+	for (i = 0, l = files.length; i < l; i++) {
+		if (files[i].indexOf(".xml") !== -1) convertMugl(files[i]);
+	}
+})
+
+function convertMugl(file) {
+	fs.readFile(__dirname + '/mugl/' + file, function(err, data) {
+		parser.parseString(data, function (err, result) {
+			standardizeWindow(result);
+			standardizePlotarea(result);
+			standardizePlots(result);
+			standardizeLegend(result);
+			standardizeTitle(result);
+			standardizeBackground(result);
+			standardizeParentData(result);
+			standardizeAxes(result, "verticalaxis", "verticalaxes");
+			standardizeAxes(result, "horizontalaxis", "horizontalaxes");
+			fs.writeFile(__dirname + '/json-mugl/' + file.replace(".xml", ".json"), JSON.stringify(result, null, 2), function () {});
+		});
+	});
+}
 
 Object.prototype.renameProperty = function (oldName, newName) {
     // Check for the old property name to avoid a ReferenceError in strict mode.
@@ -318,7 +327,7 @@ function standardizeLabeler (axis, label) {
 			for (i = 0, l = labels.length; i < l; i++) standardizeLabeler(axis, labels[i]);
 		} else {
 			standardizeLabeler(axis, labels);
-			label.label = [label];
+			label.label = [labels];
 		}
 	}
 }
