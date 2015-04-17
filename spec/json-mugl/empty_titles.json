@@ -1,0 +1,96 @@
+{
+  "background": {
+    "color": "0xffffff"
+  },
+  "window": {
+    "margin": 0,
+    "padding": 5,
+    "border": 5,
+    "bordercolor": "0x000000"
+  },
+  "plotarea": {
+    "margintop": 10,
+    "marginleft": 38,
+    "marginbottom": 35,
+    "marginright": 35
+  },
+  "horizontalaxis": {
+    "id": "x",
+    "min": 0,
+    "max": 10,
+    "length": "1",
+    "title": ""
+  },
+  "verticalaxis": {
+    "id": "y",
+    "min": 0,
+    "max": 10,
+    "length": "1"
+  },
+  "plot": {
+    "horizontalaxis": {
+      "x": "x"
+    },
+    "verticalaxis": {
+      "y": [
+        "y",
+        "z"
+      ]
+    },
+    "renderer": {
+      "type": "band",
+      "options": {
+        "linecolor": "0x000000",
+        "linewidth": "2",
+        "fillcolor": "0x0000ff",
+        "fillopacity": "0.5"
+      }
+    }
+  },
+  "data": {
+    "variables": [
+      {
+        "column": 0,
+        "id": "x"
+      },
+      {
+        "column": 1,
+        "id": "y",
+        "missingvalue": "-9000",
+        "missingop": "le"
+      },
+      {
+        "column": 2,
+        "id": "z",
+        "missingvalue": "-9000",
+        "missingop": "le"
+      }
+    ],
+    "values": [
+      [
+        "0,2,4"
+      ],
+      [
+        "1,4,5"
+      ],
+      [
+        "3,5,7"
+      ],
+      [
+        "4,-9000,-9000"
+      ],
+      [
+        "5,4,6"
+      ],
+      [
+        "6,4,5"
+      ],
+      [
+        "7,6,4"
+      ],
+      [
+        "8,6,4"
+      ]
+    ]
+  }
+}

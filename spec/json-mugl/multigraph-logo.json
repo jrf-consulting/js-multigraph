@@ -1,0 +1,98 @@
+{
+  "background": {
+    "color": "0x000000"
+  },
+  "window": {
+    "padding": 5,
+    "border": 2,
+    "bordercolor": "0xffffff"
+  },
+  "plotarea": {
+    "margintop": 15,
+    "marginleft": 20,
+    "marginbottom": 20,
+    "marginright": 5
+  },
+  "horizontalaxis": {
+    "id": "x",
+    "min": -0.2,
+    "max": 5,
+    "color": "0xffffff",
+    "labels": {
+      "spacing": [
+        1000
+      ],
+      "start": 100,
+      "format": ""
+    },
+    "title": ""
+  },
+  "verticalaxis": {
+    "id": "y",
+    "min": 0,
+    "max": 3.5,
+    "color": "0xffffff",
+    "labels": {
+      "spacing": [
+        1
+      ],
+      "start": 0,
+      "format": ""
+    },
+    "title": "",
+    "grid": {
+      "color": "#666666"
+    }
+  },
+  "plot": {
+    "horizontalaxis": {
+      "x": "x"
+    },
+    "verticalaxis": {
+      "y": "y"
+    },
+    "renderer": {
+      "type": "bar",
+      "options": {
+        "linecolor": "0xffffff",
+        "fillcolor": "0xffffff",
+        "barwidth": "0.6",
+        "baroffset": "0.4"
+      }
+    }
+  },
+  "data": {
+    "variables": [
+      {
+        "column": 0,
+        "id": "x"
+      },
+      {
+        "column": 1,
+        "id": "y"
+      }
+    ],
+    "values": [
+      [
+        "0",
+        "0.5"
+      ],
+      [
+        "1",
+        "1"
+      ],
+      [
+        "2",
+        "1.8"
+      ],
+      [
+        "3",
+        "2.8"
+      ],
+      [
+        "4",
+        "3.3"
+      ]
+    ]
+  }
+}

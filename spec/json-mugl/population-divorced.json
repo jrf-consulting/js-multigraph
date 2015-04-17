@@ -1,0 +1,257 @@
+{
+  "background": {
+    "color": "0xFAFAEB"
+  },
+  "window": {
+    "margin": 0,
+    "padding": 5,
+    "border": 0,
+    "bordercolor": "0x000000"
+  },
+  "plotarea": {
+    "margintop": 10,
+    "marginleft": 60,
+    "marginbottom": 25,
+    "marginright": 15
+  },
+  "verticalaxis": {
+    "id": "y",
+    "min": 0,
+    "max": 100,
+    "length": "1",
+    "title": {
+      "text": "Population Percentage, 2010",
+      "anchor": [
+        0,
+        -4
+      ],
+      "angle": 90,
+      "position": [
+        -40,
+        0
+      ]
+    },
+    "labels": {
+      "densityfactor": 0.1,
+      "format": "%.1f",
+      "spacing": [
+        5000,
+        1000,
+        500,
+        100,
+        50,
+        20,
+        10,
+        5,
+        2,
+        1,
+        0.5,
+        0.1
+      ]
+    },
+    "grid": "",
+    "pan": {
+      "min": 0
+    }
+  },
+  "data": {
+    "variables": [
+      {
+        "column": 0,
+        "id": "x"
+      },
+      {
+        "column": 1,
+        "id": "y1",
+        "missingvalue": "-9000",
+        "missingop": "le"
+      },
+      {
+        "column": 2,
+        "id": "y2",
+        "missingvalue": "-9000",
+        "missingop": "le"
+      }
+    ],
+    "values": [
+      [
+        "0.5,",
+        "13.9,",
+        "16.5"
+      ],
+      [
+        "2.5,",
+        "10.3,",
+        "14.4"
+      ],
+      [
+        "4.5,",
+        "11.0,",
+        "13.3"
+      ],
+      [
+        "6.5,",
+        "13.3,",
+        "13.5"
+      ],
+      [
+        "8.5,",
+        "11.7,",
+        "14.8"
+      ]
+    ]
+  },
+  "plots": [
+    {
+      "legend": {
+        "label": "% Males =15 Years, Currently Separated or Divorced"
+      },
+      "horizontalaxis": {
+        "Buncombe County": "x"
+      },
+      "verticalaxis": {
+        "y": "y1"
+      },
+      "renderer": {
+        "type": "bar",
+        "options": {
+          "linecolor": "0x1D2473",
+          "fillcolor": "0x6066AB",
+          "barwidth": "0.5",
+          "baroffset": "0",
+          "barbase": "0",
+          "hidelines": "2"
+        }
+      }
+    },
+    {
+      "legend": {
+        "label": "% Females =15 Years, Currently Separated or Divorced"
+      },
+      "horizontalaxis": {
+        "Buncombe County": "x"
+      },
+      "verticalaxis": {
+        "y": "y2"
+      },
+      "renderer": {
+        "type": "bar",
+        "options": {
+          "linecolor": "0x731D72",
+          "fillcolor": "0xAB60A8",
+          "barwidth": "0.5",
+          "baroffset": "37",
+          "barbase": "0",
+          "hidelines": "2"
+        }
+      }
+    }
+  ],
+  "horizontalaxes": [
+    {
+      "id": "Buncombe County",
+      "min": 0,
+      "max": 10,
+      "length": "1",
+      "base": [
+        -1,
+        -1
+      ],
+      "anchor": -1,
+      "labels": {
+        "densityfactor": 0.5,
+        "format": "",
+        "spacing": [
+          1000
+        ]
+      },
+      "pan": false,
+      "zoom": false,
+      "title": false
+    },
+    {
+      "id": "Madison County",
+      "min": 0,
+      "max": 10,
+      "length": "1",
+      "base": [
+        -1,
+        -1
+      ],
+      "anchor": -1,
+      "labels": {
+        "densityfactor": 0.5,
+        "format": "",
+        "spacing": [
+          1000
+        ]
+      },
+      "pan": false,
+      "zoom": false,
+      "title": false
+    },
+    {
+      "id": "Henderson County",
+      "min": 0,
+      "max": 10,
+      "length": "1",
+      "base": [
+        -1,
+        -1
+      ],
+      "anchor": -1,
+      "labels": {
+        "densityfactor": 0.5,
+        "format": "",
+        "spacing": [
+          1000
+        ]
+      },
+      "pan": false,
+      "zoom": false,
+      "title": false
+    },
+    {
+      "id": "Transylvania County",
+      "min": 0,
+      "max": 10,
+      "length": "1",
+      "base": [
+        -1,
+        -1
+      ],
+      "anchor": -1,
+      "labels": {
+        "densityfactor": 0.5,
+        "format": "",
+        "spacing": [
+          1000
+        ]
+      },
+      "pan": false,
+      "zoom": false,
+      "title": false
+    },
+    {
+      "id": "North Carolina",
+      "min": 0,
+      "max": 10,
+      "length": "1",
+      "base": [
+        -1,
+        -1
+      ],
+      "anchor": -1,
+      "labels": {
+        "densityfactor": 0.5,
+        "format": "",
+        "spacing": [
+          1000
+        ]
+      },
+      "pan": false,
+      "zoom": false,
+      "title": false
+    }
+  ]
+}

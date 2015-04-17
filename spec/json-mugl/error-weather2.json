@@ -1,0 +1,221 @@
+{
+  "plotarea": {
+    "marginleft": 40,
+    "marginright": 40,
+    "marginbottom": 45,
+    "margintop": 35
+  },
+  "legend": {
+    "rows": 1,
+    "border": 0,
+    "anchor": [
+      0,
+      1
+    ],
+    "base": [
+      0,
+      1
+    ],
+    "opacity": 0,
+    "position": [
+      0,
+      30
+    ],
+    "icon": {
+      "border": 0,
+      "height": 20
+    }
+  },
+  "horizontalaxis": {
+    "id": "datetime",
+    "type": "datetime",
+    "min": "2012100716",
+    "max": "2012100916",
+    "labels": {
+      "format": "%H:%i%L%n %d%L%Y",
+      "spacing": [
+        "1M",
+        "7D",
+        "1D",
+        "12H",
+        "6H",
+        "4H",
+        "2H",
+        "1H",
+        "30m",
+        "10m",
+        "5m"
+      ]
+    },
+    "grid": "",
+    "title": ""
+  },
+  "data": [
+    {
+      "variables": [
+        {
+          "id": "datetime",
+          "column": 0,
+          "type": "datetime"
+        },
+        {
+          "id": "outtemp",
+          "column": 1
+        },
+        {
+          "id": "intemp",
+          "column": 2
+        },
+        {
+          "id": "livtemp",
+          "column": 3
+        }
+      ],
+      "service": {
+        "location": "http://www.geomtech.com/vars/get/1,3,9"
+      },
+      "missingvalue": "-9999",
+      "missingop": "eq"
+    },
+    {
+      "variables": [
+        {
+          "id": "f0d",
+          "column": 0,
+          "type": "datetime"
+        },
+        {
+          "id": "f0t",
+          "column": 1
+        }
+      ],
+      "service": {
+        "location": "http://www.geomtech.com/vars/get/4"
+      }
+    }
+  ],
+  "plots": [
+    {
+      "legend": {
+        "label": "Outdoor Forecast"
+      },
+      "horizontalaxis": {
+        "datetime": "f0d"
+      },
+      "verticalaxis": {
+        "fahrenheit": "f0t"
+      },
+      "renderer": {
+        "type": "line",
+        "options": {
+          "linecolor": "green",
+          "dotcolor": "green",
+          "linewidth": "3",
+          "dotsize": "0"
+        }
+      }
+    },
+    {
+      "legend": {
+        "label": "Living Room"
+      },
+      "horizontalaxis": {
+        "datetime": "datetime"
+      },
+      "verticalaxis": {
+        "celsius": "livtemp"
+      },
+      "renderer": {
+        "type": "line",
+        "options": {
+          "linecolor": "red",
+          "dotsize": "0"
+        }
+      }
+    },
+    {
+      "legend": {
+        "label": "Upstairs Office"
+      },
+      "horizontalaxis": {
+        "datetime": "datetime"
+      },
+      "verticalaxis": {
+        "celsius": "intemp"
+      },
+      "renderer": {
+        "type": "line",
+        "options": {
+          "linecolor": "black",
+          "dotsize": "0"
+        }
+      }
+    },
+    {
+      "legend": {
+        "label": "Outdoor"
+      },
+      "horizontalaxis": {
+        "datetime": "datetime"
+      },
+      "verticalaxis": {
+        "celsius": "outtemp"
+      },
+      "renderer": {
+        "type": "line",
+        "options": {
+          "linecolor": "blue",
+          "linewidth": "3",
+          "dotsize": "0"
+        }
+      }
+    }
+  ],
+  "verticalaxes": [
+    {
+      "id": "celsius",
+      "positionbase": "left",
+      "title": {
+        "text": "Celsius",
+        "angle": 90,
+        "anchor": [
+          0,
+          -1
+        ],
+        "position": [
+          -27,
+          0
+        ]
+      },
+      "binding": {
+        "id": "tempbinding",
+        "min": 0,
+        "max": 100
+      }
+    },
+    {
+      "id": "fahrenheit",
+      "positionbase": "right",
+      "min": 0,
+      "max": 95,
+      "title": {
+        "text": "Fahrenheit",
+        "angle": 90,
+        "anchor": [
+          0,
+          1
+        ],
+        "position": [
+          25,
+          0
+        ]
+      },
+      "grid": "",
+      "binding": {
+        "id": "tempbinding",
+        "min": 32,
+        "max": 212
+      }
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "horizontalaxis": {
+    "id": "x",
+    "min": 0,
+    "max": 10
+  },
+  "plot": {
+    "horizontalaxis": {
+      "x": "x"
+    },
+    "verticalaxis": {
+      "y": "y"
+    },
+    "renderer": {
+      "type": "pointline",
+      "options": {
+        "linecolor": "0xff00ff",
+        "linewidth": "3",
+        "pointshape": "circle",
+        "pointoutlinewidth": "2",
+        "pointoutlinecolor": "0x000000",
+        "pointcolor": "0xffffff",
+        "pointopacity": "1.0",
+        "pointsize": "3"
+      }
+    }
+  },
+  "data": {
+    "variables": [
+      {
+        "column": 0,
+        "id": "x"
+      },
+      {
+        "column": 1,
+        "id": "y"
+      }
+    ],
+    "values": [
+      [
+        "0,1"
+      ],
+      [
+        "1,3"
+      ],
+      [
+        "2,2"
+      ],
+      [
+        "3,7"
+      ],
+      [
+        "4,8"
+      ],
+      [
+        "5,5"
+      ],
+      [
+        "6,4"
+      ],
+      [
+        "7,9"
+      ],
+      [
+        "8,2"
+      ],
+      [
+        "9,6"
+      ],
+      [
+        "10,7"
+      ]
+    ]
+  },
+  "verticalaxes": [
+    {
+      "id": "y",
+      "min": 0,
+      "max": 10,
+      "binding": {
+        "id": "ybinding",
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "y2",
+      "min": 0,
+      "max": 100,
+      "base": [
+        1,
+        -1
+      ],
+      "binding": {
+        "id": "ybinding",
+        "min": 0,
+        "max": 100
+      }
+    }
+  ]
+}
