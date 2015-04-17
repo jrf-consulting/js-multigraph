@@ -73,7 +73,7 @@
       "min": "2009011116",
       "max": "2009011216"
     },
-    "grid": ""
+    "grid": {}
   },
   "throttle": {
     "pattern": "^http://data.multigraph.org",

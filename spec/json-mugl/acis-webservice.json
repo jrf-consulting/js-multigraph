@@ -47,7 +47,7 @@
       "format": "%n %d%L%Y"
     },
     "title": "",
-    "grid": ""
+    "grid": {}
   },
   "verticalaxis": {
     "id": "temp",
@@ -65,7 +65,7 @@
         0
       ]
     },
-    "grid": "",
+    "grid": {},
     "labels": {
       "spacing": [
         100,

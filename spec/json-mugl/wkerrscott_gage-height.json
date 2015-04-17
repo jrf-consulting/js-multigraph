@@ -45,7 +45,7 @@
         }
       ]
     },
-    "grid": "",
+    "grid": {},
     "title": {
       "text": "Year",
       "anchor": [
@@ -86,7 +86,7 @@
         0.01
       ]
     },
-    "grid": "",
+    "grid": {},
     "title": {
       "text": "Gage Height (ft), W. Kerr Scott Reservoir",
       "anchor": [
