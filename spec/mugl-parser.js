@@ -201,18 +201,27 @@ function standardizeRenderer (renderer) {
 
 function standardizeOption (option, newOptions) {
 	if (option.hasOwnProperty("min") || option.hasOwnProperty("max")) {
-		var prop = [];
-		prop.value = option.value;
+		var prop = {};
+		prop["value"] = option.value;
 		if (option.hasOwnProperty("min")) {
-			prop.min = option.min;
+			prop["min"] = option.min;
 		}
 		if (option.hasOwnProperty("max")) {
-			prop.max = option.max;
+			prop["max"] = option.max;
 		}
 	} else {
 		var prop = option.value;
 	}
-	newOptions[option.name] = prop;
+
+	if (newOptions.hasOwnProperty(option.name)) {
+		var existingOption = newOptions[option.name];
+		var optionsToInsert = (Array.isArray(existingOption)) ? existingOption : [existingOption];
+		var propToInsert = (typeof prop === "object") ? prop : {"value" : prop};
+		optionsToInsert.push(propToInsert);
+		newOptions[option.name] = optionsToInsert;
+	} else {
+		newOptions[option.name] = prop;
+	}
 }
 
 function standardizePlotLegend (plot) {
@@ -228,6 +237,20 @@ function standardizePlotLegend (plot) {
 function standardizeDatatips(datatips) {
 	standardizeIntegers(datatips, ["border", "pad"]);
 	standardizeDoubles(datatips, ["bgalpha"]);
+	if (datatips.hasOwnProperty("variable")) {
+		var variables = datatips.variable;
+		var newFormats = [];
+		var i, l;
+		if (Array.isArray(variables)) {
+			for (i = 0, l = variables.length; i < l; i++) {
+				newFormats.push(variables[i].format);
+			}
+		} else {
+			newFormats.push(variables.format);
+		}
+		datatips.variable = newFormats;
+		datatips.renameProperty("variable", "variable-formats");
+	}
 }
 
 function standardizeParentData (graph) {
@@ -263,10 +286,12 @@ function standardizeData (data) {
 	}
 
 	if (data.values) {
-		var values = data.values.trim();
+		var values = data.values.trim(),
+		    value;
 		values = values.split("\r\n");
 		for (i = 0, l = values.length; i < l; i++) {
-			values[i] = values[i].trim().replace(/\s+/g, " ").split(" ");
+			value = values[i].trim().replace(/\s+/g, " ");
+			values[i] = (value.indexOf(",") !== -1) ? value.split(",") : value.split(" ");
 		}
 		data.values = values;
 	}
@@ -346,6 +371,7 @@ function standardizeAxisTitle (axis) {
 function standardizeGrid (axis) {
 	if (!axis.hasOwnProperty("grid")) return;
 	var grid = axis.grid;
+	if (typeof grid === "string") axis.grid = {};
 	if (grid.hasOwnProperty("visible")) grid.visible = parseBoolean(grid.visible);
 }
 
