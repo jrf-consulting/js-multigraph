@@ -7,7 +7,9 @@
     "type": "datetime",
     "min": "20100101",
     "max": "20110101",
+    "title": "",
     "labels": {
+      "format": "%n %d%L%Y",
       "spacing": [
         "100Y",
         "50Y",
@@ -21,10 +23,8 @@
         "1M",
         "7D",
         "1D"
-      ],
-      "format": "%n %d%L%Y"
+      ]
     },
-    "title": "",
     "grid": {}
   },
   "verticalaxis": {
@@ -37,14 +37,14 @@
         0,
         -1
       ],
-      "angle": 90,
       "position": [
         -25,
         0
-      ]
+      ],
+      "angle": 90
     },
-    "grid": {},
     "labels": {
+      "format": "%f",
       "spacing": [
         100,
         50,
@@ -55,13 +55,15 @@
         0.5,
         0.2,
         0.1
-      ],
-      "format": "%f"
-    }
+      ]
+    },
+    "grid": {}
   },
   "plot": {
-    "legend": {
-      "label": "Normal Temperature"
+    "style": "line",
+    "options": {
+      "linecolor": "0x0000ff",
+      "linewidth": "2"
     },
     "horizontalaxis": {
       "date": "date"
@@ -69,11 +71,9 @@
     "verticalaxis": {
       "temp": "normal_maxt"
     },
-    "options": {
-      "linecolor": "0x0000ff",
-      "linewidth": "2"
-    },
-    "style": "line"
+    "legend": {
+      "label": "Normal Temperature"
+    }
   },
   "legend": {
     "rows": 1,
@@ -98,6 +98,8 @@
     }
   },
   "data": {
+    "missingvalue": "-9000",
+    "missingop": "le",
     "variables": [
       {
         "column": 0,
@@ -1577,8 +1579,6 @@
         "20101231",
         "65.3"
       ]
-    ],
-    "missingvalue": "-9000",
-    "missingop": "le"
+    ]
   }
 }

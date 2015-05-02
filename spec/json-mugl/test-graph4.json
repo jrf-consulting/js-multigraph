@@ -1,8 +1,8 @@
 {
   "window": {
     "border": 0,
-    "margin": 0,
-    "padding": 0
+    "padding": 0,
+    "margin": 0
   },
   "background": {
     "color": "0x111111"
@@ -12,8 +12,8 @@
     "type": "datetime",
     "min": "199910",
     "max": "201210",
+    "title": "",
     "labels": {
-      "densityfactor": 0.5,
       "format": "%n %y",
       "spacing": [
         "10Y",
@@ -24,18 +24,18 @@
         "2M",
         "1M"
       ],
-      "angle": 45,
-      "position": [
-        -11,
-        -14
-      ],
       "anchor": [
         0,
         1
       ],
-      "color": "0xeeeeee"
+      "position": [
+        -11,
+        -14
+      ],
+      "angle": 45,
+      "color": "0xeeeeee",
+      "densityfactor": 0.5
     },
-    "title": "",
     "grid": {
       "color": "0x333333"
     }
@@ -44,8 +44,8 @@
     "id": "y",
     "min": -4.5,
     "max": 4.5,
+    "title": "",
     "labels": {
-      "densityfactor": 0.5,
       "format": "%.1f",
       "spacing": [
         10000,
@@ -63,27 +63,27 @@
         0.25,
         0.1
       ],
-      "color": "0xeeeeee"
+      "color": "0xeeeeee",
+      "densityfactor": 0.5
     },
-    "title": "",
     "grid": {
       "color": "0x333333"
     }
   },
   "plot": {
-    "horizontalaxis": {
-      "Date": "datetime"
-    },
-    "verticalaxis": {
-      "y": "y"
-    },
+    "style": "band",
     "options": {
       "linecolor": "0xFAFAAC",
       "linewidth": "2",
       "fillcolor": "0xFFCF4D",
       "fillopacity": ".5"
     },
-    "style": "band"
+    "horizontalaxis": {
+      "Date": "datetime"
+    },
+    "verticalaxis": {
+      "y": "y"
+    }
   },
   "legend": {
     "visible": "false"

@@ -1,15 +1,15 @@
 {
   "text": "\r\n    \r\n    \r\n    \r\n    \r\n\r\n    \r\n\r\n    \r\n\r\n    \r\n\r\n    \r\n\r\n    \r\n\r\n    \r\n\r\n\r\n/*--Land of Sky------------------------------------------------------------------*/\r\n\r\n    \r\n\r\n    \r\n\r\n    \r\n\r\n    \r\n\r\n\r\n/*--High Country------------------------------------------------------------------*/\r\n\r\n    \r\n\r\n    \r\n    \r\n    \r\n\r\n    \r\n\r\n    \r\n\r\n    \r\n\r\n    \r\n\r\n\r\n/*--Isothermal------------------------------------------------------------------*/\r\n\r\n    \r\n\r\n    \r\n    \r\n    \r\n\r\n    \r\n\r\n\r\n/*--Southwestern------------------------------------------------------------------*/\r\n\r\n    \r\n\r\n    \r\n    \r\n    \r\n\r\n    \r\n\r\n    \r\n\r\n    \r\n\r\n    \r\n\r\n/*--Western Piedmont------------------------------------------------------------------*/\r\n\r\n    \r\n\r\n    \r\n    \r\n    \r\n\r\n\r\n    \r\n",
   "window": {
-    "margin": 0,
-    "padding": 5,
     "border": 0,
-    "bordercolor": "0x000000"
+    "bordercolor": "0x000000",
+    "padding": 5,
+    "margin": 0
   },
   "plotarea": {
+    "marginbottom": 25,
     "margintop": 80,
     "marginleft": 60,
-    "marginbottom": 25,
     "marginright": 15
   },
   "background": {
@@ -18,129 +18,128 @@
   "horizontalaxes": [
     {
       "id": "Land of Sky",
-      "min": 0,
-      "max": 5.5,
       "length": "1",
       "base": [
         -1,
         -1
       ],
       "anchor": -1,
+      "min": 0,
+      "max": 5.5,
+      "title": false,
       "labels": {
-        "densityfactor": 0.5,
         "format": "",
         "spacing": [
           1000
-        ]
+        ],
+        "densityfactor": 0.5
       },
       "pan": false,
-      "zoom": false,
-      "title": false
+      "zoom": false
     },
     {
       "id": "High Country",
-      "min": 0,
-      "max": 5.5,
       "length": "1",
       "base": [
         -1,
         -1
       ],
       "anchor": -1,
+      "min": 0,
+      "max": 5.5,
+      "title": false,
       "labels": {
-        "densityfactor": 0.5,
         "format": "",
         "spacing": [
           1000
-        ]
+        ],
+        "densityfactor": 0.5
       },
       "pan": false,
-      "zoom": false,
-      "title": false
+      "zoom": false
     },
     {
       "id": "Isothermal",
-      "min": 0,
-      "max": 5.5,
       "length": "1",
       "base": [
         -1,
         -1
       ],
       "anchor": -1,
+      "min": 0,
+      "max": 5.5,
+      "title": false,
       "labels": {
-        "densityfactor": 0.5,
         "format": "",
         "spacing": [
           1000
-        ]
+        ],
+        "densityfactor": 0.5
       },
       "pan": false,
-      "zoom": false,
-      "title": false
+      "zoom": false
     },
     {
       "id": "Southwestern",
-      "min": 0,
-      "max": 5.5,
       "length": "1",
       "base": [
         -1,
         -1
       ],
       "anchor": -1,
+      "min": 0,
+      "max": 5.5,
+      "title": false,
       "labels": {
-        "densityfactor": 0.5,
         "format": "",
         "spacing": [
           1000
-        ]
+        ],
+        "densityfactor": 0.5
       },
       "pan": false,
-      "zoom": false,
-      "title": false
+      "zoom": false
     },
     {
       "id": "Western Piedmont",
-      "min": 0,
-      "max": 5.5,
       "length": "1",
       "base": [
         -1,
         -1
       ],
       "anchor": -1,
+      "min": 0,
+      "max": 5.5,
+      "title": false,
       "labels": {
-        "densityfactor": 0.5,
         "format": "",
         "spacing": [
           1000
-        ]
+        ],
+        "densityfactor": 0.5
       },
       "pan": false,
-      "zoom": false,
-      "title": false
+      "zoom": false
     }
   ],
   "verticalaxis": {
     "id": "y",
+    "length": "1",
     "min": 0,
     "max": 400000,
-    "length": "1",
     "title": {
       "text": "Population, 2010",
       "anchor": [
         0,
         -4
       ],
-      "angle": 90,
       "position": [
         -40,
         0
-      ]
+      ],
+      "angle": 90
     },
     "labels": {
-      "densityfactor": 0.1,
       "format": "%.0f",
       "spacing": [
         100000,
@@ -154,7 +153,8 @@
         5,
         2,
         1
-      ]
+      ],
+      "densityfactor": 0.1
     },
     "pan": {
       "min": 0
@@ -162,8 +162,13 @@
   },
   "plots": [
     {
-      "legend": {
-        "label": "Buncombe"
+      "style": "bar",
+      "options": {
+        "linecolor": "0xC99C14",
+        "fillcolor": "0xE0C77B",
+        "barwidth": "0.5",
+        "baroffset": "0",
+        "hidelines": "2"
       },
       "horizontalaxis": {
         "Land of Sky": "x"
@@ -171,25 +176,12 @@
       "verticalaxis": {
         "y": "bunc"
       },
-      "options": {
-        "linecolor": "0xC99C14",
-        "fillcolor": "0xE0C77B",
-        "barwidth": "0.5",
-        "baroffset": "0",
-        "hidelines": "2"
-      },
-      "style": "bar"
+      "legend": {
+        "label": "Buncombe"
+      }
     },
     {
-      "legend": {
-        "label": "Madison"
-      },
-      "horizontalaxis": {
-        "Land of Sky": "x"
-      },
-      "verticalaxis": {
-        "y": "madi"
-      },
+      "style": "bar",
       "options": {
         "linecolor": "0xA1A624",
         "fillcolor": "0xD3D674",
@@ -197,18 +189,18 @@
         "barbase": "238318",
         "hidelines": "2"
       },
-      "style": "bar"
-    },
-    {
-      "legend": {
-        "label": "Henderson"
-      },
       "horizontalaxis": {
         "Land of Sky": "x"
       },
       "verticalaxis": {
-        "y": "hend"
+        "y": "madi"
       },
+      "legend": {
+        "label": "Madison"
+      }
+    },
+    {
+      "style": "bar",
       "options": {
         "linecolor": "0xA16533",
         "fillcolor": "0xD1A988",
@@ -216,18 +208,18 @@
         "barbase": "259082",
         "hidelines": "2"
       },
-      "style": "bar"
-    },
-    {
-      "legend": {
-        "label": "Transylvania"
-      },
       "horizontalaxis": {
         "Land of Sky": "x"
       },
       "verticalaxis": {
-        "y": "tran"
+        "y": "hend"
       },
+      "legend": {
+        "label": "Henderson"
+      }
+    },
+    {
+      "style": "bar",
       "options": {
         "linecolor": "0x708A21",
         "fillcolor": "0xB1C478",
@@ -235,11 +227,24 @@
         "barbase": "365822",
         "hidelines": "2"
       },
-      "style": "bar"
+      "horizontalaxis": {
+        "Land of Sky": "x"
+      },
+      "verticalaxis": {
+        "y": "tran"
+      },
+      "legend": {
+        "label": "Transylvania"
+      }
     },
     {
-      "legend": {
-        "label": "Wilkes"
+      "style": "bar",
+      "options": {
+        "linecolor": "0xC99C14",
+        "fillcolor": "0xE0C77B",
+        "barwidth": "0.5",
+        "baroffset": "0",
+        "hidelines": "2"
       },
       "horizontalaxis": {
         "High Country": "x"
@@ -247,25 +252,12 @@
       "verticalaxis": {
         "y": "wilk"
       },
-      "options": {
-        "linecolor": "0xC99C14",
-        "fillcolor": "0xE0C77B",
-        "barwidth": "0.5",
-        "baroffset": "0",
-        "hidelines": "2"
-      },
-      "style": "bar"
+      "legend": {
+        "label": "Wilkes"
+      }
     },
     {
-      "legend": {
-        "label": "Watauga"
-      },
-      "horizontalaxis": {
-        "High Country": "x"
-      },
-      "verticalaxis": {
-        "y": "wata"
-      },
+      "style": "bar",
       "options": {
         "linecolor": "0xA1A624",
         "fillcolor": "0xD3D674",
@@ -273,18 +265,18 @@
         "barbase": "69340",
         "hidelines": "2"
       },
-      "style": "bar"
-    },
-    {
-      "legend": {
-        "label": "Mitchell"
-      },
       "horizontalaxis": {
         "High Country": "x"
       },
       "verticalaxis": {
-        "y": "mitc"
+        "y": "wata"
       },
+      "legend": {
+        "label": "Watauga"
+      }
+    },
+    {
+      "style": "bar",
       "options": {
         "linecolor": "0xA16533",
         "fillcolor": "0xD1A988",
@@ -292,18 +284,18 @@
         "barbase": "120419",
         "hidelines": "2"
       },
-      "style": "bar"
-    },
-    {
-      "legend": {
-        "label": "Yancey"
-      },
       "horizontalaxis": {
         "High Country": "x"
       },
       "verticalaxis": {
-        "y": "yanc"
+        "y": "mitc"
       },
+      "legend": {
+        "label": "Mitchell"
+      }
+    },
+    {
+      "style": "bar",
       "options": {
         "linecolor": "0x708A21",
         "fillcolor": "0xB1C478",
@@ -311,18 +303,18 @@
         "barbase": "135998",
         "hidelines": "2"
       },
-      "style": "bar"
-    },
-    {
-      "legend": {
-        "label": "Ashe"
-      },
       "horizontalaxis": {
         "High Country": "x"
       },
       "verticalaxis": {
-        "y": "ashe"
+        "y": "yanc"
       },
+      "legend": {
+        "label": "Yancey"
+      }
+    },
+    {
+      "style": "bar",
       "options": {
         "linecolor": "0x156A70",
         "fillcolor": "0x58868A",
@@ -330,18 +322,18 @@
         "barbase": "153816",
         "hidelines": "2"
       },
-      "style": "bar"
-    },
-    {
-      "legend": {
-        "label": "Avery"
-      },
       "horizontalaxis": {
         "High Country": "x"
       },
       "verticalaxis": {
-        "y": "aver"
+        "y": "ashe"
       },
+      "legend": {
+        "label": "Ashe"
+      }
+    },
+    {
+      "style": "bar",
       "options": {
         "linecolor": "0x651873",
         "fillcolor": "0x7F5F85",
@@ -349,18 +341,18 @@
         "barbase": "171613",
         "hidelines": "2"
       },
-      "style": "bar"
-    },
-    {
-      "legend": {
-        "label": "Alleghany"
-      },
       "horizontalaxis": {
         "High Country": "x"
       },
       "verticalaxis": {
-        "y": "alle"
+        "y": "aver"
       },
+      "legend": {
+        "label": "Avery"
+      }
+    },
+    {
+      "style": "bar",
       "options": {
         "linecolor": "0x6E6316",
         "fillcolor": "0xA8A271",
@@ -368,11 +360,24 @@
         "barbase": "198894",
         "hidelines": "2"
       },
-      "style": "bar"
+      "horizontalaxis": {
+        "High Country": "x"
+      },
+      "verticalaxis": {
+        "y": "alle"
+      },
+      "legend": {
+        "label": "Alleghany"
+      }
     },
     {
-      "legend": {
-        "label": "Cleveland"
+      "style": "bar",
+      "options": {
+        "linecolor": "0xC99C14",
+        "fillcolor": "0xE0C77B",
+        "barwidth": "0.5",
+        "baroffset": "0",
+        "hidelines": "2"
       },
       "horizontalaxis": {
         "Isothermal": "x"
@@ -380,25 +385,12 @@
       "verticalaxis": {
         "y": "clev"
       },
-      "options": {
-        "linecolor": "0xC99C14",
-        "fillcolor": "0xE0C77B",
-        "barwidth": "0.5",
-        "baroffset": "0",
-        "hidelines": "2"
-      },
-      "style": "bar"
+      "legend": {
+        "label": "Cleveland"
+      }
     },
     {
-      "legend": {
-        "label": "McDowell"
-      },
-      "horizontalaxis": {
-        "Isothermal": "x"
-      },
-      "verticalaxis": {
-        "y": "mcdo"
-      },
+      "style": "bar",
       "options": {
         "linecolor": "0xA1A624",
         "fillcolor": "0xD3D674",
@@ -406,18 +398,18 @@
         "barbase": "98078",
         "hidelines": "2"
       },
-      "style": "bar"
-    },
-    {
-      "legend": {
-        "label": "Polk"
-      },
       "horizontalaxis": {
         "Isothermal": "x"
       },
       "verticalaxis": {
-        "y": "polk"
+        "y": "mcdo"
       },
+      "legend": {
+        "label": "McDowell"
+      }
+    },
+    {
+      "style": "bar",
       "options": {
         "linecolor": "0xA16533",
         "fillcolor": "0xD1A988",
@@ -425,18 +417,18 @@
         "barbase": "143074",
         "hidelines": "2"
       },
-      "style": "bar"
-    },
-    {
-      "legend": {
-        "label": "Rutherford"
-      },
       "horizontalaxis": {
         "Isothermal": "x"
       },
       "verticalaxis": {
-        "y": "ruth"
+        "y": "polk"
       },
+      "legend": {
+        "label": "Polk"
+      }
+    },
+    {
+      "style": "bar",
       "options": {
         "linecolor": "0x708A21",
         "fillcolor": "0xB1C478",
@@ -444,11 +436,24 @@
         "barbase": "163584",
         "hidelines": "2"
       },
-      "style": "bar"
+      "horizontalaxis": {
+        "Isothermal": "x"
+      },
+      "verticalaxis": {
+        "y": "ruth"
+      },
+      "legend": {
+        "label": "Rutherford"
+      }
     },
     {
-      "legend": {
-        "label": "Haywood"
+      "style": "bar",
+      "options": {
+        "linecolor": "0xC99C14",
+        "fillcolor": "0xE0C77B",
+        "barwidth": "0.5",
+        "baroffset": "0",
+        "hidelines": "2"
       },
       "horizontalaxis": {
         "Southwestern": "x"
@@ -456,25 +461,12 @@
       "verticalaxis": {
         "y": "hayw"
       },
-      "options": {
-        "linecolor": "0xC99C14",
-        "fillcolor": "0xE0C77B",
-        "barwidth": "0.5",
-        "baroffset": "0",
-        "hidelines": "2"
-      },
-      "style": "bar"
+      "legend": {
+        "label": "Haywood"
+      }
     },
     {
-      "legend": {
-        "label": "Jackson"
-      },
-      "horizontalaxis": {
-        "Southwestern": "x"
-      },
-      "verticalaxis": {
-        "y": "jack"
-      },
+      "style": "bar",
       "options": {
         "linecolor": "0xA1A624",
         "fillcolor": "0xD3D674",
@@ -482,18 +474,18 @@
         "barbase": "59036",
         "hidelines": "2"
       },
-      "style": "bar"
-    },
-    {
-      "legend": {
-        "label": "Macon"
-      },
       "horizontalaxis": {
         "Southwestern": "x"
       },
       "verticalaxis": {
-        "y": "maco"
+        "y": "jack"
       },
+      "legend": {
+        "label": "Jackson"
+      }
+    },
+    {
+      "style": "bar",
       "options": {
         "linecolor": "0xA16533",
         "fillcolor": "0xD1A988",
@@ -501,18 +493,18 @@
         "barbase": "099307",
         "hidelines": "2"
       },
-      "style": "bar"
-    },
-    {
-      "legend": {
-        "label": "Cherokee"
-      },
       "horizontalaxis": {
         "Southwestern": "x"
       },
       "verticalaxis": {
-        "y": "cher"
+        "y": "maco"
       },
+      "legend": {
+        "label": "Macon"
+      }
+    },
+    {
+      "style": "bar",
       "options": {
         "linecolor": "0x708A21",
         "fillcolor": "0xB1C478",
@@ -520,18 +512,18 @@
         "barbase": "133229",
         "hidelines": "2"
       },
-      "style": "bar"
-    },
-    {
-      "legend": {
-        "label": "Swain"
-      },
       "horizontalaxis": {
         "Southwestern": "x"
       },
       "verticalaxis": {
-        "y": "swai"
+        "y": "cher"
       },
+      "legend": {
+        "label": "Cherokee"
+      }
+    },
+    {
+      "style": "bar",
       "options": {
         "linecolor": "0x156A70",
         "fillcolor": "0x58868A",
@@ -539,18 +531,18 @@
         "barbase": "160673",
         "hidelines": "2"
       },
-      "style": "bar"
-    },
-    {
-      "legend": {
-        "label": "Clay"
-      },
       "horizontalaxis": {
         "Southwestern": "x"
       },
       "verticalaxis": {
-        "y": "clay"
+        "y": "swai"
       },
+      "legend": {
+        "label": "Swain"
+      }
+    },
+    {
+      "style": "bar",
       "options": {
         "linecolor": "0x651873",
         "fillcolor": "0x7F5F85",
@@ -558,18 +550,18 @@
         "barbase": "174654",
         "hidelines": "2"
       },
-      "style": "bar"
-    },
-    {
-      "legend": {
-        "label": "Graham"
-      },
       "horizontalaxis": {
         "Southwestern": "x"
       },
       "verticalaxis": {
-        "y": "grah"
+        "y": "clay"
       },
+      "legend": {
+        "label": "Clay"
+      }
+    },
+    {
+      "style": "bar",
       "options": {
         "linecolor": "0x6E6316",
         "fillcolor": "0xA8A271",
@@ -577,18 +569,18 @@
         "barbase": "185241",
         "hidelines": "2"
       },
-      "style": "bar"
-    },
-    {
-      "legend": {
-        "label": "Burke"
-      },
       "horizontalaxis": {
-        "Western Piedmont": "x"
+        "Southwestern": "x"
       },
       "verticalaxis": {
-        "y": "burk"
+        "y": "grah"
       },
+      "legend": {
+        "label": "Graham"
+      }
+    },
+    {
+      "style": "bar",
       "options": {
         "linecolor": "0xC99C14",
         "fillcolor": "0xE0C77B",
@@ -596,18 +588,18 @@
         "baroffset": "0",
         "hidelines": "2"
       },
-      "style": "bar"
-    },
-    {
-      "legend": {
-        "label": "Caldwell"
-      },
       "horizontalaxis": {
         "Western Piedmont": "x"
       },
       "verticalaxis": {
-        "y": "cald"
+        "y": "burk"
       },
+      "legend": {
+        "label": "Burke"
+      }
+    },
+    {
+      "style": "bar",
       "options": {
         "linecolor": "0xA1A624",
         "fillcolor": "0xD3D674",
@@ -615,18 +607,18 @@
         "barbase": "90912",
         "hidelines": "2"
       },
-      "style": "bar"
-    },
-    {
-      "legend": {
-        "label": "Alexander"
-      },
       "horizontalaxis": {
         "Western Piedmont": "x"
       },
       "verticalaxis": {
-        "y": "alex"
+        "y": "cald"
       },
+      "legend": {
+        "label": "Caldwell"
+      }
+    },
+    {
+      "style": "bar",
       "options": {
         "linecolor": "0xA16533",
         "fillcolor": "0xD1A988",
@@ -634,7 +626,15 @@
         "barbase": "173941",
         "hidelines": "2"
       },
-      "style": "bar"
+      "horizontalaxis": {
+        "Western Piedmont": "x"
+      },
+      "verticalaxis": {
+        "y": "alex"
+      },
+      "legend": {
+        "label": "Alexander"
+      }
     }
   ],
   "legend": {

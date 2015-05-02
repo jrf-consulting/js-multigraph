@@ -1,14 +1,14 @@
 {
   "window": {
-    "margin": 0,
-    "padding": 5,
     "border": 0,
-    "bordercolor": "0x000000"
+    "bordercolor": "0x000000",
+    "padding": 5,
+    "margin": 0
   },
   "plotarea": {
+    "marginbottom": 25,
     "margintop": 10,
     "marginleft": 60,
-    "marginbottom": 25,
     "marginright": 15
   },
   "background": {
@@ -17,129 +17,128 @@
   "horizontalaxes": [
     {
       "id": "Buncombe County",
-      "min": 0,
-      "max": 10,
       "length": "1",
       "base": [
         -1,
         -1
       ],
       "anchor": -1,
+      "min": 0,
+      "max": 10,
+      "title": false,
       "labels": {
-        "densityfactor": 0.5,
         "format": "",
         "spacing": [
           1000
-        ]
+        ],
+        "densityfactor": 0.5
       },
       "pan": false,
-      "zoom": false,
-      "title": false
+      "zoom": false
     },
     {
       "id": "Madison County",
-      "min": 0,
-      "max": 10,
       "length": "1",
       "base": [
         -1,
         -1
       ],
       "anchor": -1,
+      "min": 0,
+      "max": 10,
+      "title": false,
       "labels": {
-        "densityfactor": 0.5,
         "format": "",
         "spacing": [
           1000
-        ]
+        ],
+        "densityfactor": 0.5
       },
       "pan": false,
-      "zoom": false,
-      "title": false
+      "zoom": false
     },
     {
       "id": "Henderson County",
-      "min": 0,
-      "max": 10,
       "length": "1",
       "base": [
         -1,
         -1
       ],
       "anchor": -1,
+      "min": 0,
+      "max": 10,
+      "title": false,
       "labels": {
-        "densityfactor": 0.5,
         "format": "",
         "spacing": [
           1000
-        ]
+        ],
+        "densityfactor": 0.5
       },
       "pan": false,
-      "zoom": false,
-      "title": false
+      "zoom": false
     },
     {
       "id": "Transylvania County",
-      "min": 0,
-      "max": 10,
       "length": "1",
       "base": [
         -1,
         -1
       ],
       "anchor": -1,
+      "min": 0,
+      "max": 10,
+      "title": false,
       "labels": {
-        "densityfactor": 0.5,
         "format": "",
         "spacing": [
           1000
-        ]
+        ],
+        "densityfactor": 0.5
       },
       "pan": false,
-      "zoom": false,
-      "title": false
+      "zoom": false
     },
     {
       "id": "North Carolina",
-      "min": 0,
-      "max": 10,
       "length": "1",
       "base": [
         -1,
         -1
       ],
       "anchor": -1,
+      "min": 0,
+      "max": 10,
+      "title": false,
       "labels": {
-        "densityfactor": 0.5,
         "format": "",
         "spacing": [
           1000
-        ]
+        ],
+        "densityfactor": 0.5
       },
       "pan": false,
-      "zoom": false,
-      "title": false
+      "zoom": false
     }
   ],
   "verticalaxis": {
     "id": "y",
+    "length": "1",
     "min": 0,
     "max": 50000,
-    "length": "1",
     "title": {
       "text": "Dollar Income",
       "anchor": [
         0,
         -4
       ],
-      "angle": 90,
       "position": [
         -40,
         0
-      ]
+      ],
+      "angle": 90
     },
     "labels": {
-      "densityfactor": 0.1,
       "format": "%.0f",
       "spacing": [
         5000,
@@ -152,7 +151,8 @@
         5,
         2,
         1
-      ]
+      ],
+      "densityfactor": 0.1
     },
     "grid": {},
     "pan": {
@@ -161,15 +161,7 @@
   },
   "plots": [
     {
-      "legend": {
-        "label": "  Median earnings for male full-time, year-round workers ($)"
-      },
-      "horizontalaxis": {
-        "Buncombe County": "x"
-      },
-      "verticalaxis": {
-        "y": "y1"
-      },
+      "style": "bar",
       "options": {
         "linecolor": "0x1D2473",
         "fillcolor": "0x6066AB",
@@ -178,18 +170,18 @@
         "barbase": "0",
         "hidelines": "2"
       },
-      "style": "bar"
-    },
-    {
-      "legend": {
-        "label": "  Median earnings for female full-time, year-round workers ($)"
-      },
       "horizontalaxis": {
         "Buncombe County": "x"
       },
       "verticalaxis": {
-        "y": "y2"
+        "y": "y1"
       },
+      "legend": {
+        "label": "  Median earnings for male full-time, year-round workers ($)"
+      }
+    },
+    {
+      "style": "bar",
       "options": {
         "linecolor": "0x731D72",
         "fillcolor": "0xAB60A8",
@@ -198,7 +190,15 @@
         "barbase": "0",
         "hidelines": "2"
       },
-      "style": "bar"
+      "horizontalaxis": {
+        "Buncombe County": "x"
+      },
+      "verticalaxis": {
+        "y": "y2"
+      },
+      "legend": {
+        "label": "  Median earnings for female full-time, year-round workers ($)"
+      }
     }
   ],
   "data": {

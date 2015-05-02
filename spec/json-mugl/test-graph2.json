@@ -1,28 +1,29 @@
 {
   "window": {
     "border": 0,
-    "margin": 0,
-    "padding": 0
+    "padding": 0,
+    "margin": 0
   },
   "plotarea": {
     "marginbottom": 25,
+    "margintop": 10,
     "marginleft": 40,
-    "marginright": 15,
-    "margintop": 10
+    "marginright": 15
   },
   "background": {
     "color": "0x111111"
   },
   "horizontalaxis": {
-    "color": "0x444444",
     "highlightstyle": "labels",
     "id": "yearaxis",
-    "linewidth": 0,
-    "max": "2015",
-    "min": "1878",
-    "tickmax": 0,
-    "tickmin": -4,
     "type": "datetime",
+    "min": "1878",
+    "max": "2015",
+    "color": "0x444444",
+    "linewidth": 0,
+    "tickmin": -4,
+    "tickmax": 0,
+    "title": "",
     "labels": {
       "color": "0xdddddd",
       "label": [
@@ -54,23 +55,21 @@
     },
     "grid": {
       "color": "0x333333"
-    },
-    "title": ""
+    }
   },
   "verticalaxis": {
-    "color": "0x444444",
     "highlightstyle": "labels",
     "id": "tempaxis",
-    "linewidth": 0,
-    "max": 0.7,
-    "min": -0.5,
-    "tickmax": 0,
-    "tickmin": -4,
     "type": "number",
+    "min": -0.5,
+    "max": 0.7,
+    "color": "0x444444",
+    "linewidth": 0,
+    "tickmin": -4,
+    "tickmax": 0,
+    "title": "",
     "labels": {
-      "densityfactor": 0.5,
       "format": "%.2f",
-      "color": "0xdddddd",
       "spacing": [
         50,
         20,
@@ -84,27 +83,16 @@
         0.05,
         0.02,
         0.01
-      ]
+      ],
+      "color": "0xdddddd",
+      "densityfactor": 0.5
     },
     "grid": {
       "color": "0x333333"
-    },
-    "title": ""
+    }
   },
   "plot": {
-    "horizontalaxis": {
-      "yearaxis": "year"
-    },
-    "verticalaxis": {
-      "tempaxis": "temp"
-    },
-    "datatips": {
-      "format": "{0}: {1}",
-      "variable-formats": [
-        "'%y",
-        "%.1f"
-      ]
-    },
+    "style": "bar",
     "options": {
       "fillcolor": [
         {
@@ -121,7 +109,19 @@
       "baroffset": "0",
       "barbase": "0"
     },
-    "style": "bar"
+    "horizontalaxis": {
+      "yearaxis": "year"
+    },
+    "verticalaxis": {
+      "tempaxis": "temp"
+    },
+    "datatips": {
+      "format": "{0}: {1}",
+      "variable-formats": [
+        "'%y",
+        "%.1f"
+      ]
+    }
   },
   "legend": {
     "visible": "false"

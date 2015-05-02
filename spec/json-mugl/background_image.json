@@ -1,92 +1,92 @@
 {
   "window": {
-    "margin": 0,
-    "padding": 0,
     "border": 5,
-    "bordercolor": "0x000000"
+    "bordercolor": "0x000000",
+    "padding": 0,
+    "margin": 0
   },
   "plotarea": {
+    "border": 3,
+    "bordercolor": "0x00ff0f",
+    "marginbottom": 35,
     "margintop": 10,
     "marginleft": 238,
-    "marginbottom": 35,
-    "marginright": 35,
-    "border": 3,
-    "bordercolor": "0x00ff0f"
+    "marginright": 35
   },
   "background": {
     "color": "0xcccccc",
     "img": {
       "src": "./images/200px-NOAA_logo.svg.png",
-      "frame": "plot",
+      "base": [
+        0,
+        0
+      ],
       "anchor": [
         0,
         0
       ],
-      "base": [
-        0,
-        0
-      ]
+      "frame": "plot"
     }
   },
   "horizontalaxes": [
     {
       "id": "x",
-      "min": 0,
-      "max": 10,
       "length": "1-40",
       "base": [
         0,
         0
       ],
       "anchor": 0,
+      "min": 0,
+      "max": 10,
       "color": "0xff0000"
     },
     {
       "id": "x",
-      "min": 0,
-      "max": 10,
       "base": [
         -1,
         -1
-      ]
+      ],
+      "min": 0,
+      "max": 10
     }
   ],
   "verticalaxes": [
     {
       "id": "y",
+      "length": "1-20",
       "min": 0,
-      "max": 10,
-      "length": "1-20"
+      "max": 10
     },
     {
       "id": "y2",
-      "min": 0,
-      "max": 10,
       "length": "1-20",
       "base": [
         0,
         -1
-      ]
+      ],
+      "min": 0,
+      "max": 10
     },
     {
       "id": "y3",
-      "min": 0,
-      "max": 10,
       "length": "1-20",
       "base": [
         1,
         -1
-      ]
+      ],
+      "min": 0,
+      "max": 10
     }
   ],
   "plot": {
+    "style": "line",
     "horizontalaxis": {
       "x": "x"
     },
     "verticalaxis": {
       "y": "y"
-    },
-    "style": "line"
+    }
   },
   "data": {
     "variables": [

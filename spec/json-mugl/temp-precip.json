@@ -1,14 +1,14 @@
 {
   "window": {
-    "margin": 0,
-    "padding": 5,
     "border": 1,
-    "bordercolor": "0x000000"
+    "bordercolor": "0x000000",
+    "padding": 5,
+    "margin": 0
   },
   "plotarea": {
+    "marginbottom": 35,
     "margintop": 10,
     "marginleft": 90,
-    "marginbottom": 35,
     "marginright": 35
   },
   "background": {
@@ -17,16 +17,17 @@
   "horizontalaxis": {
     "id": "time",
     "type": "datetime",
-    "min": "18761101",
-    "max": "18761110",
     "length": "1",
     "base": [
       -1,
       -1
     ],
     "anchor": -1,
+    "min": "18761101",
+    "max": "18761110",
     "tickmin": -5,
     "tickmax": 5,
+    "title": false,
     "labels": {
       "start": "0",
       "anchor": [
@@ -75,22 +76,32 @@
           ]
         }
       ]
-    },
-    "title": false
+    }
   },
   "verticalaxes": [
     {
       "id": "tempc",
-      "min": -20,
-      "max": 30,
       "length": "1",
       "position": [
         0,
         0
       ],
+      "min": -20,
+      "max": 30,
+      "title": {
+        "text": "Degrees C",
+        "anchor": [
+          0,
+          -1
+        ],
+        "position": [
+          -27,
+          0
+        ],
+        "angle": 90
+      },
       "labels": {
         "format": "%.1f",
-        "start": 0,
         "spacing": [
           20,
           10,
@@ -100,6 +111,7 @@
           0.5,
           0.1
         ],
+        "start": 0,
         "anchor": [
           0,
           0
@@ -110,9 +122,26 @@
         ],
         "angle": 0
       },
+      "pan": {
+        "min": -50,
+        "max": 70
+      },
+      "zoom": {
+        "min": 1,
+        "max": 100
+      }
+    },
+    {
+      "id": "prcpmm",
+      "length": "1",
+      "position": [
+        -50,
+        0
+      ],
+      "min": 0,
+      "max": 50,
       "title": {
-        "text": "Degrees C",
-        "angle": 90,
+        "text": "Precipitation (mm)",
         "anchor": [
           0,
           -1
@@ -120,29 +149,11 @@
         "position": [
           -27,
           0
-        ]
+        ],
+        "angle": 90
       },
-      "zoom": {
-        "max": 100,
-        "min": 1
-      },
-      "pan": {
-        "min": -50,
-        "max": 70
-      }
-    },
-    {
-      "id": "prcpmm",
-      "min": 0,
-      "max": 50,
-      "length": "1",
-      "position": [
-        -50,
-        0
-      ],
       "labels": {
         "format": "%1d",
-        "start": 0,
         "spacing": [
           100,
           50,
@@ -152,6 +163,7 @@
           2,
           1
         ],
+        "start": 0,
         "anchor": [
           0,
           0
@@ -162,18 +174,6 @@
         ],
         "angle": 0
       },
-      "title": {
-        "text": "Precipitation (mm)",
-        "angle": 90,
-        "anchor": [
-          0,
-          -1
-        ],
-        "position": [
-          -27,
-          0
-        ]
-      },
       "pan": false,
       "zoom": {
         "anchor": 0
@@ -182,8 +182,11 @@
   ],
   "plots": [
     {
-      "legend": {
-        "label": "Daily Max/Min Temp"
+      "style": "rangebar",
+      "options": {
+        "fillcolor": "0x0000cc",
+        "barwidth": "20H",
+        "baroffset": "0.5"
       },
       "horizontalaxis": {
         "time": "temp-time"
@@ -194,16 +197,16 @@
           "temp-tmax"
         ]
       },
-      "options": {
-        "fillcolor": "0x0000cc",
-        "barwidth": "20H",
-        "baroffset": "0.5"
-      },
-      "style": "rangebar"
+      "legend": {
+        "label": "Daily Max/Min Temp"
+      }
     },
     {
-      "legend": {
-        "label": "Daily Precip"
+      "style": "bar",
+      "options": {
+        "barwidth": "20H",
+        "baroffset": "0.5",
+        "fillcolor": "0x00ff00"
       },
       "horizontalaxis": {
         "time": "prcp-time"
@@ -211,12 +214,9 @@
       "verticalaxis": {
         "prcpmm": "prcp-prcp"
       },
-      "options": {
-        "barwidth": "20H",
-        "baroffset": "0.5",
-        "fillcolor": "0x00ff00"
-      },
-      "style": "bar"
+      "legend": {
+        "label": "Daily Precip"
+      }
     }
   ],
   "data": [

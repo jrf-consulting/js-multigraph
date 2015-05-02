@@ -1,25 +1,35 @@
 {
   "window": {
     "border": 0,
-    "margin": 0,
-    "padding": 0
+    "padding": 0,
+    "margin": 0
   },
   "plotarea": {
     "marginbottom": 50,
+    "margintop": 10,
     "marginleft": 60,
-    "marginright": 25,
-    "margintop": 10
+    "marginright": 25
   },
   "horizontalaxis": {
     "highlightstyle": "labels",
     "id": "year",
-    "linewidth": 0,
-    "max": "2010",
-    "min": "1960",
-    "tickmax": 0,
-    "tickmin": -4,
     "type": "datetime",
-    "grid": {},
+    "min": "1960",
+    "max": "2010",
+    "linewidth": 0,
+    "tickmin": -4,
+    "tickmax": 0,
+    "title": {
+      "text": "Year",
+      "anchor": [
+        0,
+        5
+      ],
+      "position": [
+        0,
+        0
+      ]
+    },
     "labels": {
       "label": [
         {
@@ -47,29 +57,30 @@
         }
       ]
     },
-    "title": {
-      "text": "Year",
-      "anchor": [
-        0,
-        5
-      ],
-      "position": [
-        0,
-        0
-      ]
-    }
+    "grid": {}
   },
   "verticalaxis": {
     "highlightstyle": "labels",
     "id": "wm2",
-    "linewidth": 0,
-    "max": 1380,
-    "min": 1340,
-    "tickmax": 0,
-    "tickmin": -4,
     "type": "number",
+    "min": 1340,
+    "max": 1380,
+    "linewidth": 0,
+    "tickmin": -4,
+    "tickmax": 0,
+    "title": {
+      "text": "Sun's Energy (watts per square meter)",
+      "anchor": [
+        0,
+        -4
+      ],
+      "position": [
+        -20,
+        0
+      ],
+      "angle": 90
+    },
     "labels": {
-      "densityfactor": 0.5,
       "format": "%.2f",
       "spacing": [
         50,
@@ -82,23 +93,19 @@
         0.1,
         0.05,
         0.01
-      ]
-    },
-    "grid": {},
-    "title": {
-      "text": "Sun's Energy (watts per square meter)",
-      "anchor": [
-        0,
-        -4
       ],
-      "angle": 90,
-      "position": [
-        -20,
-        0
-      ]
-    }
+      "densityfactor": 0.5
+    },
+    "grid": {}
   },
   "plot": {
+    "style": "fill",
+    "options": {
+      "linecolor": "0x90480f",
+      "linewidth": "1.0",
+      "fillcolor": "0xed7619",
+      "fillopacity": "0.1"
+    },
     "horizontalaxis": {
       "year": "year"
     },
@@ -111,14 +118,7 @@
         "'%y",
         "%.1f"
       ]
-    },
-    "options": {
-      "linecolor": "0x90480f",
-      "linewidth": "1.0",
-      "fillcolor": "0xed7619",
-      "fillopacity": "0.1"
-    },
-    "style": "fill"
+    }
   },
   "legend": {
     "visible": "false"

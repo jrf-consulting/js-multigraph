@@ -1,24 +1,35 @@
 {
   "window": {
     "border": 0,
-    "margin": 0,
-    "padding": 0
+    "padding": 0,
+    "margin": 0
   },
   "plotarea": {
     "marginbottom": 50,
+    "margintop": 10,
     "marginleft": 60,
-    "marginright": 25,
-    "margintop": 10
+    "marginright": 25
   },
   "horizontalaxis": {
     "highlightstyle": "labels",
     "id": "datetime",
-    "linewidth": 0,
-    "max": "2010",
-    "min": "1960",
-    "tickmax": 0,
-    "tickmin": -4,
     "type": "datetime",
+    "min": "1960",
+    "max": "2010",
+    "linewidth": 0,
+    "tickmin": -4,
+    "tickmax": 0,
+    "title": {
+      "text": "Year",
+      "anchor": [
+        0,
+        5
+      ],
+      "position": [
+        -10,
+        0
+      ]
+    },
     "labels": {
       "label": [
         {
@@ -45,30 +56,30 @@
         }
       ]
     },
-    "grid": {},
-    "title": {
-      "text": "Year",
-      "anchor": [
-        0,
-        5
-      ],
-      "position": [
-        -10,
-        0
-      ]
-    }
+    "grid": {}
   },
   "verticalaxis": {
     "highlightstyle": "labels",
     "id": "co2",
-    "linewidth": 0,
-    "max": 400,
-    "min": 300,
-    "tickmax": 0,
-    "tickmin": -4,
     "type": "number",
+    "min": 300,
+    "max": 400,
+    "linewidth": 0,
+    "tickmin": -4,
+    "tickmax": 0,
+    "title": {
+      "text": "Carbon Dioxide Abundance (ppm)",
+      "anchor": [
+        0,
+        -4
+      ],
+      "position": [
+        -15,
+        0
+      ],
+      "angle": 90
+    },
     "labels": {
-      "densityfactor": 1,
       "format": "%.2f",
       "spacing": [
         100,
@@ -84,28 +95,22 @@
         0.05,
         0.02,
         0.01
-      ]
+      ],
+      "densityfactor": 1
     },
     "grid": {},
-    "title": {
-      "text": "Carbon Dioxide Abundance (ppm)",
-      "anchor": [
-        0,
-        -4
-      ],
-      "angle": 90,
-      "position": [
-        -15,
-        0
-      ]
-    },
     "pan": {
-      "max": 800,
-      "min": -200
+      "min": -200,
+      "max": 800
     }
   },
   "plots": [
     {
+      "style": "fill",
+      "options": {
+        "fillcolor": "0xBBBBBB",
+        "fillopacity": "0.35"
+      },
       "horizontalaxis": {
         "datetime": "datetime"
       },
@@ -119,14 +124,14 @@
           "%n '%y",
           "%1d"
         ]
-      },
-      "options": {
-        "fillcolor": "0xBBBBBB",
-        "fillopacity": "0.35"
-      },
-      "style": "fill"
+      }
     },
     {
+      "style": "pointline",
+      "options": {
+        "linecolor": "0x990000",
+        "linewidth": "1.5"
+      },
       "horizontalaxis": {
         "datetime": "datetime"
       },
@@ -135,12 +140,7 @@
       },
       "legend": {
         "label": "annual"
-      },
-      "options": {
-        "linecolor": "0x990000",
-        "linewidth": "1.5"
-      },
-      "style": "pointline"
+      }
     }
   ],
   "legend": {

@@ -1,8 +1,8 @@
 {
   "window": {
     "border": 0,
-    "margin": 0,
-    "padding": 0
+    "padding": 0,
+    "margin": 0
   },
   "background": {
     "color": "0x111111"
@@ -12,8 +12,8 @@
     "type": "datetime",
     "min": "200500",
     "max": "200901",
+    "title": "",
     "labels": {
-      "densityfactor": 0.5,
       "format": "%n %y",
       "spacing": [
         "10Y",
@@ -24,18 +24,18 @@
         "2M",
         "1M"
       ],
-      "angle": 45,
-      "position": [
-        -11,
-        -14
-      ],
       "anchor": [
         0,
         1
       ],
-      "color": "0xeeeeee"
+      "position": [
+        -11,
+        -14
+      ],
+      "angle": 45,
+      "color": "0xeeeeee",
+      "densityfactor": 0.5
     },
-    "title": "",
     "grid": {
       "color": "0x333333"
     }
@@ -44,8 +44,8 @@
     "id": "y",
     "min": 0,
     "max": 101,
+    "title": "",
     "labels": {
-      "densityfactor": 0.5,
       "format": "%.1f",
       "spacing": [
         10000,
@@ -63,21 +63,16 @@
         0.25,
         0.1
       ],
-      "color": "0xeeeeee"
+      "color": "0xeeeeee",
+      "densityfactor": 0.5
     },
-    "title": "",
     "grid": {
       "color": "0x333333"
     }
   },
   "plots": [
     {
-      "horizontalaxis": {
-        "Date": "datetime"
-      },
-      "verticalaxis": {
-        "y": "y1"
-      },
+      "style": "pointline",
       "options": {
         "linecolor": "0x07CCEB",
         "linewidth": "4",
@@ -86,15 +81,15 @@
         "pointoutlinewidth": "2",
         "pointoutlinecolor": "0x07CCEB"
       },
-      "style": "pointline"
-    },
-    {
       "horizontalaxis": {
         "Date": "datetime"
       },
       "verticalaxis": {
-        "y": "y"
-      },
+        "y": "y1"
+      }
+    },
+    {
+      "style": "pointline",
       "options": {
         "linecolor": "0xEB2607",
         "linewidth": "4",
@@ -103,7 +98,12 @@
         "pointoutlinewidth": "2",
         "pointoutlinecolor": "0xEB2607"
       },
-      "style": "pointline"
+      "horizontalaxis": {
+        "Date": "datetime"
+      },
+      "verticalaxis": {
+        "y": "y"
+      }
     }
   ],
   "legend": {

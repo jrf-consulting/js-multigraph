@@ -1,14 +1,14 @@
 {
   "window": {
-    "margin": 0,
-    "padding": 0,
     "border": 1,
-    "bordercolor": "0x000000"
+    "bordercolor": "0x000000",
+    "padding": 0,
+    "margin": 0
   },
   "plotarea": {
+    "marginbottom": 40,
     "margintop": 25,
     "marginleft": 42,
-    "marginbottom": 40,
     "marginright": 15
   },
   "background": {
@@ -16,6 +16,7 @@
   },
   "horizontalaxis": {
     "id": "Time",
+    "type": "datetime",
     "length": "1",
     "base": [
       -1,
@@ -24,7 +25,17 @@
     "anchor": -1,
     "tickmin": -5,
     "tickmax": 5,
-    "type": "datetime",
+    "title": {
+      "text": "Time",
+      "anchor": [
+        0,
+        1
+      ],
+      "position": [
+        0,
+        -20
+      ]
+    },
     "labels": {
       "format": "%H:%i%L%n%d",
       "spacing": [
@@ -47,17 +58,6 @@
     "grid": {
       "color": "0xB3F1FF"
     },
-    "title": {
-      "text": "Time",
-      "anchor": [
-        0,
-        1
-      ],
-      "position": [
-        0,
-        -20
-      ]
-    },
     "binding": {
       "id": "xBinding",
       "min": "201305052300",
@@ -66,12 +66,23 @@
   },
   "verticalaxis": {
     "id": "y",
+    "length": "1",
     "min": 0,
     "max": 23.5,
-    "length": "1",
+    "title": {
+      "text": "Flow Rate (kcfps)",
+      "anchor": [
+        0,
+        1
+      ],
+      "position": [
+        -42,
+        0
+      ],
+      "angle": 90
+    },
     "labels": {
       "format": "%.2f",
-      "start": 0,
       "spacing": [
         100,
         20,
@@ -86,6 +97,7 @@
         0.02,
         0.01
       ],
+      "start": 0,
       "anchor": [
         0,
         0
@@ -98,41 +110,24 @@
     },
     "grid": {
       "color": "0xB3F1FF"
-    },
-    "title": {
-      "text": "Flow Rate (kcfps)",
-      "angle": 90,
-      "anchor": [
-        0,
-        1
-      ],
-      "position": [
-        -42,
-        0
-      ]
     }
   },
   "plots": [
     {
+      "style": "line",
+      "options": {
+        "linecolor": "0x116ED1",
+        "linewidth": "3"
+      },
       "horizontalaxis": {
         "Time": "Time"
       },
       "verticalaxis": {
         "y": "Flow Rate"
-      },
-      "options": {
-        "linecolor": "0x116ED1",
-        "linewidth": "3"
-      },
-      "style": "line"
+      }
     },
     {
-      "horizontalaxis": {
-        "Time": "Time"
-      },
-      "verticalaxis": {
-        "y": "Mean Daily Flow Rate (117 Years)"
-      },
+      "style": "point",
       "options": {
         "pointoutlinecolor": "0xE01BD9",
         "pointoutlinewidth": "2",
@@ -140,7 +135,12 @@
         "pointsize": "3",
         "pointshape": "circle"
       },
-      "style": "point"
+      "horizontalaxis": {
+        "Time": "Time"
+      },
+      "verticalaxis": {
+        "y": "Mean Daily Flow Rate (117 Years)"
+      }
     }
   ],
   "legend": {
@@ -166,6 +166,8 @@
     }
   },
   "data": {
+    "missingvalue": "-9000",
+    "missingop": "eq",
     "variables": [
       {
         "column": 0,
@@ -4767,8 +4769,6 @@
         "3.24",
         "-9000"
       ]
-    ],
-    "missingvalue": "-9000",
-    "missingop": "eq"
+    ]
   }
 }

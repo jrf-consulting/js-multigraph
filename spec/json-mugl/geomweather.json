@@ -1,15 +1,16 @@
 {
   "plotarea": {
-    "marginleft": 40,
-    "marginright": 40,
     "marginbottom": 45,
-    "margintop": 35
+    "margintop": 35,
+    "marginleft": 40,
+    "marginright": 40
   },
   "horizontalaxis": {
     "id": "datetime",
     "type": "datetime",
     "min": "2012111308",
     "max": "2012111508",
+    "title": "",
     "labels": {
       "format": "%H:%i%L%n %d%L%Y",
       "spacing": [
@@ -26,18 +27,16 @@
         "5m"
       ]
     },
-    "grid": {},
-    "title": ""
+    "grid": {}
   },
   "verticalaxes": [
     {
-      "id": "fahrenheit",
       "positionbase": "right",
+      "id": "fahrenheit",
       "min": 0,
       "max": 95,
       "title": {
         "text": "Fahrenheit",
-        "angle": 90,
         "anchor": [
           0,
           1
@@ -45,7 +44,8 @@
         "position": [
           25,
           0
-        ]
+        ],
+        "angle": 90
       },
       "labels": {
         "spacing": [
@@ -67,11 +67,10 @@
       }
     },
     {
-      "id": "celsius",
       "positionbase": "left",
+      "id": "celsius",
       "title": {
         "text": "Celsius",
-        "angle": 90,
         "anchor": [
           0,
           -1
@@ -79,7 +78,8 @@
         "position": [
           -27,
           0
-        ]
+        ],
+        "angle": 90
       },
       "binding": {
         "id": "tempbinding",
@@ -90,8 +90,12 @@
   ],
   "plots": [
     {
-      "legend": {
-        "label": "Outdoor Forecast"
+      "style": "line",
+      "options": {
+        "linecolor": "green",
+        "dotcolor": "green",
+        "linewidth": "3",
+        "dotsize": "0"
       },
       "horizontalaxis": {
         "datetime": "f0d"
@@ -99,17 +103,15 @@
       "verticalaxis": {
         "fahrenheit": "f0t"
       },
-      "options": {
-        "linecolor": "green",
-        "dotcolor": "green",
-        "linewidth": "3",
-        "dotsize": "0"
-      },
-      "style": "line"
+      "legend": {
+        "label": "Outdoor Forecast"
+      }
     },
     {
-      "legend": {
-        "label": "Living Room"
+      "style": "line",
+      "options": {
+        "linecolor": "red",
+        "dotsize": "0"
       },
       "horizontalaxis": {
         "datetime": "datetime"
@@ -117,15 +119,15 @@
       "verticalaxis": {
         "celsius": "livtemp"
       },
-      "options": {
-        "linecolor": "red",
-        "dotsize": "0"
-      },
-      "style": "line"
+      "legend": {
+        "label": "Living Room"
+      }
     },
     {
-      "legend": {
-        "label": "Upstairs Office"
+      "style": "line",
+      "options": {
+        "linecolor": "black",
+        "dotsize": "0"
       },
       "horizontalaxis": {
         "datetime": "datetime"
@@ -133,15 +135,16 @@
       "verticalaxis": {
         "celsius": "intemp"
       },
-      "options": {
-        "linecolor": "black",
-        "dotsize": "0"
-      },
-      "style": "line"
+      "legend": {
+        "label": "Upstairs Office"
+      }
     },
     {
-      "legend": {
-        "label": "Outdoor"
+      "style": "line",
+      "options": {
+        "linecolor": "blue",
+        "linewidth": "3",
+        "dotsize": "0"
       },
       "horizontalaxis": {
         "datetime": "datetime"
@@ -149,12 +152,9 @@
       "verticalaxis": {
         "celsius": "outtemp"
       },
-      "options": {
-        "linecolor": "blue",
-        "linewidth": "3",
-        "dotsize": "0"
-      },
-      "style": "line"
+      "legend": {
+        "label": "Outdoor"
+      }
     }
   ],
   "legend": {
@@ -180,6 +180,8 @@
   },
   "data": [
     {
+      "missingvalue": "-9999",
+      "missingop": "eq",
       "variables": [
         {
           "id": "datetime",
@@ -7172,9 +7174,7 @@
           "14.1",
           "17.1"
         ]
-      ],
-      "missingvalue": "-9999",
-      "missingop": "eq"
+      ]
     },
     {
       "variables": [

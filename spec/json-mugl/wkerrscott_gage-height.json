@@ -1,14 +1,14 @@
 {
   "window": {
     "border": 0,
-    "margin": 0,
-    "padding": 0
+    "padding": 0,
+    "margin": 0
   },
   "plotarea": {
     "marginbottom": 50,
+    "margintop": 10,
     "marginleft": 60,
-    "marginright": 25,
-    "margintop": 10
+    "marginright": 25
   },
   "background": {
     "color": "0xFFFFFF"
@@ -16,12 +16,23 @@
   "horizontalaxis": {
     "highlightstyle": "labels",
     "id": "datetime",
-    "linewidth": 0,
-    "max": "201206",
-    "min": "199005",
-    "tickmax": 0,
-    "tickmin": -4,
     "type": "datetime",
+    "min": "199005",
+    "max": "201206",
+    "linewidth": 0,
+    "tickmin": -4,
+    "tickmax": 0,
+    "title": {
+      "text": "Year",
+      "anchor": [
+        0,
+        5
+      ],
+      "position": [
+        -10,
+        0
+      ]
+    },
     "labels": {
       "label": [
         {
@@ -42,30 +53,30 @@
         }
       ]
     },
-    "grid": {},
-    "title": {
-      "text": "Year",
-      "anchor": [
-        0,
-        5
-      ],
-      "position": [
-        -10,
-        0
-      ]
-    }
+    "grid": {}
   },
   "verticalaxis": {
     "highlightstyle": "labels",
     "id": "col1",
-    "linewidth": 0,
-    "max": 35.5,
-    "min": 24.5,
-    "tickmax": 0,
-    "tickmin": -4,
     "type": "number",
+    "min": 24.5,
+    "max": 35.5,
+    "linewidth": 0,
+    "tickmin": -4,
+    "tickmax": 0,
+    "title": {
+      "text": "Gage Height (ft), W. Kerr Scott Reservoir",
+      "anchor": [
+        0,
+        -4
+      ],
+      "position": [
+        -28,
+        -10
+      ],
+      "angle": 90
+    },
     "labels": {
-      "densityfactor": 1,
       "format": "%.2f",
       "spacing": [
         100,
@@ -81,36 +92,25 @@
         0.05,
         0.02,
         0.01
-      ]
-    },
-    "grid": {},
-    "title": {
-      "text": "Gage Height (ft), W. Kerr Scott Reservoir",
-      "anchor": [
-        0,
-        -4
       ],
-      "angle": 90,
-      "position": [
-        -28,
-        -10
-      ]
-    }
+      "densityfactor": 1
+    },
+    "grid": {}
   },
   "plot": {
-    "horizontalaxis": {
-      "datetime": "datetime"
-    },
-    "verticalaxis": {
-      "col1": "col1"
-    },
+    "style": "fill",
     "options": {
       "fillcolor": "0x055885",
       "fillopacity": "0.1",
       "linecolor": "0x055885",
       "linewidth": "1"
     },
-    "style": "fill"
+    "horizontalaxis": {
+      "datetime": "datetime"
+    },
+    "verticalaxis": {
+      "col1": "col1"
+    }
   },
   "legend": {
     "visible": "false"

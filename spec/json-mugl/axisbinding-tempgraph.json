@@ -17,12 +17,12 @@
     },
     {
       "id": "y2",
-      "min": 0,
-      "max": 100,
       "base": [
         1,
         -1
       ],
+      "min": 0,
+      "max": 100,
       "binding": {
         "id": "ybinding",
         "min": 0,
@@ -31,12 +31,7 @@
     }
   ],
   "plot": {
-    "horizontalaxis": {
-      "x": "x"
-    },
-    "verticalaxis": {
-      "y": "y"
-    },
+    "style": "pointline",
     "options": {
       "linecolor": "0xff00ff",
       "linewidth": "3",
@@ -47,7 +42,12 @@
       "pointopacity": "1.0",
       "pointsize": "3"
     },
-    "style": "pointline"
+    "horizontalaxis": {
+      "x": "x"
+    },
+    "verticalaxis": {
+      "y": "y"
+    }
   },
   "data": {
     "variables": [

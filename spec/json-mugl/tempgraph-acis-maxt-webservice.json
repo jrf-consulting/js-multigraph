@@ -1,14 +1,14 @@
 {
   "window": {
-    "margin": 0,
-    "padding": 5,
     "border": 5,
-    "bordercolor": "0x000000"
+    "bordercolor": "0x000000",
+    "padding": 5,
+    "margin": 0
   },
   "plotarea": {
+    "marginbottom": 35,
     "margintop": 10,
     "marginleft": 38,
-    "marginbottom": 35,
     "marginright": 35
   },
   "background": {
@@ -17,24 +17,24 @@
   "horizontalaxis": {
     "id": "x",
     "type": "datetime",
-    "min": "20120601",
-    "max": "20120608",
     "length": "1",
     "base": [
       -1,
       -1
     ],
     "anchor": -1,
+    "min": "20120601",
+    "max": "20120608",
     "tickmin": -5,
     "tickmax": 5,
     "labels": {
       "format": "%n %d",
-      "start": "0",
       "spacing": [
         "7D",
         "2D",
         "1D"
       ],
+      "start": "0",
       "anchor": [
         0,
         0
@@ -48,12 +48,11 @@
   },
   "verticalaxis": {
     "id": "y",
+    "length": "1",
     "min": 20,
     "max": 100,
-    "length": "1",
     "labels": {
       "format": "%.2f",
-      "start": 0,
       "spacing": [
         100,
         20,
@@ -68,6 +67,7 @@
         0.02,
         0.01
       ],
+      "start": 0,
       "anchor": [
         0,
         0
@@ -80,12 +80,7 @@
     }
   },
   "plot": {
-    "horizontalaxis": {
-      "x": "datetime"
-    },
-    "verticalaxis": {
-      "y": "maxt"
-    },
+    "style": "pointline",
     "options": {
       "linecolor": "0xff00ff",
       "linewidth": "3",
@@ -96,7 +91,12 @@
       "pointopacity": "1.0",
       "pointsize": "3"
     },
-    "style": "pointline"
+    "horizontalaxis": {
+      "x": "datetime"
+    },
+    "verticalaxis": {
+      "y": "maxt"
+    }
   },
   "data": {
     "variables": [

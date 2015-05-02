@@ -1,14 +1,14 @@
 {
   "window": {
     "border": 0,
-    "margin": 0,
-    "padding": 0
+    "padding": 0,
+    "margin": 0
   },
   "plotarea": {
     "marginbottom": 50,
+    "margintop": 10,
     "marginleft": 60,
-    "marginright": 25,
-    "margintop": 10
+    "marginright": 25
   },
   "background": {
     "color": "0xFFFFFF"
@@ -16,12 +16,23 @@
   "horizontalaxis": {
     "highlightstyle": "labels",
     "id": "datetime",
-    "linewidth": 0,
-    "max": "2009",
-    "min": "1980",
-    "tickmax": 0,
-    "tickmin": -4,
     "type": "datetime",
+    "min": "1980",
+    "max": "2009",
+    "linewidth": 0,
+    "tickmin": -4,
+    "tickmax": 0,
+    "title": {
+      "text": "Year",
+      "anchor": [
+        0,
+        5
+      ],
+      "position": [
+        -10,
+        0
+      ]
+    },
     "labels": {
       "label": [
         {
@@ -39,30 +50,30 @@
         }
       ]
     },
-    "grid": {},
-    "title": {
-      "text": "Year",
-      "anchor": [
-        0,
-        5
-      ],
-      "position": [
-        -10,
-        0
-      ]
-    }
+    "grid": {}
   },
   "verticalaxis": {
     "highlightstyle": "labels",
     "id": "col1",
-    "linewidth": 0,
-    "max": 1.6,
-    "min": 0.6,
-    "tickmax": 0,
-    "tickmin": -4,
     "type": "number",
+    "min": 0.6,
+    "max": 1.6,
+    "linewidth": 0,
+    "tickmin": -4,
+    "tickmax": 0,
+    "title": {
+      "text": "Annual Greenhouse Gas Index (AGGI)",
+      "anchor": [
+        0,
+        -4
+      ],
+      "position": [
+        -15,
+        -10
+      ],
+      "angle": 90
+    },
     "labels": {
-      "densityfactor": 1,
       "format": "%.2f",
       "spacing": [
         100,
@@ -78,23 +89,19 @@
         0.05,
         0.02,
         0.01
-      ]
-    },
-    "grid": {},
-    "title": {
-      "text": "Annual Greenhouse Gas Index (AGGI)",
-      "anchor": [
-        0,
-        -4
       ],
-      "angle": 90,
-      "position": [
-        -15,
-        -10
-      ]
-    }
+      "densityfactor": 1
+    },
+    "grid": {}
   },
   "plot": {
+    "style": "fill",
+    "options": {
+      "fillcolor": "0x7e2b18",
+      "fillopacity": "0.1",
+      "linecolor": "0x41160c",
+      "linewidth": "1"
+    },
     "horizontalaxis": {
       "datetime": "datetime"
     },
@@ -107,14 +114,7 @@
         "'%y",
         "%.3f"
       ]
-    },
-    "options": {
-      "fillcolor": "0x7e2b18",
-      "fillopacity": "0.1",
-      "linecolor": "0x41160c",
-      "linewidth": "1"
-    },
-    "style": "fill"
+    }
   },
   "legend": {
     "visible": "false"

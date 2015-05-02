@@ -4,39 +4,45 @@
     "fontsize": 10
   },
   "window": {
+    "width": 625,
     "height": 400,
-    "margin": 2,
     "padding": 5,
-    "width": 625
+    "margin": 2
   },
   "plotarea": {
     "marginbottom": 75,
+    "margintop": 50,
     "marginleft": 50,
-    "marginright": 25,
-    "margintop": 50
+    "marginright": 25
   },
   "background": {
     "color": "0xffffff",
     "img": {
-      "anchor": [
-        0,
-        0
-      ],
+      "src": "NOAA100-transparent.png",
       "base": [
         0,
         0
       ],
-      "frame": "plot",
-      "src": "NOAA100-transparent.png"
+      "anchor": [
+        0,
+        0
+      ],
+      "frame": "plot"
     }
   },
   "horizontalaxis": {
     "id": "haxis",
-    "max": "2008",
-    "min": "2006",
     "type": "datetime",
+    "min": "2006",
+    "max": "2008",
+    "title": {
+      "text": "Date",
+      "position": [
+        0,
+        -50
+      ]
+    },
     "labels": {
-      "angle": 90,
       "format": "%Y %M %D",
       "spacing": [
         "10Y",
@@ -45,48 +51,42 @@
         "6M",
         "1M",
         "1D"
-      ]
-    },
-    "title": {
-      "text": "Date",
-      "position": [
-        0,
-        -50
-      ]
-    },
-    "zoom": {
-      "allowed": true,
-      "max": "5Y",
-      "min": "1Y"
+      ],
+      "angle": 90
     },
     "pan": {
       "max": "20140101"
+    },
+    "zoom": {
+      "allowed": true,
+      "min": "1Y",
+      "max": "5Y"
     }
   },
   "verticalaxis": {
-    "id": "Degrees C",
-    "max": 40,
     "maxoffset": 10,
-    "min": -3,
     "minoffset": 5,
+    "postgap": 0,
+    "pregap": 0,
+    "id": "Degrees C",
+    "type": "number",
     "position": [
       0,
       0
     ],
-    "postgap": 0,
-    "pregap": 0,
-    "type": "number",
+    "min": -3,
+    "max": 40,
     "title": {
       "text": "Degrees C",
       "anchor": [
         0,
         0
       ],
-      "angle": 90,
       "position": [
         -40,
         0
-      ]
+      ],
+      "angle": 90
     },
     "labels": {
       "format": "%.1f",
@@ -102,32 +102,32 @@
         0.2,
         0.1
       ],
+      "start": 0,
       "anchor": [
         1,
         0
       ],
-      "angle": 0,
       "position": [
         -5,
         0
       ],
-      "start": 0
+      "angle": 0
     }
   },
   "plot": {
-    "horizontalaxis": {
-      "haxis": "time"
-    },
-    "verticalaxis": {
-      "Degrees C": "smc"
-    },
+    "style": "line",
     "options": {
       "linecolor": "black",
       "dotcolor": "red",
       "dotsize": "3",
       "linewidth": "2"
     },
-    "style": "line"
+    "horizontalaxis": {
+      "haxis": "time"
+    },
+    "verticalaxis": {
+      "Degrees C": "smc"
+    }
   },
   "legend": {
     "anchor": [

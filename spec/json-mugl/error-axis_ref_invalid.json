@@ -13,13 +13,13 @@
     "max": 7
   },
   "plot": {
+    "style": "line",
     "horizontalaxis": {
       "x": "x"
     },
     "verticalaxis": {
       "yFOO": "y"
-    },
-    "style": "line"
+    }
   },
   "data": {
     "variables": [

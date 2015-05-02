@@ -1,14 +1,14 @@
 {
   "window": {
-    "margin": 0,
-    "padding": 5,
     "border": 5,
-    "bordercolor": "0x000000"
+    "bordercolor": "0x000000",
+    "padding": 5,
+    "margin": 0
   },
   "plotarea": {
+    "marginbottom": 35,
     "margintop": 10,
     "marginleft": 38,
-    "marginbottom": 35,
     "marginright": 35
   },
   "background": {
@@ -16,28 +16,23 @@
   },
   "horizontalaxis": {
     "id": "x",
-    "min": 1900,
-    "max": 2000,
     "length": "1",
     "base": [
       -1,
       -1
     ],
-    "anchor": -1
+    "anchor": -1,
+    "min": 1900,
+    "max": 2000
   },
   "verticalaxis": {
     "id": "y",
+    "length": "1",
     "min": -1,
-    "max": 1,
-    "length": "1"
+    "max": 1
   },
   "plot": {
-    "horizontalaxis": {
-      "x": "x"
-    },
-    "verticalaxis": {
-      "y": "y"
-    },
+    "style": "fill",
     "options": {
       "linecolor": "0xff00ff",
       "linewidth": "1",
@@ -45,7 +40,12 @@
       "fillopacity": "1",
       "fillbase": "-0.05"
     },
-    "style": "fill"
+    "horizontalaxis": {
+      "x": "x"
+    },
+    "verticalaxis": {
+      "y": "y"
+    }
   },
   "legend": {
     "visible": "true",

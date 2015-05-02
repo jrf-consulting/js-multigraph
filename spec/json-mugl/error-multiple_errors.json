@@ -1,14 +1,14 @@
 {
   "window": {
-    "margin": 0,
-    "padding": 5,
     "border": 5000,
-    "bordercolor": "FRED"
+    "bordercolor": "FRED",
+    "padding": 5,
+    "margin": 0
   },
   "plotarea": {
+    "marginbottom": 35,
     "margintop": 10,
     "marginleft": 38,
-    "marginbottom": 35,
     "marginright": 35
   },
   "background": {
@@ -16,8 +16,6 @@
   },
   "horizontalaxis": {
     "id": "x",
-    "min": 1900,
-    "max": 2000,
     "length": "1",
     "base": [
       -1,
@@ -25,11 +23,12 @@
       4
     ],
     "anchor": -1,
+    "min": 1900,
+    "max": 2000,
     "tickmin": -5,
     "tickmax": 5,
     "labels": {
       "format": "DANGER",
-      "start": 0,
       "spacing": [
         3,
         6,
@@ -48,6 +47,7 @@
         null,
         null
       ],
+      "start": 0,
       "anchor": [
         0,
         0
@@ -61,12 +61,11 @@
   },
   "verticalaxis": {
     "id": "y",
+    "length": "1",
     "min": null,
     "max": 1,
-    "length": "1",
     "labels": {
       "format": "%.2DJK",
-      "start": 0,
       "spacing": [
         100,
         20,
@@ -81,6 +80,7 @@
         0.02,
         0.01
       ],
+      "start": 0,
       "anchor": [
         0,
         0
@@ -93,12 +93,7 @@
     }
   },
   "plot": {
-    "horizontalaxis": {
-      "x": "142141"
-    },
-    "verticalaxis": {
-      "y": "y784372"
-    },
+    "style": "pointline",
     "options": {
       "linecolor": "0xff0ff",
       "linewidth": "3",
@@ -109,7 +104,12 @@
       "pointopacity": "1.0",
       "pointsize": "HUGE"
     },
-    "style": "pointline"
+    "horizontalaxis": {
+      "x": "142141"
+    },
+    "verticalaxis": {
+      "y": "y784372"
+    }
   },
   "data": {
     "variables": [

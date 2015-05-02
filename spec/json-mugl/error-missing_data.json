@@ -13,12 +13,12 @@
     "max": 7
   },
   "plot": {
+    "style": "line",
     "horizontalaxis": {
       "x": "x"
     },
     "verticalaxis": {
       "y": "y"
-    },
-    "style": "line"
+    }
   }
 }

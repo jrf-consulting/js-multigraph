@@ -1,9 +1,9 @@
 {
   "horizontalaxis": {
     "id": "year",
-    "max": "2100",
-    "min": "1990",
     "type": "datetime",
+    "min": "1990",
+    "max": "2100",
     "title": false,
     "labels": {
       "label": [
@@ -32,41 +32,47 @@
     }
   },
   "verticalaxis": {
+    "id": "temp",
+    "type": "number",
     "base": [
       1,
       -1
     ],
-    "id": "temp",
-    "max": 4.5,
     "min": -0.5,
-    "type": "number",
+    "max": 4.5,
     "title": {
       "text": "Temperature Change from 1971-1999 Average (°C)",
       "anchor": [
         0,
         -1
       ],
-      "angle": 90,
       "position": [
         28,
         0
-      ]
-    },
-    "pan": {
-      "max": 6,
-      "min": -2
-    },
-    "binding": {
-      "id": "ProjTempBinding",
-      "max": 1,
-      "min": 0
+      ],
+      "angle": 90
     },
     "labels": {
       "color": "0x666666"
+    },
+    "pan": {
+      "min": -2,
+      "max": 6
+    },
+    "binding": {
+      "id": "ProjTempBinding",
+      "min": 0,
+      "max": 1
     }
   },
   "plots": [
     {
+      "style": "band",
+      "options": {
+        "fillcolor": "0xCCCCCC",
+        "fillopacity": "0.5",
+        "linewidth": "0"
+      },
       "horizontalaxis": {
         "year": "year_20c3m"
       },
@@ -75,15 +81,15 @@
           "min_20c3m",
           "max_20c3m"
         ]
-      },
+      }
+    },
+    {
+      "style": "band",
       "options": {
-        "fillcolor": "0xCCCCCC",
+        "fillcolor": "0xFFCCCC",
         "fillopacity": "0.5",
         "linewidth": "0"
       },
-      "style": "band"
-    },
-    {
       "horizontalaxis": {
         "year": "year_a2"
       },
@@ -92,15 +98,15 @@
           "min_a2",
           "max_a2"
         ]
-      },
+      }
+    },
+    {
+      "style": "band",
       "options": {
-        "fillcolor": "0xFFCCCC",
+        "fillcolor": "0xCCFFCC",
         "fillopacity": "0.5",
         "linewidth": "0"
       },
-      "style": "band"
-    },
-    {
       "horizontalaxis": {
         "year": "year_a1b"
       },
@@ -109,15 +115,15 @@
           "min_a1b",
           "max_a1b"
         ]
-      },
+      }
+    },
+    {
+      "style": "band",
       "options": {
-        "fillcolor": "0xCCFFCC",
+        "fillcolor": "0xCCCCFF",
         "fillopacity": "0.5",
         "linewidth": "0"
       },
-      "style": "band"
-    },
-    {
       "horizontalaxis": {
         "year": "year_b1"
       },
@@ -126,15 +132,14 @@
           "min_b1",
           "max_b1"
         ]
-      },
-      "options": {
-        "fillcolor": "0xCCCCFF",
-        "fillopacity": "0.5",
-        "linewidth": "0"
-      },
-      "style": "band"
+      }
     },
     {
+      "style": "line",
+      "options": {
+        "linecolor": "0x000000",
+        "linewidth": "2"
+      },
       "horizontalaxis": {
         "year": "year_20c3m"
       },
@@ -147,14 +152,14 @@
           "%Y",
           "%.1f °C"
         ]
-      },
-      "options": {
-        "linecolor": "0x000000",
-        "linewidth": "2"
-      },
-      "style": "line"
+      }
     },
     {
+      "style": "line",
+      "options": {
+        "linecolor": "0x990000",
+        "linewidth": "2"
+      },
       "horizontalaxis": {
         "year": "year_a2"
       },
@@ -167,14 +172,14 @@
           "%Y A2",
           "%.1f °C"
         ]
-      },
-      "options": {
-        "linecolor": "0x990000",
-        "linewidth": "2"
-      },
-      "style": "line"
+      }
     },
     {
+      "style": "line",
+      "options": {
+        "linecolor": "0x009900",
+        "linewidth": "2"
+      },
       "horizontalaxis": {
         "year": "year_a1b"
       },
@@ -187,14 +192,14 @@
           "%Y A1B",
           "%.1f °C"
         ]
-      },
-      "options": {
-        "linecolor": "0x009900",
-        "linewidth": "2"
-      },
-      "style": "line"
+      }
     },
     {
+      "style": "line",
+      "options": {
+        "linecolor": "0x000099",
+        "linewidth": "2"
+      },
       "horizontalaxis": {
         "year": "year_b1"
       },
@@ -207,12 +212,7 @@
           "%Y B1",
           "%.1f °C"
         ]
-      },
-      "options": {
-        "linecolor": "0x000099",
-        "linewidth": "2"
-      },
-      "style": "line"
+      }
     }
   ],
   "legend": {

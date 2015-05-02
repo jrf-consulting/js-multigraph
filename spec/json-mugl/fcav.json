@@ -4,6 +4,7 @@
     "type": "datetime",
     "min": "20000101",
     "max": "20110101",
+    "title": false,
     "labels": {
       "format": "%m/%d/%y",
       "spacing": [
@@ -15,8 +16,7 @@
         "16D",
         "8D"
       ]
-    },
-    "title": false
+    }
   },
   "verticalaxis": {
     "id": "value",
@@ -28,18 +28,18 @@
     }
   },
   "plot": {
-    "horizontalaxis": {
-      "datetime": "datetime"
-    },
-    "verticalaxis": {
-      "value": "value"
-    },
+    "style": "line",
     "options": {
       "linecolor": "black",
       "dotcolor": "blue",
       "pointsize": "2"
     },
-    "style": "line"
+    "horizontalaxis": {
+      "datetime": "datetime"
+    },
+    "verticalaxis": {
+      "value": "value"
+    }
   },
   "data": {
     "variables": [

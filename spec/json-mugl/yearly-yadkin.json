@@ -1,14 +1,14 @@
 {
   "window": {
-    "margin": 0,
-    "padding": 0,
     "border": 1,
-    "bordercolor": "0x000000"
+    "bordercolor": "0x000000",
+    "padding": 0,
+    "margin": 0
   },
   "plotarea": {
+    "marginbottom": 40,
     "margintop": 50,
     "marginleft": 42,
-    "marginbottom": 40,
     "marginright": 15
   },
   "background": {
@@ -16,6 +16,7 @@
   },
   "horizontalaxis": {
     "id": "Time",
+    "type": "datetime",
     "length": "1",
     "base": [
       -1,
@@ -24,7 +25,17 @@
     "anchor": -1,
     "tickmin": -5,
     "tickmax": 5,
-    "type": "datetime",
+    "title": {
+      "text": "Time",
+      "anchor": [
+        0,
+        1
+      ],
+      "position": [
+        0,
+        -20
+      ]
+    },
     "labels": {
       "label": [
         {
@@ -53,17 +64,6 @@
     "grid": {
       "color": "0xB3F1FF"
     },
-    "title": {
-      "text": "Time",
-      "anchor": [
-        0,
-        1
-      ],
-      "position": [
-        0,
-        -20
-      ]
-    },
     "binding": {
       "id": "xBinding",
       "min": "196210",
@@ -72,12 +72,23 @@
   },
   "verticalaxis": {
     "id": "y",
+    "length": "1",
     "min": 250,
     "max": 15000,
-    "length": "1",
+    "title": {
+      "text": "Flow Rate (kcfps)",
+      "anchor": [
+        0,
+        1
+      ],
+      "position": [
+        -42,
+        0
+      ],
+      "angle": 90
+    },
     "labels": {
       "format": "%.1f",
-      "start": 0,
       "spacing": [
         500,
         250,
@@ -91,6 +102,7 @@
         0.2,
         0.1
       ],
+      "start": 0,
       "anchor": [
         0,
         0
@@ -103,85 +115,73 @@
     },
     "grid": {
       "color": "0xB3F1FF"
-    },
-    "title": {
-      "text": "Flow Rate (kcfps)",
-      "angle": 90,
-      "anchor": [
-        0,
-        1
-      ],
-      "position": [
-        -42,
-        0
-      ]
     }
   },
   "plots": [
     {
+      "style": "line",
+      "options": {
+        "linecolor": "0x00A6FF",
+        "linewidth": "3"
+      },
       "horizontalaxis": {
         "Time": "Time"
       },
       "verticalaxis": {
         "y": "Yadkin River, Wilkesboro"
-      },
-      "options": {
-        "linecolor": "0x00A6FF",
-        "linewidth": "3"
-      },
-      "style": "line"
+      }
     },
     {
+      "style": "line",
+      "options": {
+        "linecolor": "0x0080C4",
+        "linewidth": "3"
+      },
       "horizontalaxis": {
         "Time": "Time"
       },
       "verticalaxis": {
         "y": "Yadkin River, Elkin"
-      },
-      "options": {
-        "linecolor": "0x0080C4",
-        "linewidth": "3"
-      },
-      "style": "line"
+      }
     },
     {
+      "style": "line",
+      "options": {
+        "linecolor": "0x005A8A",
+        "linewidth": "3"
+      },
       "horizontalaxis": {
         "Time": "Time"
       },
       "verticalaxis": {
         "y": "Yadkin River, Enon"
-      },
-      "options": {
-        "linecolor": "0x005A8A",
-        "linewidth": "3"
-      },
-      "style": "line"
+      }
     },
     {
+      "style": "line",
+      "options": {
+        "linecolor": "0x003D5E",
+        "linewidth": "3"
+      },
       "horizontalaxis": {
         "Time": "Time"
       },
       "verticalaxis": {
         "y": "Yadkin River, Yadkin College"
-      },
-      "options": {
-        "linecolor": "0x003D5E",
-        "linewidth": "3"
-      },
-      "style": "line"
+      }
     },
     {
+      "style": "line",
+      "options": {
+        "linecolor": "0x000000",
+        "linewidth": "3"
+      },
       "horizontalaxis": {
         "Time": "Time"
       },
       "verticalaxis": {
         "y": "Pee Dee River, Rockingham"
-      },
-      "options": {
-        "linecolor": "0x000000",
-        "linewidth": "3"
-      },
-      "style": "line"
+      }
     }
   ],
   "legend": {
@@ -207,6 +207,8 @@
     }
   },
   "data": {
+    "missingvalue": "-9000",
+    "missingop": "eq",
     "variables": [
       {
         "column": 0,
@@ -635,8 +637,6 @@
         "2621",
         "5430"
       ]
-    ],
-    "missingvalue": "-9000",
-    "missingop": "eq"
+    ]
   }
 }

@@ -1,14 +1,14 @@
 {
   "window": {
-    "margin": 0,
-    "padding": 0,
     "border": 1,
-    "bordercolor": "0x000000"
+    "bordercolor": "0x000000",
+    "padding": 0,
+    "margin": 0
   },
   "plotarea": {
+    "marginbottom": 40,
     "margintop": 45,
     "marginleft": 38,
-    "marginbottom": 40,
     "marginright": 15
   },
   "background": {
@@ -16,6 +16,7 @@
   },
   "horizontalaxis": {
     "id": "Time",
+    "type": "datetime",
     "length": "1",
     "base": [
       -1,
@@ -24,7 +25,17 @@
     "anchor": -1,
     "tickmin": -5,
     "tickmax": 5,
-    "type": "datetime",
+    "title": {
+      "text": "Time",
+      "anchor": [
+        0,
+        1
+      ],
+      "position": [
+        0,
+        -20
+      ]
+    },
     "labels": {
       "format": "%H:%i%L%n%d",
       "spacing": [
@@ -48,17 +59,6 @@
     "grid": {
       "color": "0xC9C9C1"
     },
-    "title": {
-      "text": "Time",
-      "anchor": [
-        0,
-        1
-      ],
-      "position": [
-        0,
-        -20
-      ]
-    },
     "binding": {
       "id": "xBinding",
       "min": "201304111130",
@@ -67,12 +67,23 @@
   },
   "verticalaxis": {
     "id": "�F",
+    "length": "1",
     "min": 0,
     "max": 15,
-    "length": "1",
+    "title": {
+      "text": "Wind (mph)",
+      "anchor": [
+        0,
+        1
+      ],
+      "position": [
+        -30,
+        0
+      ],
+      "angle": 90
+    },
     "labels": {
       "format": "%.0f",
-      "start": 0,
       "spacing": [
         100,
         20,
@@ -87,6 +98,7 @@
         0.02,
         0.01
       ],
+      "start": 0,
       "anchor": [
         0,
         0
@@ -99,27 +111,10 @@
     },
     "grid": {
       "color": "0xC9C9C1"
-    },
-    "title": {
-      "text": "Wind (mph)",
-      "angle": 90,
-      "anchor": [
-        0,
-        1
-      ],
-      "position": [
-        -30,
-        0
-      ]
     }
   },
   "plot": {
-    "horizontalaxis": {
-      "Time": "Time"
-    },
-    "verticalaxis": {
-      "�F": "Wind"
-    },
+    "style": "pointline",
     "options": {
       "linecolor": "0xD19D0D",
       "linewidth": "3",
@@ -130,7 +125,12 @@
       "pointopacity": "1.0",
       "pointsize": "3"
     },
-    "style": "pointline"
+    "horizontalaxis": {
+      "Time": "Time"
+    },
+    "verticalaxis": {
+      "�F": "Wind"
+    }
   },
   "legend": {
     "visible": "true",

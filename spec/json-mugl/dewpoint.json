@@ -1,27 +1,29 @@
 {
   "window": {
+    "width": 600,
     "height": 500,
-    "margin": 2,
     "padding": 5,
-    "width": 600
+    "margin": 2
   },
   "plotarea": {
     "marginbottom": 100,
+    "margintop": 70,
     "marginleft": 50,
-    "marginright": 50,
-    "margintop": 70
+    "marginright": 50
   },
   "horizontalaxis": {
     "id": "haxis",
-    "max": "20090601000036",
-    "min": "20090101000036",
     "type": "datetime",
+    "min": "20090101000036",
+    "max": "20090601000036",
+    "title": {
+      "text": "Date/Time",
+      "position": [
+        0,
+        -80
+      ]
+    },
     "labels": {
-      "anchor": [
-        1,
-        0
-      ],
-      "angle": 90,
       "format": "%Y %M %D %H:%i",
       "spacing": [
         "10Y",
@@ -37,49 +39,38 @@
         "4H",
         "2H",
         "1H"
-      ]
-    },
-    "title": {
-      "text": "Date/Time",
-      "position": [
-        0,
-        -80
-      ]
+      ],
+      "anchor": [
+        1,
+        0
+      ],
+      "angle": 90
     }
   },
   "verticalaxes": [
     {
-      "id": "temp",
-      "max": 100,
       "maxoffset": 10,
-      "min": 0,
       "minoffset": 5,
-      "position": 0,
       "postgap": 0,
       "pregap": 0,
+      "id": "temp",
       "type": "number",
+      "position": 0,
+      "min": 0,
+      "max": 100,
       "title": {
         "text": "Mean Temperature (F)",
         "anchor": [
           0,
           0
         ],
-        "angle": 90,
         "position": [
           -40,
           0
-        ]
+        ],
+        "angle": 90
       },
       "labels": {
-        "anchor": [
-          1,
-          0
-        ],
-        "angle": 0,
-        "position": [
-          -5,
-          0
-        ],
         "spacing": [
           100000,
           20000,
@@ -98,42 +89,42 @@
           0.5,
           0.05
         ],
-        "start": 0
+        "start": 0,
+        "anchor": [
+          1,
+          0
+        ],
+        "position": [
+          -5,
+          0
+        ],
+        "angle": 0
       }
     },
     {
-      "id": "dewp",
-      "max": 100,
       "maxoffset": 10,
-      "min": 0,
       "minoffset": 5,
-      "position": 0,
       "positionbase": "right",
       "postgap": 0,
       "pregap": 0,
+      "id": "dewp",
       "type": "number",
+      "position": 0,
+      "min": 0,
+      "max": 100,
       "title": {
         "text": "Mean Dew Point (F)",
         "anchor": [
           0,
           0
         ],
-        "angle": 90,
         "position": [
           40,
           0
-        ]
+        ],
+        "angle": 90
       },
       "labels": {
-        "anchor": [
-          -1,
-          0
-        ],
-        "angle": 0,
-        "position": [
-          5,
-          0
-        ],
         "spacing": [
           100000,
           20000,
@@ -152,14 +143,27 @@
           0.5,
           0.05
         ],
-        "start": 0
+        "start": 0,
+        "anchor": [
+          -1,
+          0
+        ],
+        "position": [
+          5,
+          0
+        ],
+        "angle": 0
       }
     }
   ],
   "plots": [
     {
-      "legend": {
-        "label": "Mean Temperature"
+      "style": "line",
+      "options": {
+        "linecolor": "orange",
+        "linewidth": "2",
+        "missingvalue": "-9999.9999",
+        "missingop": "EQ"
       },
       "horizontalaxis": {
         "haxis": "time"
@@ -167,17 +171,17 @@
       "verticalaxis": {
         "temp": "temp"
       },
+      "legend": {
+        "label": "Mean Temperature"
+      }
+    },
+    {
+      "style": "line",
       "options": {
-        "linecolor": "orange",
+        "linecolor": "magenta",
         "linewidth": "2",
         "missingvalue": "-9999.9999",
         "missingop": "EQ"
-      },
-      "style": "line"
-    },
-    {
-      "legend": {
-        "label": "Mean Dew Point"
       },
       "horizontalaxis": {
         "haxis": "time"
@@ -185,13 +189,9 @@
       "verticalaxis": {
         "dewp": "dewp"
       },
-      "options": {
-        "linecolor": "magenta",
-        "linewidth": "2",
-        "missingvalue": "-9999.9999",
-        "missingop": "EQ"
-      },
-      "style": "line"
+      "legend": {
+        "label": "Mean Dew Point"
+      }
     }
   ],
   "legend": {

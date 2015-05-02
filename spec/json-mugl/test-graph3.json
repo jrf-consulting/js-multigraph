@@ -1,28 +1,29 @@
 {
   "window": {
     "border": 0,
-    "margin": 0,
-    "padding": 0
+    "padding": 0,
+    "margin": 0
   },
   "plotarea": {
     "marginbottom": 25,
+    "margintop": 10,
     "marginleft": 40,
-    "marginright": 15,
-    "margintop": 10
+    "marginright": 15
   },
   "background": {
     "color": "0xF5FAFA"
   },
   "horizontalaxis": {
-    "color": "0x3A3D3D",
     "highlightstyle": "labels",
     "id": "yearaxis",
-    "linewidth": 0,
-    "max": "2020",
-    "min": "1870",
-    "tickmax": 0,
-    "tickmin": -4,
     "type": "datetime",
+    "min": "1870",
+    "max": "2020",
+    "color": "0x3A3D3D",
+    "linewidth": 0,
+    "tickmin": -4,
+    "tickmax": 0,
+    "title": "",
     "labels": {
       "color": "0x3A3D3D",
       "label": [
@@ -54,23 +55,21 @@
     },
     "grid": {
       "color": "0xDAE0E0"
-    },
-    "title": ""
+    }
   },
   "verticalaxis": {
-    "color": "0x3A3D3D",
     "highlightstyle": "labels",
     "id": "tempaxis",
-    "linewidth": 0,
-    "max": 1,
-    "min": 0,
-    "tickmax": 0,
-    "tickmin": -4,
     "type": "number",
+    "min": 0,
+    "max": 1,
+    "color": "0x3A3D3D",
+    "linewidth": 0,
+    "tickmin": -4,
+    "tickmax": 0,
+    "title": "",
     "labels": {
-      "densityfactor": 0.5,
       "format": "%.2f",
-      "color": "0x3A3D3D",
       "spacing": [
         50,
         20,
@@ -84,15 +83,25 @@
         0.05,
         0.02,
         0.01
-      ]
+      ],
+      "color": "0x3A3D3D",
+      "densityfactor": 0.5
     },
     "grid": {
       "color": "0xDAE0E0"
-    },
-    "title": ""
+    }
   },
   "plots": [
     {
+      "style": "pointline",
+      "options": {
+        "linecolor": "0xad1fff",
+        "linewidth": "1",
+        "pointoutlinecolor": "0xad1fff",
+        "pointsize": "1.5",
+        "pointshape": "diamond",
+        "pointcolor": "0xad1fff"
+      },
       "horizontalaxis": {
         "yearaxis": "year"
       },
@@ -105,18 +114,17 @@
           "'%y",
           "%.1f"
         ]
-      },
-      "options": {
-        "linecolor": "0xad1fff",
-        "linewidth": "1",
-        "pointoutlinecolor": "0xad1fff",
-        "pointsize": "1.5",
-        "pointshape": "diamond",
-        "pointcolor": "0xad1fff"
-      },
-      "style": "pointline"
+      }
     },
     {
+      "style": "pointline",
+      "options": {
+        "linecolor": "0xEB9800",
+        "linewidth": "1",
+        "pointoutlinecolor": "0xEB9800",
+        "pointsize": "1.5",
+        "pointcolor": "0xEB9800"
+      },
       "horizontalaxis": {
         "yearaxis": "year"
       },
@@ -129,15 +137,7 @@
           "'%y",
           "%.1f"
         ]
-      },
-      "options": {
-        "linecolor": "0xEB9800",
-        "linewidth": "1",
-        "pointoutlinecolor": "0xEB9800",
-        "pointsize": "1.5",
-        "pointcolor": "0xEB9800"
-      },
-      "style": "pointline"
+      }
     }
   ],
   "legend": {

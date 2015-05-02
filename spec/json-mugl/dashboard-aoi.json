@@ -4,24 +4,35 @@
   },
   "window": {
     "border": 0,
-    "margin": 0,
-    "padding": 0
+    "padding": 0,
+    "margin": 0
   },
   "plotarea": {
     "marginbottom": 50,
+    "margintop": 10,
     "marginleft": 60,
-    "marginright": 25,
-    "margintop": 10
+    "marginright": 25
   },
   "horizontalaxis": {
     "highlightstyle": "labels",
     "id": "x",
-    "linewidth": 0,
-    "max": "201207",
-    "min": "200601",
-    "tickmax": 0,
-    "tickmin": -4,
     "type": "datetime",
+    "min": "200601",
+    "max": "201207",
+    "linewidth": 0,
+    "tickmin": -4,
+    "tickmax": 0,
+    "title": {
+      "text": "Month/Year",
+      "anchor": [
+        0,
+        5
+      ],
+      "position": [
+        -15,
+        0
+      ]
+    },
     "labels": {
       "label": [
         {
@@ -47,17 +58,6 @@
         }
       ]
     },
-    "title": {
-      "text": "Month/Year",
-      "anchor": [
-        0,
-        5
-      ],
-      "position": [
-        -15,
-        0
-      ]
-    },
     "grid": {
       "color": "0xeeeeee"
     }
@@ -65,15 +65,26 @@
   "verticalaxis": {
     "highlightstyle": "labels",
     "id": "y",
-    "linewidth": 0,
-    "max": 4.5,
     "min": -4.5,
-    "tickmax": 0,
+    "max": 4.5,
+    "linewidth": 0,
     "tickmin": -4,
+    "tickmax": 0,
+    "title": {
+      "text": "Arctic Oscillation Index",
+      "anchor": [
+        0,
+        -4
+      ],
+      "position": [
+        -15,
+        0
+      ],
+      "angle": 90
+    },
     "labels": {
       "label": [
         {
-          "densityfactor": 0.5,
           "format": "%1d",
           "spacing": [
             20,
@@ -81,29 +92,18 @@
             5,
             2,
             1
-          ]
+          ],
+          "densityfactor": 0.5
         },
         {
-          "densityfactor": 0.5,
           "format": "%.1f",
           "spacing": [
             0.5,
             0.2,
             0.1
-          ]
+          ],
+          "densityfactor": 0.5
         }
-      ]
-    },
-    "title": {
-      "text": "Arctic Oscillation Index",
-      "anchor": [
-        0,
-        -4
-      ],
-      "angle": 90,
-      "position": [
-        -15,
-        0
       ]
     },
     "grid": {
@@ -112,33 +112,18 @@
   },
   "plots": [
     {
-      "legend": false,
-      "verticalaxis": {
-        "y": "0"
-      },
+      "style": "line",
       "options": {
         "linecolor": "0x999999",
         "linewidth": "1"
       },
-      "style": "line"
+      "verticalaxis": {
+        "y": "0"
+      },
+      "legend": false
     },
     {
-      "legend": {
-        "label": "Yearly average"
-      },
-      "horizontalaxis": {
-        "x": "datetime"
-      },
-      "verticalaxis": {
-        "y": "number"
-      },
-      "datatips": {
-        "format": "{0}: {1}",
-        "variable-formats": [
-          "%n '%y",
-          "%.2f"
-        ]
-      },
+      "style": "bar",
       "options": {
         "fillcolor": [
           {
@@ -155,7 +140,22 @@
         "baroffset": "0",
         "barbase": "0"
       },
-      "style": "bar"
+      "horizontalaxis": {
+        "x": "datetime"
+      },
+      "verticalaxis": {
+        "y": "number"
+      },
+      "legend": {
+        "label": "Yearly average"
+      },
+      "datatips": {
+        "format": "{0}: {1}",
+        "variable-formats": [
+          "%n '%y",
+          "%.2f"
+        ]
+      }
     }
   ],
   "legend": {

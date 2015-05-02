@@ -1,14 +1,14 @@
 {
   "window": {
-    "margin": 0,
-    "padding": 5,
     "border": 0,
-    "bordercolor": "0x000000"
+    "bordercolor": "0x000000",
+    "padding": 5,
+    "margin": 0
   },
   "plotarea": {
+    "marginbottom": 35,
     "margintop": 80,
     "marginleft": 60,
-    "marginbottom": 35,
     "marginright": 40
   },
   "background": {
@@ -16,66 +16,51 @@
   },
   "horizontalaxis": {
     "id": "x",
-    "min": 1984,
-    "max": 2006,
     "length": "1",
     "base": [
       -1,
       -1
     ],
     "anchor": -1,
+    "min": 1984,
+    "max": 2006,
     "labels": {
       "format": "%.0f",
-      "start": 0,
-      "angle": 0,
-      "position": [
-        10,
-        -10
+      "spacing": [
+        5
       ],
+      "start": 0,
       "anchor": [
         1,
         0
       ],
-      "spacing": [
-        5
-      ]
+      "position": [
+        10,
+        -10
+      ],
+      "angle": 0
     }
   },
   "verticalaxes": [
     {
       "id": "y1",
+      "length": "1",
       "min": 0,
       "max": 220000,
-      "length": "1",
       "title": {
         "text": "County Population",
-        "angle": 90,
+        "anchor": [
+          0,
+          -1
+        ],
         "position": [
           -50,
           0
         ],
-        "anchor": [
-          0,
-          -1
-        ]
-      },
-      "binding": {
-        "id": "ybinding",
-        "min": 0,
-        "max": 220000
+        "angle": 90
       },
       "labels": {
         "format": "%.0f",
-        "start": 0,
-        "angle": 0,
-        "position": [
-          -10,
-          0
-        ],
-        "anchor": [
-          1,
-          0
-        ],
         "spacing": [
           50000,
           10000,
@@ -85,7 +70,22 @@
           250,
           100,
           50
-        ]
+        ],
+        "start": 0,
+        "anchor": [
+          1,
+          0
+        ],
+        "position": [
+          -10,
+          0
+        ],
+        "angle": 0
+      },
+      "binding": {
+        "id": "ybinding",
+        "min": 0,
+        "max": 220000
       }
     },
     {
@@ -97,33 +97,18 @@
       ],
       "title": {
         "text": "Self-Supplied Withdrawls (Mgal/d)",
-        "angle": 270,
+        "anchor": [
+          0,
+          -1
+        ],
         "position": [
           30,
           0
         ],
-        "anchor": [
-          0,
-          -1
-        ]
-      },
-      "binding": {
-        "id": "ybinding",
-        "min": 0,
-        "max": 30
+        "angle": 270
       },
       "labels": {
         "format": "%.0f",
-        "start": 0,
-        "angle": 0,
-        "position": [
-          20,
-          0
-        ],
-        "anchor": [
-          1,
-          0
-        ],
         "spacing": [
           10,
           5,
@@ -131,21 +116,28 @@
           0.5,
           0.1,
           0.01
-        ]
+        ],
+        "start": 0,
+        "anchor": [
+          1,
+          0
+        ],
+        "position": [
+          20,
+          0
+        ],
+        "angle": 0
+      },
+      "binding": {
+        "id": "ybinding",
+        "min": 0,
+        "max": 30
       }
     }
   ],
   "plots": [
     {
-      "legend": {
-        "label": "Pop, Buncombe"
-      },
-      "horizontalaxis": {
-        "x": "x"
-      },
-      "verticalaxis": {
-        "y1": "b1"
-      },
+      "style": "pointline",
       "options": {
         "linecolor": "0x68038C",
         "linewidth": "5",
@@ -154,18 +146,18 @@
         "pointoutlinewidth": "3",
         "pointoutlinecolor": "0x68038C"
       },
-      "style": "pointline"
-    },
-    {
-      "legend": {
-        "label": "Self-Supp. Withdrawls, Buncombe"
-      },
       "horizontalaxis": {
         "x": "x"
       },
       "verticalaxis": {
-        "y2": "b2"
+        "y1": "b1"
       },
+      "legend": {
+        "label": "Pop, Buncombe"
+      }
+    },
+    {
+      "style": "pointline",
       "options": {
         "linecolor": "0xC35DE8",
         "linewidth": "5",
@@ -174,18 +166,18 @@
         "pointoutlinewidth": "3",
         "pointoutlinecolor": "0xC35DE8"
       },
-      "style": "pointline"
-    },
-    {
-      "legend": {
-        "label": "Pop, Henderson"
-      },
       "horizontalaxis": {
         "x": "x"
       },
       "verticalaxis": {
-        "y1": "h1"
+        "y2": "b2"
       },
+      "legend": {
+        "label": "Self-Supp. Withdrawls, Buncombe"
+      }
+    },
+    {
+      "style": "pointline",
       "options": {
         "linecolor": "0xD9790B",
         "linewidth": "5",
@@ -194,18 +186,18 @@
         "pointoutlinewidth": "3",
         "pointoutlinecolor": "0xD9790B"
       },
-      "style": "pointline"
-    },
-    {
-      "legend": {
-        "label": "Self-Supp. Withdrawls, Henderson"
-      },
       "horizontalaxis": {
         "x": "x"
       },
       "verticalaxis": {
-        "y2": "h2"
+        "y1": "h1"
       },
+      "legend": {
+        "label": "Pop, Henderson"
+      }
+    },
+    {
+      "style": "pointline",
       "options": {
         "linecolor": "0xE6AD6C",
         "linewidth": "5",
@@ -214,18 +206,18 @@
         "pointoutlinewidth": "3",
         "pointoutlinecolor": "0xE6AD6C"
       },
-      "style": "pointline"
-    },
-    {
-      "legend": {
-        "label": "Pop, Madison"
-      },
       "horizontalaxis": {
         "x": "x"
       },
       "verticalaxis": {
-        "y1": "m1"
+        "y2": "h2"
       },
+      "legend": {
+        "label": "Self-Supp. Withdrawls, Henderson"
+      }
+    },
+    {
+      "style": "pointline",
       "options": {
         "linecolor": "0x167502",
         "linewidth": "5",
@@ -234,18 +226,18 @@
         "pointoutlinewidth": "3",
         "pointoutlinecolor": "0x167502"
       },
-      "style": "pointline"
-    },
-    {
-      "legend": {
-        "label": "Self-Supp. Withdrawls, Madison"
-      },
       "horizontalaxis": {
         "x": "x"
       },
       "verticalaxis": {
-        "y2": "m2"
+        "y1": "m1"
       },
+      "legend": {
+        "label": "Pop, Madison"
+      }
+    },
+    {
+      "style": "pointline",
       "options": {
         "linecolor": "0x7AD169",
         "linewidth": "5",
@@ -254,18 +246,18 @@
         "pointoutlinewidth": "3",
         "pointoutlinecolor": "0x7AD169"
       },
-      "style": "pointline"
-    },
-    {
-      "legend": {
-        "label": "Pop, Transylvania"
-      },
       "horizontalaxis": {
         "x": "x"
       },
       "verticalaxis": {
-        "y1": "t1"
+        "y2": "m2"
       },
+      "legend": {
+        "label": "Self-Supp. Withdrawls, Madison"
+      }
+    },
+    {
+      "style": "pointline",
       "options": {
         "linecolor": "0xB31D09",
         "linewidth": "5",
@@ -274,18 +266,18 @@
         "pointoutlinewidth": "3",
         "pointoutlinecolor": "0xB31D09"
       },
-      "style": "pointline"
-    },
-    {
-      "legend": {
-        "label": "Self-Supp. Withdrawls, Transylvania"
-      },
       "horizontalaxis": {
         "x": "x"
       },
       "verticalaxis": {
-        "y2": "t2"
+        "y1": "t1"
       },
+      "legend": {
+        "label": "Pop, Transylvania"
+      }
+    },
+    {
+      "style": "pointline",
       "options": {
         "linecolor": "0xD67467",
         "linewidth": "5",
@@ -294,7 +286,15 @@
         "pointoutlinewidth": "3",
         "pointoutlinecolor": "0xD67467"
       },
-      "style": "pointline"
+      "horizontalaxis": {
+        "x": "x"
+      },
+      "verticalaxis": {
+        "y2": "t2"
+      },
+      "legend": {
+        "label": "Self-Supp. Withdrawls, Transylvania"
+      }
     }
   ],
   "legend": {
