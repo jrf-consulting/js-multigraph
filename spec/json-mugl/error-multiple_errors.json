@@ -1,7 +1,4 @@
 {
-  "background": {
-    "color": "0xcccVGHJccc"
-  },
   "window": {
     "margin": 0,
     "padding": 5,
@@ -13,6 +10,9 @@
     "marginleft": 38,
     "marginbottom": 35,
     "marginright": 35
+  },
+  "background": {
+    "color": "0xcccVGHJccc"
   },
   "horizontalaxis": {
     "id": "x",

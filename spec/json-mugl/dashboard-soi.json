@@ -1,14 +1,11 @@
 {
+  "ui": {
+    "eventhandler": "saui"
+  },
   "window": {
     "border": 0,
     "margin": 0,
     "padding": 0
-  },
-  "ui": {
-    "eventhandler": "saui"
-  },
-  "legend": {
-    "visible": "false"
   },
   "plotarea": {
     "marginbottom": 50,
@@ -113,6 +110,67 @@
         0
       ]
     }
+  },
+  "plots": [
+    {
+      "legend": false,
+      "verticalaxis": {
+        "y": "0"
+      },
+      "options": {
+        "linecolor": "0x999999",
+        "linewidth": "1"
+      },
+      "style": "line"
+    },
+    {
+      "legend": {
+        "label": "Yearly average"
+      },
+      "horizontalaxis": {
+        "x": "datetime"
+      },
+      "verticalaxis": {
+        "y": "number"
+      },
+      "datatips": {
+        "format": "{0}: {1}",
+        "variable-formats": [
+          "%n '%y",
+          "%.2f"
+        ]
+      },
+      "options": {
+        "fillcolor": [
+          {
+            "value": "0xFFCC33",
+            "max": "0.5"
+          },
+          {
+            "value": "0x888888",
+            "min": "0.0",
+            "max": "0.5"
+          },
+          {
+            "value": "0x888888",
+            "min": "-0.5",
+            "max": "0.0"
+          },
+          {
+            "value": "0x66CCFF",
+            "min": "-0.5"
+          }
+        ],
+        "linecolor": "0x000000",
+        "barwidth": "1M",
+        "baroffset": "0",
+        "barbase": "0"
+      },
+      "style": "bar"
+    }
+  ],
+  "legend": {
+    "visible": "false"
   },
   "data": {
     "variables": [
@@ -3089,63 +3147,5 @@
         "-0.200"
       ]
     ]
-  },
-  "plots": [
-    {
-      "legend": false,
-      "verticalaxis": {
-        "y": "0"
-      },
-      "options": {
-        "linecolor": "0x999999",
-        "linewidth": "1"
-      },
-      "style": "line"
-    },
-    {
-      "legend": {
-        "label": "Yearly average"
-      },
-      "horizontalaxis": {
-        "x": "datetime"
-      },
-      "verticalaxis": {
-        "y": "number"
-      },
-      "datatips": {
-        "format": "{0}: {1}",
-        "variable-formats": [
-          "%n '%y",
-          "%.2f"
-        ]
-      },
-      "options": {
-        "fillcolor": [
-          {
-            "value": "0xFFCC33",
-            "max": "0.5"
-          },
-          {
-            "value": "0x888888",
-            "min": "0.0",
-            "max": "0.5"
-          },
-          {
-            "value": "0x888888",
-            "min": "-0.5",
-            "max": "0.0"
-          },
-          {
-            "value": "0x66CCFF",
-            "min": "-0.5"
-          }
-        ],
-        "linecolor": "0x000000",
-        "barwidth": "1M",
-        "baroffset": "0",
-        "barbase": "0"
-      },
-      "style": "bar"
-    }
-  ]
+  }
 }

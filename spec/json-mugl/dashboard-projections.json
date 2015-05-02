@@ -1,7 +1,4 @@
 {
-  "legend": {
-    "visible": "false"
-  },
   "horizontalaxis": {
     "id": "year",
     "max": "2100",
@@ -67,6 +64,159 @@
     "labels": {
       "color": "0x666666"
     }
+  },
+  "plots": [
+    {
+      "horizontalaxis": {
+        "year": "year_20c3m"
+      },
+      "verticalaxis": {
+        "temp": [
+          "min_20c3m",
+          "max_20c3m"
+        ]
+      },
+      "options": {
+        "fillcolor": "0xCCCCCC",
+        "fillopacity": "0.5",
+        "linewidth": "0"
+      },
+      "style": "band"
+    },
+    {
+      "horizontalaxis": {
+        "year": "year_a2"
+      },
+      "verticalaxis": {
+        "temp": [
+          "min_a2",
+          "max_a2"
+        ]
+      },
+      "options": {
+        "fillcolor": "0xFFCCCC",
+        "fillopacity": "0.5",
+        "linewidth": "0"
+      },
+      "style": "band"
+    },
+    {
+      "horizontalaxis": {
+        "year": "year_a1b"
+      },
+      "verticalaxis": {
+        "temp": [
+          "min_a1b",
+          "max_a1b"
+        ]
+      },
+      "options": {
+        "fillcolor": "0xCCFFCC",
+        "fillopacity": "0.5",
+        "linewidth": "0"
+      },
+      "style": "band"
+    },
+    {
+      "horizontalaxis": {
+        "year": "year_b1"
+      },
+      "verticalaxis": {
+        "temp": [
+          "min_b1",
+          "max_b1"
+        ]
+      },
+      "options": {
+        "fillcolor": "0xCCCCFF",
+        "fillopacity": "0.5",
+        "linewidth": "0"
+      },
+      "style": "band"
+    },
+    {
+      "horizontalaxis": {
+        "year": "year_20c3m"
+      },
+      "verticalaxis": {
+        "temp": "temp_20c3m"
+      },
+      "datatips": {
+        "format": "{0}: {1}",
+        "variable-formats": [
+          "%Y",
+          "%.1f °C"
+        ]
+      },
+      "options": {
+        "linecolor": "0x000000",
+        "linewidth": "2"
+      },
+      "style": "line"
+    },
+    {
+      "horizontalaxis": {
+        "year": "year_a2"
+      },
+      "verticalaxis": {
+        "temp": "temp_a2"
+      },
+      "datatips": {
+        "format": "{0}: {1}",
+        "variable-formats": [
+          "%Y A2",
+          "%.1f °C"
+        ]
+      },
+      "options": {
+        "linecolor": "0x990000",
+        "linewidth": "2"
+      },
+      "style": "line"
+    },
+    {
+      "horizontalaxis": {
+        "year": "year_a1b"
+      },
+      "verticalaxis": {
+        "temp": "temp_a1b"
+      },
+      "datatips": {
+        "format": "{0}: {1}",
+        "variable-formats": [
+          "%Y A1B",
+          "%.1f °C"
+        ]
+      },
+      "options": {
+        "linecolor": "0x009900",
+        "linewidth": "2"
+      },
+      "style": "line"
+    },
+    {
+      "horizontalaxis": {
+        "year": "year_b1"
+      },
+      "verticalaxis": {
+        "temp": "temp_b1"
+      },
+      "datatips": {
+        "format": "{0}: {1}",
+        "variable-formats": [
+          "%Y B1",
+          "%.1f °C"
+        ]
+      },
+      "options": {
+        "linecolor": "0x000099",
+        "linewidth": "2"
+      },
+      "style": "line"
+    }
+  ],
+  "legend": {
+    "visible": "false"
   },
   "data": [
     {
@@ -2584,156 +2734,6 @@
           "2.266026"
         ]
       ]
-    }
-  ],
-  "plots": [
-    {
-      "horizontalaxis": {
-        "year": "year_20c3m"
-      },
-      "verticalaxis": {
-        "temp": [
-          "min_20c3m",
-          "max_20c3m"
-        ]
-      },
-      "options": {
-        "fillcolor": "0xCCCCCC",
-        "fillopacity": "0.5",
-        "linewidth": "0"
-      },
-      "style": "band"
-    },
-    {
-      "horizontalaxis": {
-        "year": "year_a2"
-      },
-      "verticalaxis": {
-        "temp": [
-          "min_a2",
-          "max_a2"
-        ]
-      },
-      "options": {
-        "fillcolor": "0xFFCCCC",
-        "fillopacity": "0.5",
-        "linewidth": "0"
-      },
-      "style": "band"
-    },
-    {
-      "horizontalaxis": {
-        "year": "year_a1b"
-      },
-      "verticalaxis": {
-        "temp": [
-          "min_a1b",
-          "max_a1b"
-        ]
-      },
-      "options": {
-        "fillcolor": "0xCCFFCC",
-        "fillopacity": "0.5",
-        "linewidth": "0"
-      },
-      "style": "band"
-    },
-    {
-      "horizontalaxis": {
-        "year": "year_b1"
-      },
-      "verticalaxis": {
-        "temp": [
-          "min_b1",
-          "max_b1"
-        ]
-      },
-      "options": {
-        "fillcolor": "0xCCCCFF",
-        "fillopacity": "0.5",
-        "linewidth": "0"
-      },
-      "style": "band"
-    },
-    {
-      "horizontalaxis": {
-        "year": "year_20c3m"
-      },
-      "verticalaxis": {
-        "temp": "temp_20c3m"
-      },
-      "datatips": {
-        "format": "{0}: {1}",
-        "variable-formats": [
-          "%Y",
-          "%.1f °C"
-        ]
-      },
-      "options": {
-        "linecolor": "0x000000",
-        "linewidth": "2"
-      },
-      "style": "line"
-    },
-    {
-      "horizontalaxis": {
-        "year": "year_a2"
-      },
-      "verticalaxis": {
-        "temp": "temp_a2"
-      },
-      "datatips": {
-        "format": "{0}: {1}",
-        "variable-formats": [
-          "%Y A2",
-          "%.1f °C"
-        ]
-      },
-      "options": {
-        "linecolor": "0x990000",
-        "linewidth": "2"
-      },
-      "style": "line"
-    },
-    {
-      "horizontalaxis": {
-        "year": "year_a1b"
-      },
-      "verticalaxis": {
-        "temp": "temp_a1b"
-      },
-      "datatips": {
-        "format": "{0}: {1}",
-        "variable-formats": [
-          "%Y A1B",
-          "%.1f °C"
-        ]
-      },
-      "options": {
-        "linecolor": "0x009900",
-        "linewidth": "2"
-      },
-      "style": "line"
-    },
-    {
-      "horizontalaxis": {
-        "year": "year_b1"
-      },
-      "verticalaxis": {
-        "temp": "temp_b1"
-      },
-      "datatips": {
-        "format": "{0}: {1}",
-        "variable-formats": [
-          "%Y B1",
-          "%.1f °C"
-        ]
-      },
-      "options": {
-        "linecolor": "0x000099",
-        "linewidth": "2"
-      },
-      "style": "line"
     }
   ]
 }

@@ -1,22 +1,4 @@
 {
-  "background": {
-    "color": "0xFAFDFF"
-  },
-  "legend": {
-    "visible": "true",
-    "border": 0,
-    "opacity": 0,
-    "rows": 1,
-    "position": [
-      0,
-      30
-    ],
-    "icon": {
-      "width": 30,
-      "height": 15,
-      "border": 0
-    }
-  },
   "window": {
     "margin": 2,
     "border": 0,
@@ -27,6 +9,9 @@
     "marginleft": 60,
     "marginright": 50,
     "margintop": 35
+  },
+  "background": {
+    "color": "0xFAFDFF"
   },
   "horizontalaxis": {
     "id": "datetime",
@@ -69,6 +54,188 @@
     },
     "grid": {
       "color": "0xCCD8E0"
+    }
+  },
+  "verticalaxes": [
+    {
+      "id": "Flow Rate",
+      "position": [
+        0,
+        0
+      ],
+      "base": [
+        -1,
+        -1
+      ],
+      "type": "number",
+      "min": 0,
+      "max": 23500,
+      "title": {
+        "text": "Flow Rate (cubic feet / second)",
+        "angle": 90,
+        "position": [
+          -45,
+          0
+        ],
+        "anchor": [
+          0,
+          -1
+        ]
+      },
+      "labels": {
+        "format": "%.0f",
+        "start": 0,
+        "angle": 0,
+        "position": [
+          -10,
+          0
+        ],
+        "anchor": [
+          1,
+          0
+        ],
+        "spacing": [
+          5000,
+          1000,
+          500,
+          250,
+          100,
+          50
+        ]
+      },
+      "binding": {
+        "id": "tempbinding",
+        "min": 0,
+        "max": 23500
+      }
+    },
+    {
+      "id": "precip",
+      "position": [
+        0,
+        0
+      ],
+      "base": [
+        1,
+        -1
+      ],
+      "type": "number",
+      "min": 0,
+      "max": 10.1,
+      "title": {
+        "text": "Precipitation (in)",
+        "angle": 270,
+        "position": [
+          45,
+          0
+        ],
+        "anchor": [
+          0,
+          1
+        ]
+      },
+      "labels": {
+        "format": "%.2f",
+        "start": 0,
+        "angle": 0,
+        "position": [
+          5,
+          0
+        ],
+        "anchor": [
+          -1,
+          0
+        ],
+        "spacing": [
+          50,
+          20,
+          10,
+          5,
+          2,
+          1,
+          0.1,
+          0.01
+        ]
+      },
+      "zoom": {
+        "anchor": 0
+      },
+      "pan": false,
+      "binding": {
+        "id": "tempbinding",
+        "min": 0,
+        "max": 0.4
+      }
+    }
+  ],
+  "plots": [
+    {
+      "legend": {
+        "label": "Flow Rate"
+      },
+      "horizontalaxis": {
+        "datetime": "datetime"
+      },
+      "verticalaxis": {
+        "Flow Rate": "Flow Rate"
+      },
+      "options": {
+        "linecolor": "0x003A96",
+        "fillcolor": "0x71A1F0",
+        "fillopacity": "0.4"
+      },
+      "style": "fill"
+    },
+    {
+      "legend": {
+        "label": "Mean Flow Rate (177 Years)"
+      },
+      "horizontalaxis": {
+        "datetime": "datetime"
+      },
+      "verticalaxis": {
+        "Flow Rate": "histaverage"
+      },
+      "options": {
+        "pointsize": "3",
+        "pointcolor": "0xF5D938",
+        "pointoutlinecolor": "0x4D4100"
+      },
+      "style": "point"
+    },
+    {
+      "legend": {
+        "label": "Precipitation"
+      },
+      "horizontalaxis": {
+        "datetime": "datetime"
+      },
+      "verticalaxis": {
+        "precip": "precip"
+      },
+      "options": {
+        "fillcolor": "0x9700E3",
+        "barwidth": "15m",
+        "baroffset": "0",
+        "barbase": "0",
+        "linecolor": "0xE9BDFF"
+      },
+      "style": "bar"
+    }
+  ],
+  "legend": {
+    "visible": "true",
+    "border": 0,
+    "opacity": 0,
+    "rows": 1,
+    "position": [
+      0,
+      30
+    ],
+    "icon": {
+      "width": 30,
+      "height": 15,
+      "border": 0
     }
   },
   "data": {
@@ -8581,172 +8748,5 @@
         " -9000"
       ]
     ]
-  },
-  "plots": [
-    {
-      "legend": {
-        "label": "Flow Rate"
-      },
-      "horizontalaxis": {
-        "datetime": "datetime"
-      },
-      "verticalaxis": {
-        "Flow Rate": "Flow Rate"
-      },
-      "options": {
-        "linecolor": "0x003A96",
-        "fillcolor": "0x71A1F0",
-        "fillopacity": "0.4"
-      },
-      "style": "fill"
-    },
-    {
-      "legend": {
-        "label": "Mean Flow Rate (177 Years)"
-      },
-      "horizontalaxis": {
-        "datetime": "datetime"
-      },
-      "verticalaxis": {
-        "Flow Rate": "histaverage"
-      },
-      "options": {
-        "pointsize": "3",
-        "pointcolor": "0xF5D938",
-        "pointoutlinecolor": "0x4D4100"
-      },
-      "style": "point"
-    },
-    {
-      "legend": {
-        "label": "Precipitation"
-      },
-      "horizontalaxis": {
-        "datetime": "datetime"
-      },
-      "verticalaxis": {
-        "precip": "precip"
-      },
-      "options": {
-        "fillcolor": "0x9700E3",
-        "barwidth": "15m",
-        "baroffset": "0",
-        "barbase": "0",
-        "linecolor": "0xE9BDFF"
-      },
-      "style": "bar"
-    }
-  ],
-  "verticalaxes": [
-    {
-      "id": "Flow Rate",
-      "position": [
-        0,
-        0
-      ],
-      "base": [
-        -1,
-        -1
-      ],
-      "type": "number",
-      "min": 0,
-      "max": 23500,
-      "title": {
-        "text": "Flow Rate (cubic feet / second)",
-        "angle": 90,
-        "position": [
-          -45,
-          0
-        ],
-        "anchor": [
-          0,
-          -1
-        ]
-      },
-      "labels": {
-        "format": "%.0f",
-        "start": 0,
-        "angle": 0,
-        "position": [
-          -10,
-          0
-        ],
-        "anchor": [
-          1,
-          0
-        ],
-        "spacing": [
-          5000,
-          1000,
-          500,
-          250,
-          100,
-          50
-        ]
-      },
-      "binding": {
-        "id": "tempbinding",
-        "min": 0,
-        "max": 23500
-      }
-    },
-    {
-      "id": "precip",
-      "position": [
-        0,
-        0
-      ],
-      "base": [
-        1,
-        -1
-      ],
-      "type": "number",
-      "min": 0,
-      "max": 10.1,
-      "title": {
-        "text": "Precipitation (in)",
-        "angle": 270,
-        "position": [
-          45,
-          0
-        ],
-        "anchor": [
-          0,
-          1
-        ]
-      },
-      "labels": {
-        "format": "%.2f",
-        "start": 0,
-        "angle": 0,
-        "position": [
-          5,
-          0
-        ],
-        "anchor": [
-          -1,
-          0
-        ],
-        "spacing": [
-          50,
-          20,
-          10,
-          5,
-          2,
-          1,
-          0.1,
-          0.01
-        ]
-      },
-      "zoom": {
-        "anchor": 0
-      },
-      "pan": false,
-      "binding": {
-        "id": "tempbinding",
-        "min": 0,
-        "max": 0.4
-      }
-    }
-  ]
+  }
 }

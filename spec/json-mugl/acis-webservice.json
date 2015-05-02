@@ -2,28 +2,6 @@
   "plotarea": {
     "margintop": 18
   },
-  "legend": {
-    "rows": 1,
-    "border": 0,
-    "opacity": 0,
-    "base": [
-      0,
-      1
-    ],
-    "anchor": [
-      0,
-      1
-    ],
-    "position": [
-      0,
-      25
-    ],
-    "icon": {
-      "border": 0,
-      "width": 30,
-      "height": 30
-    }
-  },
   "horizontalaxis": {
     "id": "date",
     "type": "datetime",
@@ -81,42 +59,6 @@
       "format": "%f"
     }
   },
-  "data": {
-    "variables": [
-      {
-        "column": 0,
-        "id": "date",
-        "type": "datetime"
-      },
-      {
-        "column": 1,
-        "id": "maxt"
-      },
-      {
-        "column": 2,
-        "id": "mint"
-      },
-      {
-        "column": 3,
-        "id": "normal_maxt"
-      },
-      {
-        "column": 4,
-        "id": "normal_mint"
-      }
-    ],
-    "service": {
-      "location": "http://data.multigraph.org/acis/13881-1/maxt,mint,normal_maxt,normal_mint/"
-    },
-    "missingvalue": "-9000",
-    "missingop": "le"
-  },
-  "throttle": {
-    "pattern": "^http://data.multigraph.org",
-    "requests": "1",
-    "period": "1000",
-    "concurrent": "1"
-  },
   "plots": [
     {
       "legend": {
@@ -158,5 +100,63 @@
       },
       "style": "rangebar"
     }
-  ]
+  ],
+  "legend": {
+    "rows": 1,
+    "border": 0,
+    "opacity": 0,
+    "base": [
+      0,
+      1
+    ],
+    "anchor": [
+      0,
+      1
+    ],
+    "position": [
+      0,
+      25
+    ],
+    "icon": {
+      "border": 0,
+      "width": 30,
+      "height": 30
+    }
+  },
+  "data": {
+    "variables": [
+      {
+        "column": 0,
+        "id": "date",
+        "type": "datetime"
+      },
+      {
+        "column": 1,
+        "id": "maxt"
+      },
+      {
+        "column": 2,
+        "id": "mint"
+      },
+      {
+        "column": 3,
+        "id": "normal_maxt"
+      },
+      {
+        "column": 4,
+        "id": "normal_mint"
+      }
+    ],
+    "service": {
+      "location": "http://data.multigraph.org/acis/13881-1/maxt,mint,normal_maxt,normal_mint/"
+    },
+    "missingvalue": "-9000",
+    "missingop": "le"
+  },
+  "throttle": {
+    "pattern": "^http://data.multigraph.org",
+    "requests": "1",
+    "period": "1000",
+    "concurrent": "1"
+  }
 }

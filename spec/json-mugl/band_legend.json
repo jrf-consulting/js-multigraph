@@ -1,10 +1,4 @@
 {
-  "legend": {
-    "visible": "true"
-  },
-  "background": {
-    "color": "0xffffff"
-  },
   "window": {
     "margin": 0,
     "padding": 5,
@@ -16,6 +10,9 @@
     "marginleft": 38,
     "marginbottom": 35,
     "marginright": 35
+  },
+  "background": {
+    "color": "0xffffff"
   },
   "horizontalaxis": {
     "id": "x",
@@ -46,6 +43,9 @@
       "fillopacity": "0.5"
     },
     "style": "band"
+  },
+  "legend": {
+    "visible": "true"
   },
   "data": {
     "variables": [

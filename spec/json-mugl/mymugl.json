@@ -1,7 +1,4 @@
 {
-  "background": {
-    "color": "0xcccccc"
-  },
   "window": {
     "margin": 0,
     "padding": 5,
@@ -14,6 +11,60 @@
     "marginbottom": 35,
     "marginright": 35
   },
+  "background": {
+    "color": "0xcccccc"
+  },
+  "horizontalaxes": [
+    {
+      "id": "x",
+      "min": 0,
+      "max": 10,
+      "length": "1-40",
+      "base": [
+        0,
+        0
+      ],
+      "anchor": 0,
+      "color": "0xff0000"
+    },
+    {
+      "id": "x",
+      "min": 0,
+      "max": 10,
+      "base": [
+        -1,
+        -1
+      ]
+    }
+  ],
+  "verticalaxes": [
+    {
+      "id": "y",
+      "min": 0,
+      "max": 10,
+      "length": "1-20"
+    },
+    {
+      "id": "y2",
+      "min": 0,
+      "max": 10,
+      "length": "1-20",
+      "base": [
+        0,
+        -1
+      ]
+    },
+    {
+      "id": "y3",
+      "min": 0,
+      "max": 10,
+      "length": "1-20",
+      "base": [
+        1,
+        -1
+      ]
+    }
+  ],
   "plot": {
     "horizontalaxis": {
       "x": "x"
@@ -48,56 +99,5 @@
         "6"
       ]
     ]
-  },
-  "verticalaxes": [
-    {
-      "id": "y",
-      "min": 0,
-      "max": 10,
-      "length": "1-20"
-    },
-    {
-      "id": "y2",
-      "min": 0,
-      "max": 10,
-      "length": "1-20",
-      "base": [
-        0,
-        -1
-      ]
-    },
-    {
-      "id": "y3",
-      "min": 0,
-      "max": 10,
-      "length": "1-20",
-      "base": [
-        1,
-        -1
-      ]
-    }
-  ],
-  "horizontalaxes": [
-    {
-      "id": "x",
-      "min": 0,
-      "max": 10,
-      "length": "1-40",
-      "base": [
-        0,
-        0
-      ],
-      "anchor": 0,
-      "color": "0xff0000"
-    },
-    {
-      "id": "x",
-      "min": 0,
-      "max": 10,
-      "base": [
-        -1,
-        -1
-      ]
-    }
-  ]
+  }
 }

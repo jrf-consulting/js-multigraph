@@ -4,9 +4,6 @@
     "margin": 0,
     "padding": 0
   },
-  "legend": {
-    "visible": "false"
-  },
   "background": {
     "color": "0x111111"
   },
@@ -72,6 +69,45 @@
     "grid": {
       "color": "0x333333"
     }
+  },
+  "plots": [
+    {
+      "horizontalaxis": {
+        "Date": "datetime"
+      },
+      "verticalaxis": {
+        "y": "y1"
+      },
+      "options": {
+        "linecolor": "0x07CCEB",
+        "linewidth": "4",
+        "pointsize": "4",
+        "pointcolor": "0x111111",
+        "pointoutlinewidth": "2",
+        "pointoutlinecolor": "0x07CCEB"
+      },
+      "style": "pointline"
+    },
+    {
+      "horizontalaxis": {
+        "Date": "datetime"
+      },
+      "verticalaxis": {
+        "y": "y"
+      },
+      "options": {
+        "linecolor": "0xEB2607",
+        "linewidth": "4",
+        "pointsize": "4",
+        "pointcolor": "0x111111",
+        "pointoutlinewidth": "2",
+        "pointoutlinecolor": "0xEB2607"
+      },
+      "style": "pointline"
+    }
+  ],
+  "legend": {
+    "visible": "false"
   },
   "data": {
     "variables": [
@@ -331,41 +367,5 @@
         "6"
       ]
     ]
-  },
-  "plots": [
-    {
-      "horizontalaxis": {
-        "Date": "datetime"
-      },
-      "verticalaxis": {
-        "y": "y1"
-      },
-      "options": {
-        "linecolor": "0x07CCEB",
-        "linewidth": "4",
-        "pointsize": "4",
-        "pointcolor": "0x111111",
-        "pointoutlinewidth": "2",
-        "pointoutlinecolor": "0x07CCEB"
-      },
-      "style": "pointline"
-    },
-    {
-      "horizontalaxis": {
-        "Date": "datetime"
-      },
-      "verticalaxis": {
-        "y": "y"
-      },
-      "options": {
-        "linecolor": "0xEB2607",
-        "linewidth": "4",
-        "pointsize": "4",
-        "pointcolor": "0x111111",
-        "pointoutlinewidth": "2",
-        "pointoutlinecolor": "0xEB2607"
-      },
-      "style": "pointline"
-    }
-  ]
+  }
 }

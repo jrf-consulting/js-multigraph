@@ -1,26 +1,4 @@
 {
-  "legend": {
-    "base": [
-      0,
-      1
-    ],
-    "anchor": [
-      0,
-      1
-    ],
-    "position": [
-      0,
-      5
-    ],
-    "border": 0,
-    "rows": 1,
-    "frame": "padding",
-    "icon": {
-      "width": 15,
-      "height": 15,
-      "border": 0
-    }
-  },
   "window": {
     "margin": 2,
     "border": 2,
@@ -75,135 +53,6 @@
     },
     "grid": {}
   },
-  "throttle": {
-    "pattern": "^http://data.multigraph.org",
-    "requests": "1",
-    "period": "1000",
-    "concurrent": "1"
-  },
-  "data": [
-    {
-      "variables": [
-        {
-          "id": "time_1h",
-          "column": 0,
-          "type": "datetime"
-        },
-        {
-          "id": "solarad",
-          "column": 1,
-          "type": "number"
-        },
-        {
-          "id": "sur_temp",
-          "column": 2,
-          "type": "number"
-        },
-        {
-          "id": "windspd",
-          "column": 3,
-          "type": "number"
-        }
-      ],
-      "service": {
-        "location": "http://data.multigraph.org/crn/1026/SOLARAD,SUR_TEMP,WINDSPD/"
-      }
-    },
-    {
-      "variables": [
-        {
-          "column": 0,
-          "id": "time_5m",
-          "type": "datetime"
-        },
-        {
-          "column": 1,
-          "id": "temp"
-        },
-        {
-          "column": 2,
-          "id": "precip"
-        }
-      ],
-      "service": {
-        "location": "http://data.multigraph.org/crn/1026/T5,P5/"
-      }
-    }
-  ],
-  "plots": [
-    {
-      "legend": {
-        "label": "Solar Radiation"
-      },
-      "horizontalaxis": {
-        "time": "time_1h"
-      },
-      "verticalaxis": {
-        "solarad": "solarad"
-      },
-      "options": {
-        "linecolor": "#990000",
-        "fillcolor": "#ffaaaa"
-      },
-      "style": "fill"
-    },
-    {
-      "legend": {
-        "label": "Precip"
-      },
-      "horizontalaxis": {
-        "time": "time_5m"
-      },
-      "verticalaxis": {
-        "precip": "precip"
-      },
-      "options": {
-        "fillcolor": "green",
-        "barwidth": "5m",
-        "baroffset": "0",
-        "linecolor": "black"
-      },
-      "style": "bar"
-    },
-    {
-      "legend": {
-        "label": "Air Temp"
-      },
-      "horizontalaxis": {
-        "time": "time_5m"
-      },
-      "verticalaxis": {
-        "temp": "temp"
-      },
-      "options": {
-        "linecolor": "blue",
-        "linewidth": "1",
-        "pointcolor": "blue",
-        "pointsize": "1",
-        "pointoutlinecolor": "blue"
-      },
-      "style": "pointline"
-    },
-    {
-      "legend": {
-        "label": "Wind Speed"
-      },
-      "horizontalaxis": {
-        "time": "time_1h"
-      },
-      "verticalaxis": {
-        "windspd": "windspd"
-      },
-      "options": {
-        "linecolor": "black",
-        "linewidth": "1",
-        "pointcolor": "black",
-        "pointsize": "1",
-        "pointoutlinecolor": "black"
-      },
-      "style": "pointline"
-    }
-  ],
   "verticalaxes": [
     {
       "id": "temp",
@@ -447,5 +296,156 @@
         "max": 1
       }
     }
-  ]
+  ],
+  "plots": [
+    {
+      "legend": {
+        "label": "Solar Radiation"
+      },
+      "horizontalaxis": {
+        "time": "time_1h"
+      },
+      "verticalaxis": {
+        "solarad": "solarad"
+      },
+      "options": {
+        "linecolor": "#990000",
+        "fillcolor": "#ffaaaa"
+      },
+      "style": "fill"
+    },
+    {
+      "legend": {
+        "label": "Precip"
+      },
+      "horizontalaxis": {
+        "time": "time_5m"
+      },
+      "verticalaxis": {
+        "precip": "precip"
+      },
+      "options": {
+        "fillcolor": "green",
+        "barwidth": "5m",
+        "baroffset": "0",
+        "linecolor": "black"
+      },
+      "style": "bar"
+    },
+    {
+      "legend": {
+        "label": "Air Temp"
+      },
+      "horizontalaxis": {
+        "time": "time_5m"
+      },
+      "verticalaxis": {
+        "temp": "temp"
+      },
+      "options": {
+        "linecolor": "blue",
+        "linewidth": "1",
+        "pointcolor": "blue",
+        "pointsize": "1",
+        "pointoutlinecolor": "blue"
+      },
+      "style": "pointline"
+    },
+    {
+      "legend": {
+        "label": "Wind Speed"
+      },
+      "horizontalaxis": {
+        "time": "time_1h"
+      },
+      "verticalaxis": {
+        "windspd": "windspd"
+      },
+      "options": {
+        "linecolor": "black",
+        "linewidth": "1",
+        "pointcolor": "black",
+        "pointsize": "1",
+        "pointoutlinecolor": "black"
+      },
+      "style": "pointline"
+    }
+  ],
+  "legend": {
+    "base": [
+      0,
+      1
+    ],
+    "anchor": [
+      0,
+      1
+    ],
+    "position": [
+      0,
+      5
+    ],
+    "border": 0,
+    "rows": 1,
+    "frame": "padding",
+    "icon": {
+      "width": 15,
+      "height": 15,
+      "border": 0
+    }
+  },
+  "data": [
+    {
+      "variables": [
+        {
+          "id": "time_1h",
+          "column": 0,
+          "type": "datetime"
+        },
+        {
+          "id": "solarad",
+          "column": 1,
+          "type": "number"
+        },
+        {
+          "id": "sur_temp",
+          "column": 2,
+          "type": "number"
+        },
+        {
+          "id": "windspd",
+          "column": 3,
+          "type": "number"
+        }
+      ],
+      "service": {
+        "location": "http://data.multigraph.org/crn/1026/SOLARAD,SUR_TEMP,WINDSPD/"
+      }
+    },
+    {
+      "variables": [
+        {
+          "column": 0,
+          "id": "time_5m",
+          "type": "datetime"
+        },
+        {
+          "column": 1,
+          "id": "temp"
+        },
+        {
+          "column": 2,
+          "id": "precip"
+        }
+      ],
+      "service": {
+        "location": "http://data.multigraph.org/crn/1026/T5,P5/"
+      }
+    }
+  ],
+  "throttle": {
+    "pattern": "^http://data.multigraph.org",
+    "requests": "1",
+    "period": "1000",
+    "concurrent": "1"
+  }
 }

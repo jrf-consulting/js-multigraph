@@ -5,27 +5,6 @@
     "marginbottom": 45,
     "margintop": 35
   },
-  "legend": {
-    "rows": 1,
-    "border": 0,
-    "anchor": [
-      0,
-      1
-    ],
-    "base": [
-      0,
-      1
-    ],
-    "opacity": 0,
-    "position": [
-      0,
-      30
-    ],
-    "icon": {
-      "border": 0,
-      "height": 20
-    }
-  },
   "horizontalaxis": {
     "id": "datetime",
     "type": "datetime",
@@ -49,6 +28,155 @@
     },
     "grid": {},
     "title": ""
+  },
+  "verticalaxes": [
+    {
+      "id": "fahrenheit",
+      "positionbase": "right",
+      "min": 0,
+      "max": 95,
+      "title": {
+        "text": "Fahrenheit",
+        "angle": 90,
+        "anchor": [
+          0,
+          1
+        ],
+        "position": [
+          25,
+          0
+        ]
+      },
+      "labels": {
+        "spacing": [
+          50,
+          20,
+          10,
+          5,
+          2,
+          1,
+          0.5,
+          0.2
+        ]
+      },
+      "grid": {},
+      "binding": {
+        "id": "tempbinding",
+        "min": 32,
+        "max": 212
+      }
+    },
+    {
+      "id": "celsius",
+      "positionbase": "left",
+      "title": {
+        "text": "Celsius",
+        "angle": 90,
+        "anchor": [
+          0,
+          -1
+        ],
+        "position": [
+          -27,
+          0
+        ]
+      },
+      "binding": {
+        "id": "tempbinding",
+        "min": 0,
+        "max": 100
+      }
+    }
+  ],
+  "plots": [
+    {
+      "legend": {
+        "label": "Outdoor Forecast"
+      },
+      "horizontalaxis": {
+        "datetime": "f0d"
+      },
+      "verticalaxis": {
+        "fahrenheit": "f0t"
+      },
+      "options": {
+        "linecolor": "green",
+        "dotcolor": "green",
+        "linewidth": "3",
+        "dotsize": "0"
+      },
+      "style": "line"
+    },
+    {
+      "legend": {
+        "label": "Living Room"
+      },
+      "horizontalaxis": {
+        "datetime": "datetime"
+      },
+      "verticalaxis": {
+        "celsius": "livtemp"
+      },
+      "options": {
+        "linecolor": "red",
+        "dotsize": "0"
+      },
+      "style": "line"
+    },
+    {
+      "legend": {
+        "label": "Upstairs Office"
+      },
+      "horizontalaxis": {
+        "datetime": "datetime"
+      },
+      "verticalaxis": {
+        "celsius": "intemp"
+      },
+      "options": {
+        "linecolor": "black",
+        "dotsize": "0"
+      },
+      "style": "line"
+    },
+    {
+      "legend": {
+        "label": "Outdoor"
+      },
+      "horizontalaxis": {
+        "datetime": "datetime"
+      },
+      "verticalaxis": {
+        "celsius": "outtemp"
+      },
+      "options": {
+        "linecolor": "blue",
+        "linewidth": "3",
+        "dotsize": "0"
+      },
+      "style": "line"
+    }
+  ],
+  "legend": {
+    "rows": 1,
+    "border": 0,
+    "anchor": [
+      0,
+      1
+    ],
+    "base": [
+      0,
+      1
+    ],
+    "opacity": 0,
+    "position": [
+      0,
+      30
+    ],
+    "icon": {
+      "border": 0,
+      "height": 20
+    }
   },
   "data": [
     {
@@ -7202,134 +7330,6 @@
           "44"
         ]
       ]
-    }
-  ],
-  "plots": [
-    {
-      "legend": {
-        "label": "Outdoor Forecast"
-      },
-      "horizontalaxis": {
-        "datetime": "f0d"
-      },
-      "verticalaxis": {
-        "fahrenheit": "f0t"
-      },
-      "options": {
-        "linecolor": "green",
-        "dotcolor": "green",
-        "linewidth": "3",
-        "dotsize": "0"
-      },
-      "style": "line"
-    },
-    {
-      "legend": {
-        "label": "Living Room"
-      },
-      "horizontalaxis": {
-        "datetime": "datetime"
-      },
-      "verticalaxis": {
-        "celsius": "livtemp"
-      },
-      "options": {
-        "linecolor": "red",
-        "dotsize": "0"
-      },
-      "style": "line"
-    },
-    {
-      "legend": {
-        "label": "Upstairs Office"
-      },
-      "horizontalaxis": {
-        "datetime": "datetime"
-      },
-      "verticalaxis": {
-        "celsius": "intemp"
-      },
-      "options": {
-        "linecolor": "black",
-        "dotsize": "0"
-      },
-      "style": "line"
-    },
-    {
-      "legend": {
-        "label": "Outdoor"
-      },
-      "horizontalaxis": {
-        "datetime": "datetime"
-      },
-      "verticalaxis": {
-        "celsius": "outtemp"
-      },
-      "options": {
-        "linecolor": "blue",
-        "linewidth": "3",
-        "dotsize": "0"
-      },
-      "style": "line"
-    }
-  ],
-  "verticalaxes": [
-    {
-      "id": "fahrenheit",
-      "positionbase": "right",
-      "min": 0,
-      "max": 95,
-      "title": {
-        "text": "Fahrenheit",
-        "angle": 90,
-        "anchor": [
-          0,
-          1
-        ],
-        "position": [
-          25,
-          0
-        ]
-      },
-      "labels": {
-        "spacing": [
-          50,
-          20,
-          10,
-          5,
-          2,
-          1,
-          0.5,
-          0.2
-        ]
-      },
-      "grid": {},
-      "binding": {
-        "id": "tempbinding",
-        "min": 32,
-        "max": 212
-      }
-    },
-    {
-      "id": "celsius",
-      "positionbase": "left",
-      "title": {
-        "text": "Celsius",
-        "angle": 90,
-        "anchor": [
-          0,
-          -1
-        ],
-        "position": [
-          -27,
-          0
-        ]
-      },
-      "binding": {
-        "id": "tempbinding",
-        "min": 0,
-        "max": 100
-      }
     }
   ]
 }

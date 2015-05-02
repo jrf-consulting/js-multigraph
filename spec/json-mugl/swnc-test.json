@@ -1,4 +1,15 @@
 {
+  "window": {
+    "border": 0,
+    "margin": 0,
+    "padding": 0
+  },
+  "plotarea": {
+    "marginbottom": 35,
+    "marginleft": 50,
+    "marginright": 15,
+    "margintop": 10
+  },
   "background": {
     "color": "0xF5FAFA",
     "img": {
@@ -13,27 +24,6 @@
         0
       ]
     }
-  },
-  "window": {
-    "border": 0,
-    "margin": 0,
-    "padding": 0
-  },
-  "legend": {
-    "visible": "true",
-    "opacity": 0,
-    "border": 0,
-    "columns": 2,
-    "position": [
-      -440,
-      5
-    ]
-  },
-  "plotarea": {
-    "marginbottom": 35,
-    "marginleft": 50,
-    "marginright": 15,
-    "margintop": 10
   },
   "horizontalaxis": {
     "color": "0x3A3D3D",
@@ -95,6 +85,130 @@
         0
       ]
     }
+  },
+  "plots": [
+    {
+      "horizontalaxis": {
+        "roomaxis": "Number of Rooms"
+      },
+      "verticalaxis": {
+        "houseaxis": "Haywood County"
+      },
+      "options": {
+        "linecolor": "0xEB9800",
+        "pointoutlinecolor": "0xEB9800",
+        "pointcolor": "0xEB9800",
+        "linewidth": "2",
+        "pointsize": "2.5"
+      },
+      "style": "pointline"
+    },
+    {
+      "horizontalaxis": {
+        "roomaxis": "Number of Rooms"
+      },
+      "verticalaxis": {
+        "houseaxis": "Cherokee County"
+      },
+      "options": {
+        "linecolor": "0xad1fff",
+        "pointoutlinecolor": "0xad1fff",
+        "pointcolor": "0xad1fff",
+        "linewidth": "2",
+        "pointsize": "2.5"
+      },
+      "style": "pointline"
+    },
+    {
+      "horizontalaxis": {
+        "roomaxis": "Number of Rooms"
+      },
+      "verticalaxis": {
+        "houseaxis": "Clay County"
+      },
+      "options": {
+        "linecolor": "0x00EB98",
+        "pointoutlinecolor": "0x00EB98",
+        "pointcolor": "0x00EB98",
+        "linewidth": "2",
+        "pointsize": "2.5"
+      },
+      "style": "pointline"
+    },
+    {
+      "horizontalaxis": {
+        "roomaxis": "Number of Rooms"
+      },
+      "verticalaxis": {
+        "houseaxis": "Graham County"
+      },
+      "options": {
+        "linecolor": "0xEB0053",
+        "pointoutlinecolor": "0xEB0053",
+        "pointcolor": "0xEB0053",
+        "linewidth": "2",
+        "pointsize": "2.5"
+      },
+      "style": "pointline"
+    },
+    {
+      "horizontalaxis": {
+        "roomaxis": "Number of Rooms"
+      },
+      "verticalaxis": {
+        "houseaxis": "Jackson County"
+      },
+      "options": {
+        "linecolor": "0x2300EB",
+        "pointoutlinecolor": "0x2300EB",
+        "pointcolor": "0x2300EB",
+        "linewidth": "2",
+        "pointsize": "2.5"
+      },
+      "style": "pointline"
+    },
+    {
+      "horizontalaxis": {
+        "roomaxis": "Number of Rooms"
+      },
+      "verticalaxis": {
+        "houseaxis": "Macon County"
+      },
+      "options": {
+        "linecolor": "0x00C8EB",
+        "pointoutlinecolor": "0x00C8EB",
+        "pointcolor": "0x00C8EB",
+        "linewidth": "2",
+        "pointsize": "2.5"
+      },
+      "style": "pointline"
+    },
+    {
+      "horizontalaxis": {
+        "roomaxis": "Number of Rooms"
+      },
+      "verticalaxis": {
+        "houseaxis": "Swain County"
+      },
+      "options": {
+        "linecolor": "0x9FC932",
+        "pointoutlinecolor": "0x9FC932",
+        "pointcolor": "0x9FC932",
+        "linewidth": "2",
+        "pointsize": "2.5"
+      },
+      "style": "pointline"
+    }
+  ],
+  "legend": {
+    "visible": "true",
+    "opacity": 0,
+    "border": 0,
+    "columns": 2,
+    "position": [
+      -440,
+      5
+    ]
   },
   "data": {
     "variables": [
@@ -223,119 +337,5 @@
         "0425"
       ]
     ]
-  },
-  "plots": [
-    {
-      "horizontalaxis": {
-        "roomaxis": "Number of Rooms"
-      },
-      "verticalaxis": {
-        "houseaxis": "Haywood County"
-      },
-      "options": {
-        "linecolor": "0xEB9800",
-        "pointoutlinecolor": "0xEB9800",
-        "pointcolor": "0xEB9800",
-        "linewidth": "2",
-        "pointsize": "2.5"
-      },
-      "style": "pointline"
-    },
-    {
-      "horizontalaxis": {
-        "roomaxis": "Number of Rooms"
-      },
-      "verticalaxis": {
-        "houseaxis": "Cherokee County"
-      },
-      "options": {
-        "linecolor": "0xad1fff",
-        "pointoutlinecolor": "0xad1fff",
-        "pointcolor": "0xad1fff",
-        "linewidth": "2",
-        "pointsize": "2.5"
-      },
-      "style": "pointline"
-    },
-    {
-      "horizontalaxis": {
-        "roomaxis": "Number of Rooms"
-      },
-      "verticalaxis": {
-        "houseaxis": "Clay County"
-      },
-      "options": {
-        "linecolor": "0x00EB98",
-        "pointoutlinecolor": "0x00EB98",
-        "pointcolor": "0x00EB98",
-        "linewidth": "2",
-        "pointsize": "2.5"
-      },
-      "style": "pointline"
-    },
-    {
-      "horizontalaxis": {
-        "roomaxis": "Number of Rooms"
-      },
-      "verticalaxis": {
-        "houseaxis": "Graham County"
-      },
-      "options": {
-        "linecolor": "0xEB0053",
-        "pointoutlinecolor": "0xEB0053",
-        "pointcolor": "0xEB0053",
-        "linewidth": "2",
-        "pointsize": "2.5"
-      },
-      "style": "pointline"
-    },
-    {
-      "horizontalaxis": {
-        "roomaxis": "Number of Rooms"
-      },
-      "verticalaxis": {
-        "houseaxis": "Jackson County"
-      },
-      "options": {
-        "linecolor": "0x2300EB",
-        "pointoutlinecolor": "0x2300EB",
-        "pointcolor": "0x2300EB",
-        "linewidth": "2",
-        "pointsize": "2.5"
-      },
-      "style": "pointline"
-    },
-    {
-      "horizontalaxis": {
-        "roomaxis": "Number of Rooms"
-      },
-      "verticalaxis": {
-        "houseaxis": "Macon County"
-      },
-      "options": {
-        "linecolor": "0x00C8EB",
-        "pointoutlinecolor": "0x00C8EB",
-        "pointcolor": "0x00C8EB",
-        "linewidth": "2",
-        "pointsize": "2.5"
-      },
-      "style": "pointline"
-    },
-    {
-      "horizontalaxis": {
-        "roomaxis": "Number of Rooms"
-      },
-      "verticalaxis": {
-        "houseaxis": "Swain County"
-      },
-      "options": {
-        "linecolor": "0x9FC932",
-        "pointoutlinecolor": "0x9FC932",
-        "pointcolor": "0x9FC932",
-        "linewidth": "2",
-        "pointsize": "2.5"
-      },
-      "style": "pointline"
-    }
-  ]
+  }
 }

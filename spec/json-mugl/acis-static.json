@@ -2,28 +2,6 @@
   "plotarea": {
     "margintop": 18
   },
-  "legend": {
-    "rows": 1,
-    "border": 0,
-    "opacity": 0,
-    "base": [
-      0,
-      1
-    ],
-    "anchor": [
-      0,
-      1
-    ],
-    "position": [
-      0,
-      25
-    ],
-    "icon": {
-      "border": 0,
-      "width": 30,
-      "height": 30
-    }
-  },
   "horizontalaxis": {
     "id": "date",
     "type": "datetime",
@@ -79,6 +57,70 @@
         0.1
       ],
       "format": "%f"
+    }
+  },
+  "plots": [
+    {
+      "legend": {
+        "label": "Normal Temperature Range"
+      },
+      "horizontalaxis": {
+        "date": "date"
+      },
+      "verticalaxis": {
+        "temp": [
+          "normal_mint",
+          "normal_maxt"
+        ]
+      },
+      "options": {
+        "fillcolor": "0x99ff99",
+        "linewidth": "0",
+        "linecolor": "0x99ff99"
+      },
+      "style": "band"
+    },
+    {
+      "legend": {
+        "label": "Actual Temperature Range"
+      },
+      "horizontalaxis": {
+        "date": "date"
+      },
+      "verticalaxis": {
+        "temp": [
+          "mint",
+          "maxt"
+        ]
+      },
+      "options": {
+        "fillcolor": "0x0000cc",
+        "barwidth": "20H",
+        "baroffset": "0.5"
+      },
+      "style": "rangebar"
+    }
+  ],
+  "legend": {
+    "rows": 1,
+    "border": 0,
+    "opacity": 0,
+    "base": [
+      0,
+      1
+    ],
+    "anchor": [
+      0,
+      1
+    ],
+    "position": [
+      0,
+      25
+    ],
+    "icon": {
+      "border": 0,
+      "width": 30,
+      "height": 30
     }
   },
   "data": {
@@ -4988,47 +5030,5 @@
     ],
     "missingvalue": "-9000",
     "missingop": "le"
-  },
-  "plots": [
-    {
-      "legend": {
-        "label": "Normal Temperature Range"
-      },
-      "horizontalaxis": {
-        "date": "date"
-      },
-      "verticalaxis": {
-        "temp": [
-          "normal_mint",
-          "normal_maxt"
-        ]
-      },
-      "options": {
-        "fillcolor": "0x99ff99",
-        "linewidth": "0",
-        "linecolor": "0x99ff99"
-      },
-      "style": "band"
-    },
-    {
-      "legend": {
-        "label": "Actual Temperature Range"
-      },
-      "horizontalaxis": {
-        "date": "date"
-      },
-      "verticalaxis": {
-        "temp": [
-          "mint",
-          "maxt"
-        ]
-      },
-      "options": {
-        "fillcolor": "0x0000cc",
-        "barwidth": "20H",
-        "baroffset": "0.5"
-      },
-      "style": "rangebar"
-    }
-  ]
+  }
 }

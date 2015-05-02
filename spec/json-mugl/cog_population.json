@@ -1,22 +1,5 @@
 {
   "text": "\r\n    \r\n    \r\n    \r\n    \r\n\r\n    \r\n\r\n    \r\n\r\n    \r\n\r\n    \r\n\r\n    \r\n\r\n    \r\n\r\n\r\n/*--Land of Sky------------------------------------------------------------------*/\r\n\r\n    \r\n\r\n    \r\n\r\n    \r\n\r\n    \r\n\r\n\r\n/*--High Country------------------------------------------------------------------*/\r\n\r\n    \r\n\r\n    \r\n    \r\n    \r\n\r\n    \r\n\r\n    \r\n\r\n    \r\n\r\n    \r\n\r\n\r\n/*--Isothermal------------------------------------------------------------------*/\r\n\r\n    \r\n\r\n    \r\n    \r\n    \r\n\r\n    \r\n\r\n\r\n/*--Southwestern------------------------------------------------------------------*/\r\n\r\n    \r\n\r\n    \r\n    \r\n    \r\n\r\n    \r\n\r\n    \r\n\r\n    \r\n\r\n    \r\n\r\n/*--Western Piedmont------------------------------------------------------------------*/\r\n\r\n    \r\n\r\n    \r\n    \r\n    \r\n\r\n\r\n    \r\n",
-  "background": {
-    "color": "0xFAFAEB"
-  },
-  "legend": {
-    "border": 0,
-    "opacity": 0,
-    "columns": 8,
-    "position": [
-      30,
-      80
-    ],
-    "icon": {
-      "width": 15,
-      "height": 15,
-      "border": 1
-    }
-  },
   "window": {
     "margin": 0,
     "padding": 5,
@@ -29,6 +12,116 @@
     "marginbottom": 25,
     "marginright": 15
   },
+  "background": {
+    "color": "0xFAFAEB"
+  },
+  "horizontalaxes": [
+    {
+      "id": "Land of Sky",
+      "min": 0,
+      "max": 5.5,
+      "length": "1",
+      "base": [
+        -1,
+        -1
+      ],
+      "anchor": -1,
+      "labels": {
+        "densityfactor": 0.5,
+        "format": "",
+        "spacing": [
+          1000
+        ]
+      },
+      "pan": false,
+      "zoom": false,
+      "title": false
+    },
+    {
+      "id": "High Country",
+      "min": 0,
+      "max": 5.5,
+      "length": "1",
+      "base": [
+        -1,
+        -1
+      ],
+      "anchor": -1,
+      "labels": {
+        "densityfactor": 0.5,
+        "format": "",
+        "spacing": [
+          1000
+        ]
+      },
+      "pan": false,
+      "zoom": false,
+      "title": false
+    },
+    {
+      "id": "Isothermal",
+      "min": 0,
+      "max": 5.5,
+      "length": "1",
+      "base": [
+        -1,
+        -1
+      ],
+      "anchor": -1,
+      "labels": {
+        "densityfactor": 0.5,
+        "format": "",
+        "spacing": [
+          1000
+        ]
+      },
+      "pan": false,
+      "zoom": false,
+      "title": false
+    },
+    {
+      "id": "Southwestern",
+      "min": 0,
+      "max": 5.5,
+      "length": "1",
+      "base": [
+        -1,
+        -1
+      ],
+      "anchor": -1,
+      "labels": {
+        "densityfactor": 0.5,
+        "format": "",
+        "spacing": [
+          1000
+        ]
+      },
+      "pan": false,
+      "zoom": false,
+      "title": false
+    },
+    {
+      "id": "Western Piedmont",
+      "min": 0,
+      "max": 5.5,
+      "length": "1",
+      "base": [
+        -1,
+        -1
+      ],
+      "anchor": -1,
+      "labels": {
+        "densityfactor": 0.5,
+        "format": "",
+        "spacing": [
+          1000
+        ]
+      },
+      "pan": false,
+      "zoom": false,
+      "title": false
+    }
+  ],
   "verticalaxis": {
     "id": "y",
     "min": 0,
@@ -66,306 +159,6 @@
     "pan": {
       "min": 0
     }
-  },
-  "data": {
-    "variables": [
-      {
-        "column": 0,
-        "id": "x"
-      },
-      {
-        "column": 1,
-        "id": "bunc",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 2,
-        "id": "madi",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 3,
-        "id": "hend",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 4,
-        "id": "tran",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 5,
-        "id": "wilk",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 6,
-        "id": "wata",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 7,
-        "id": "mitc",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 8,
-        "id": "yanc",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 9,
-        "id": "ashe",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 10,
-        "id": "aver",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 11,
-        "id": "alle",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 12,
-        "id": "clev",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 13,
-        "id": "mcdo",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 14,
-        "id": "polk",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 15,
-        "id": "ruth",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 16,
-        "id": "hayw",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 17,
-        "id": "jack",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 18,
-        "id": "maco",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 19,
-        "id": "cher",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 20,
-        "id": "swai",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 21,
-        "id": "clay",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 22,
-        "id": "grah",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 23,
-        "id": "burk",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 24,
-        "id": "cald",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 25,
-        "id": "alex",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      }
-    ],
-    "values": [
-      [
-        "0.5",
-        " 238318",
-        " 259082",
-        " 365822",
-        " 398912",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000"
-      ],
-      [
-        "1.5",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " 069340",
-        " 120419",
-        " 135998",
-        " 153816",
-        " 171613",
-        " 198894",
-        " 210049",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000"
-      ],
-      [
-        "2.5",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " 098078",
-        " 143074",
-        " 163584",
-        " 231394",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000"
-      ],
-      [
-        "3.5",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " 059036",
-        " 099307",
-        " 133229",
-        " 160673",
-        " 174654",
-        " 185241",
-        " 194102",
-        " -9000",
-        " -9000",
-        " -9000"
-      ],
-      [
-        "4.5",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " 090912",
-        " 173941",
-        " 211139"
-      ]
-    ]
   },
   "plots": [
     {
@@ -844,111 +637,318 @@
       "style": "bar"
     }
   ],
-  "horizontalaxes": [
-    {
-      "id": "Land of Sky",
-      "min": 0,
-      "max": 5.5,
-      "length": "1",
-      "base": [
-        -1,
-        -1
-      ],
-      "anchor": -1,
-      "labels": {
-        "densityfactor": 0.5,
-        "format": "",
-        "spacing": [
-          1000
-        ]
-      },
-      "pan": false,
-      "zoom": false,
-      "title": false
-    },
-    {
-      "id": "High Country",
-      "min": 0,
-      "max": 5.5,
-      "length": "1",
-      "base": [
-        -1,
-        -1
-      ],
-      "anchor": -1,
-      "labels": {
-        "densityfactor": 0.5,
-        "format": "",
-        "spacing": [
-          1000
-        ]
-      },
-      "pan": false,
-      "zoom": false,
-      "title": false
-    },
-    {
-      "id": "Isothermal",
-      "min": 0,
-      "max": 5.5,
-      "length": "1",
-      "base": [
-        -1,
-        -1
-      ],
-      "anchor": -1,
-      "labels": {
-        "densityfactor": 0.5,
-        "format": "",
-        "spacing": [
-          1000
-        ]
-      },
-      "pan": false,
-      "zoom": false,
-      "title": false
-    },
-    {
-      "id": "Southwestern",
-      "min": 0,
-      "max": 5.5,
-      "length": "1",
-      "base": [
-        -1,
-        -1
-      ],
-      "anchor": -1,
-      "labels": {
-        "densityfactor": 0.5,
-        "format": "",
-        "spacing": [
-          1000
-        ]
-      },
-      "pan": false,
-      "zoom": false,
-      "title": false
-    },
-    {
-      "id": "Western Piedmont",
-      "min": 0,
-      "max": 5.5,
-      "length": "1",
-      "base": [
-        -1,
-        -1
-      ],
-      "anchor": -1,
-      "labels": {
-        "densityfactor": 0.5,
-        "format": "",
-        "spacing": [
-          1000
-        ]
-      },
-      "pan": false,
-      "zoom": false,
-      "title": false
+  "legend": {
+    "border": 0,
+    "opacity": 0,
+    "columns": 8,
+    "position": [
+      30,
+      80
+    ],
+    "icon": {
+      "width": 15,
+      "height": 15,
+      "border": 1
     }
-  ]
+  },
+  "data": {
+    "variables": [
+      {
+        "column": 0,
+        "id": "x"
+      },
+      {
+        "column": 1,
+        "id": "bunc",
+        "missingvalue": "-9000",
+        "missingop": "le"
+      },
+      {
+        "column": 2,
+        "id": "madi",
+        "missingvalue": "-9000",
+        "missingop": "le"
+      },
+      {
+        "column": 3,
+        "id": "hend",
+        "missingvalue": "-9000",
+        "missingop": "le"
+      },
+      {
+        "column": 4,
+        "id": "tran",
+        "missingvalue": "-9000",
+        "missingop": "le"
+      },
+      {
+        "column": 5,
+        "id": "wilk",
+        "missingvalue": "-9000",
+        "missingop": "le"
+      },
+      {
+        "column": 6,
+        "id": "wata",
+        "missingvalue": "-9000",
+        "missingop": "le"
+      },
+      {
+        "column": 7,
+        "id": "mitc",
+        "missingvalue": "-9000",
+        "missingop": "le"
+      },
+      {
+        "column": 8,
+        "id": "yanc",
+        "missingvalue": "-9000",
+        "missingop": "le"
+      },
+      {
+        "column": 9,
+        "id": "ashe",
+        "missingvalue": "-9000",
+        "missingop": "le"
+      },
+      {
+        "column": 10,
+        "id": "aver",
+        "missingvalue": "-9000",
+        "missingop": "le"
+      },
+      {
+        "column": 11,
+        "id": "alle",
+        "missingvalue": "-9000",
+        "missingop": "le"
+      },
+      {
+        "column": 12,
+        "id": "clev",
+        "missingvalue": "-9000",
+        "missingop": "le"
+      },
+      {
+        "column": 13,
+        "id": "mcdo",
+        "missingvalue": "-9000",
+        "missingop": "le"
+      },
+      {
+        "column": 14,
+        "id": "polk",
+        "missingvalue": "-9000",
+        "missingop": "le"
+      },
+      {
+        "column": 15,
+        "id": "ruth",
+        "missingvalue": "-9000",
+        "missingop": "le"
+      },
+      {
+        "column": 16,
+        "id": "hayw",
+        "missingvalue": "-9000",
+        "missingop": "le"
+      },
+      {
+        "column": 17,
+        "id": "jack",
+        "missingvalue": "-9000",
+        "missingop": "le"
+      },
+      {
+        "column": 18,
+        "id": "maco",
+        "missingvalue": "-9000",
+        "missingop": "le"
+      },
+      {
+        "column": 19,
+        "id": "cher",
+        "missingvalue": "-9000",
+        "missingop": "le"
+      },
+      {
+        "column": 20,
+        "id": "swai",
+        "missingvalue": "-9000",
+        "missingop": "le"
+      },
+      {
+        "column": 21,
+        "id": "clay",
+        "missingvalue": "-9000",
+        "missingop": "le"
+      },
+      {
+        "column": 22,
+        "id": "grah",
+        "missingvalue": "-9000",
+        "missingop": "le"
+      },
+      {
+        "column": 23,
+        "id": "burk",
+        "missingvalue": "-9000",
+        "missingop": "le"
+      },
+      {
+        "column": 24,
+        "id": "cald",
+        "missingvalue": "-9000",
+        "missingop": "le"
+      },
+      {
+        "column": 25,
+        "id": "alex",
+        "missingvalue": "-9000",
+        "missingop": "le"
+      }
+    ],
+    "values": [
+      [
+        "0.5",
+        " 238318",
+        " 259082",
+        " 365822",
+        " 398912",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000"
+      ],
+      [
+        "1.5",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " 069340",
+        " 120419",
+        " 135998",
+        " 153816",
+        " 171613",
+        " 198894",
+        " 210049",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000"
+      ],
+      [
+        "2.5",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " 098078",
+        " 143074",
+        " 163584",
+        " 231394",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000"
+      ],
+      [
+        "3.5",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " 059036",
+        " 099307",
+        " 133229",
+        " 160673",
+        " 174654",
+        " 185241",
+        " 194102",
+        " -9000",
+        " -9000",
+        " -9000"
+      ],
+      [
+        "4.5",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " -9000",
+        " 090912",
+        " 173941",
+        " 211139"
+      ]
+    ]
+  }
 }

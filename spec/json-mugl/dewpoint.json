@@ -47,6 +47,153 @@
       ]
     }
   },
+  "verticalaxes": [
+    {
+      "id": "temp",
+      "max": 100,
+      "maxoffset": 10,
+      "min": 0,
+      "minoffset": 5,
+      "position": 0,
+      "postgap": 0,
+      "pregap": 0,
+      "type": "number",
+      "title": {
+        "text": "Mean Temperature (F)",
+        "anchor": [
+          0,
+          0
+        ],
+        "angle": 90,
+        "position": [
+          -40,
+          0
+        ]
+      },
+      "labels": {
+        "anchor": [
+          1,
+          0
+        ],
+        "angle": 0,
+        "position": [
+          -5,
+          0
+        ],
+        "spacing": [
+          100000,
+          20000,
+          10000,
+          5000,
+          1000,
+          500,
+          200,
+          100,
+          50,
+          20,
+          10,
+          5,
+          2,
+          1,
+          0.5,
+          0.05
+        ],
+        "start": 0
+      }
+    },
+    {
+      "id": "dewp",
+      "max": 100,
+      "maxoffset": 10,
+      "min": 0,
+      "minoffset": 5,
+      "position": 0,
+      "positionbase": "right",
+      "postgap": 0,
+      "pregap": 0,
+      "type": "number",
+      "title": {
+        "text": "Mean Dew Point (F)",
+        "anchor": [
+          0,
+          0
+        ],
+        "angle": 90,
+        "position": [
+          40,
+          0
+        ]
+      },
+      "labels": {
+        "anchor": [
+          -1,
+          0
+        ],
+        "angle": 0,
+        "position": [
+          5,
+          0
+        ],
+        "spacing": [
+          100000,
+          20000,
+          10000,
+          5000,
+          1000,
+          500,
+          200,
+          100,
+          50,
+          20,
+          10,
+          5,
+          2,
+          1,
+          0.5,
+          0.05
+        ],
+        "start": 0
+      }
+    }
+  ],
+  "plots": [
+    {
+      "legend": {
+        "label": "Mean Temperature"
+      },
+      "horizontalaxis": {
+        "haxis": "time"
+      },
+      "verticalaxis": {
+        "temp": "temp"
+      },
+      "options": {
+        "linecolor": "orange",
+        "linewidth": "2",
+        "missingvalue": "-9999.9999",
+        "missingop": "EQ"
+      },
+      "style": "line"
+    },
+    {
+      "legend": {
+        "label": "Mean Dew Point"
+      },
+      "horizontalaxis": {
+        "haxis": "time"
+      },
+      "verticalaxis": {
+        "dewp": "dewp"
+      },
+      "options": {
+        "linecolor": "magenta",
+        "linewidth": "2",
+        "missingvalue": "-9999.9999",
+        "missingop": "EQ"
+      },
+      "style": "line"
+    }
+  ],
   "legend": {
     "anchor": [
       0,
@@ -4497,152 +4644,5 @@
         " 66.4"
       ]
     ]
-  },
-  "plots": [
-    {
-      "legend": {
-        "label": "Mean Temperature"
-      },
-      "horizontalaxis": {
-        "haxis": "time"
-      },
-      "verticalaxis": {
-        "temp": "temp"
-      },
-      "options": {
-        "linecolor": "orange",
-        "linewidth": "2",
-        "missingvalue": "-9999.9999",
-        "missingop": "EQ"
-      },
-      "style": "line"
-    },
-    {
-      "legend": {
-        "label": "Mean Dew Point"
-      },
-      "horizontalaxis": {
-        "haxis": "time"
-      },
-      "verticalaxis": {
-        "dewp": "dewp"
-      },
-      "options": {
-        "linecolor": "magenta",
-        "linewidth": "2",
-        "missingvalue": "-9999.9999",
-        "missingop": "EQ"
-      },
-      "style": "line"
-    }
-  ],
-  "verticalaxes": [
-    {
-      "id": "temp",
-      "max": 100,
-      "maxoffset": 10,
-      "min": 0,
-      "minoffset": 5,
-      "position": 0,
-      "postgap": 0,
-      "pregap": 0,
-      "type": "number",
-      "title": {
-        "text": "Mean Temperature (F)",
-        "anchor": [
-          0,
-          0
-        ],
-        "angle": 90,
-        "position": [
-          -40,
-          0
-        ]
-      },
-      "labels": {
-        "anchor": [
-          1,
-          0
-        ],
-        "angle": 0,
-        "position": [
-          -5,
-          0
-        ],
-        "spacing": [
-          100000,
-          20000,
-          10000,
-          5000,
-          1000,
-          500,
-          200,
-          100,
-          50,
-          20,
-          10,
-          5,
-          2,
-          1,
-          0.5,
-          0.05
-        ],
-        "start": 0
-      }
-    },
-    {
-      "id": "dewp",
-      "max": 100,
-      "maxoffset": 10,
-      "min": 0,
-      "minoffset": 5,
-      "position": 0,
-      "positionbase": "right",
-      "postgap": 0,
-      "pregap": 0,
-      "type": "number",
-      "title": {
-        "text": "Mean Dew Point (F)",
-        "anchor": [
-          0,
-          0
-        ],
-        "angle": 90,
-        "position": [
-          40,
-          0
-        ]
-      },
-      "labels": {
-        "anchor": [
-          -1,
-          0
-        ],
-        "angle": 0,
-        "position": [
-          5,
-          0
-        ],
-        "spacing": [
-          100000,
-          20000,
-          10000,
-          5000,
-          1000,
-          500,
-          200,
-          100,
-          50,
-          20,
-          10,
-          5,
-          2,
-          1,
-          0.5,
-          0.05
-        ],
-        "start": 0
-      }
-    }
-  ]
+  }
 }

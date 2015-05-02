@@ -4,9 +4,6 @@
     "margin": 0,
     "padding": 0
   },
-  "legend": {
-    "visible": "false"
-  },
   "background": {
     "color": "0x111111"
   },
@@ -87,6 +84,9 @@
       "fillopacity": ".5"
     },
     "style": "band"
+  },
+  "legend": {
+    "visible": "false"
   },
   "data": {
     "variables": [

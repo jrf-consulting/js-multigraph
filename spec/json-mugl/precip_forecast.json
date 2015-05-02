@@ -1,17 +1,4 @@
 {
-  "background": {
-    "color": "0xF7F7F2"
-  },
-  "legend": {
-    "visible": "true",
-    "rows": 1,
-    "border": 0,
-    "opacity": 0,
-    "position": [
-      -335,
-      43
-    ]
-  },
   "window": {
     "margin": 0,
     "padding": 0,
@@ -23,6 +10,9 @@
     "marginleft": 38,
     "marginbottom": 40,
     "marginright": 15
+  },
+  "background": {
+    "color": "0xF7F7F2"
   },
   "horizontalaxis": {
     "id": "Time",
@@ -122,6 +112,75 @@
         0
       ]
     }
+  },
+  "plots": [
+    {
+      "horizontalaxis": {
+        "Time": "Time"
+      },
+      "verticalaxis": {
+        "�F": "Sky Cover"
+      },
+      "options": {
+        "linecolor": "0xC41899",
+        "linewidth": "3",
+        "pointshape": "circle",
+        "pointoutlinewidth": "2",
+        "pointoutlinecolor": "0xC41899",
+        "pointcolor": "0xffffff",
+        "pointopacity": "1.0",
+        "pointsize": "3"
+      },
+      "style": "pointline"
+    },
+    {
+      "horizontalaxis": {
+        "Time": "Time"
+      },
+      "verticalaxis": {
+        "�F": "Pcpn. Potential"
+      },
+      "options": {
+        "linecolor": "0x0A38CF",
+        "linewidth": "3",
+        "pointshape": "circle",
+        "pointoutlinewidth": "2",
+        "pointoutlinecolor": "0x0A38CF",
+        "pointcolor": "0xffffff",
+        "pointopacity": "1.0",
+        "pointsize": "3"
+      },
+      "style": "pointline"
+    },
+    {
+      "horizontalaxis": {
+        "Time": "Time"
+      },
+      "verticalaxis": {
+        "�F": "Rel. Humidity"
+      },
+      "options": {
+        "linecolor": "0x25A15B",
+        "linewidth": "3",
+        "pointshape": "circle",
+        "pointoutlinewidth": "2",
+        "pointoutlinecolor": "0x25A15B",
+        "pointcolor": "0xffffff",
+        "pointopacity": "1.0",
+        "pointsize": "3"
+      },
+      "style": "pointline"
+    }
+  ],
+  "legend": {
+    "visible": "true",
+    "rows": 1,
+    "border": 0,
+    "opacity": 0,
+    "position": [
+      -335,
+      43
+    ]
   },
   "data": {
     "variables": [
@@ -433,64 +492,5 @@
         "62"
       ]
     ]
-  },
-  "plots": [
-    {
-      "horizontalaxis": {
-        "Time": "Time"
-      },
-      "verticalaxis": {
-        "�F": "Sky Cover"
-      },
-      "options": {
-        "linecolor": "0xC41899",
-        "linewidth": "3",
-        "pointshape": "circle",
-        "pointoutlinewidth": "2",
-        "pointoutlinecolor": "0xC41899",
-        "pointcolor": "0xffffff",
-        "pointopacity": "1.0",
-        "pointsize": "3"
-      },
-      "style": "pointline"
-    },
-    {
-      "horizontalaxis": {
-        "Time": "Time"
-      },
-      "verticalaxis": {
-        "�F": "Pcpn. Potential"
-      },
-      "options": {
-        "linecolor": "0x0A38CF",
-        "linewidth": "3",
-        "pointshape": "circle",
-        "pointoutlinewidth": "2",
-        "pointoutlinecolor": "0x0A38CF",
-        "pointcolor": "0xffffff",
-        "pointopacity": "1.0",
-        "pointsize": "3"
-      },
-      "style": "pointline"
-    },
-    {
-      "horizontalaxis": {
-        "Time": "Time"
-      },
-      "verticalaxis": {
-        "�F": "Rel. Humidity"
-      },
-      "options": {
-        "linecolor": "0x25A15B",
-        "linewidth": "3",
-        "pointshape": "circle",
-        "pointoutlinewidth": "2",
-        "pointoutlinecolor": "0x25A15B",
-        "pointcolor": "0xffffff",
-        "pointopacity": "1.0",
-        "pointsize": "3"
-      },
-      "style": "pointline"
-    }
-  ]
+  }
 }

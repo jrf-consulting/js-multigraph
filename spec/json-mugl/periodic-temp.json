@@ -2,28 +2,6 @@
   "plotarea": {
     "margintop": 18
   },
-  "legend": {
-    "rows": 1,
-    "border": 0,
-    "opacity": 0,
-    "base": [
-      0,
-      1
-    ],
-    "anchor": [
-      0,
-      1
-    ],
-    "position": [
-      0,
-      25
-    ],
-    "icon": {
-      "border": 0,
-      "width": 30,
-      "height": 30
-    }
-  },
   "horizontalaxis": {
     "id": "date",
     "type": "datetime",
@@ -96,6 +74,28 @@
       "linewidth": "2"
     },
     "style": "line"
+  },
+  "legend": {
+    "rows": 1,
+    "border": 0,
+    "opacity": 0,
+    "base": [
+      0,
+      1
+    ],
+    "anchor": [
+      0,
+      1
+    ],
+    "position": [
+      0,
+      25
+    ],
+    "icon": {
+      "border": 0,
+      "width": 30,
+      "height": 30
+    }
   },
   "data": {
     "variables": [

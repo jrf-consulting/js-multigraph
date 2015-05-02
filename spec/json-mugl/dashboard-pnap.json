@@ -1,14 +1,11 @@
 {
+  "ui": {
+    "eventhandler": "saui"
+  },
   "window": {
     "border": 0,
     "margin": 0,
     "padding": 0
-  },
-  "ui": {
-    "eventhandler": "saui"
-  },
-  "legend": {
-    "visible": "false"
   },
   "plotarea": {
     "marginbottom": 50,
@@ -112,6 +109,57 @@
     "grid": {
       "color": "0xeeeeee"
     }
+  },
+  "plots": [
+    {
+      "legend": false,
+      "verticalaxis": {
+        "y": "0"
+      },
+      "options": {
+        "linecolor": "0x999999",
+        "linewidth": "1"
+      },
+      "style": "line"
+    },
+    {
+      "legend": {
+        "label": "Yearly average"
+      },
+      "horizontalaxis": {
+        "x": "datetime"
+      },
+      "verticalaxis": {
+        "y": "number"
+      },
+      "datatips": {
+        "format": "{0}: {1}",
+        "variable-formats": [
+          "%n '%y",
+          "%.2f"
+        ]
+      },
+      "options": {
+        "fillcolor": [
+          {
+            "value": "0x1A4B37",
+            "min": "0.0"
+          },
+          {
+            "value": "0x669933",
+            "max": "0.0"
+          }
+        ],
+        "linecolor": "0x000000",
+        "barwidth": "1.00M",
+        "baroffset": "0",
+        "barbase": "0"
+      },
+      "style": "bar"
+    }
+  ],
+  "legend": {
+    "visible": "false"
   },
   "data": {
     "variables": [
@@ -3128,53 +3176,5 @@
         "-0.277"
       ]
     ]
-  },
-  "plots": [
-    {
-      "legend": false,
-      "verticalaxis": {
-        "y": "0"
-      },
-      "options": {
-        "linecolor": "0x999999",
-        "linewidth": "1"
-      },
-      "style": "line"
-    },
-    {
-      "legend": {
-        "label": "Yearly average"
-      },
-      "horizontalaxis": {
-        "x": "datetime"
-      },
-      "verticalaxis": {
-        "y": "number"
-      },
-      "datatips": {
-        "format": "{0}: {1}",
-        "variable-formats": [
-          "%n '%y",
-          "%.2f"
-        ]
-      },
-      "options": {
-        "fillcolor": [
-          {
-            "value": "0x1A4B37",
-            "min": "0.0"
-          },
-          {
-            "value": "0x669933",
-            "max": "0.0"
-          }
-        ],
-        "linecolor": "0x000000",
-        "barwidth": "1.00M",
-        "baroffset": "0",
-        "barbase": "0"
-      },
-      "style": "bar"
-    }
-  ]
+  }
 }

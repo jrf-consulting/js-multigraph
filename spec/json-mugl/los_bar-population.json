@@ -1,7 +1,4 @@
 {
-  "background": {
-    "color": "0xFAFAEB"
-  },
   "window": {
     "margin": 0,
     "padding": 5,
@@ -14,127 +11,9 @@
     "marginbottom": 25,
     "marginright": 15
   },
-  "verticalaxis": {
-    "id": "y",
-    "min": 0,
-    "max": 240000,
-    "length": "1",
-    "title": {
-      "text": "Number of People",
-      "anchor": [
-        0,
-        -4
-      ],
-      "angle": 90,
-      "position": [
-        -40,
-        0
-      ]
-    },
-    "labels": {
-      "densityfactor": 0.1,
-      "format": "%.0f",
-      "spacing": [
-        5000,
-        1000,
-        500,
-        100,
-        50,
-        20,
-        10,
-        5,
-        2,
-        1
-      ]
-    },
-    "pan": {
-      "min": 0
-    }
+  "background": {
+    "color": "0xFAFAEB"
   },
-  "data": {
-    "variables": [
-      {
-        "column": 0,
-        "id": "x"
-      },
-      {
-        "column": 1,
-        "id": "y1",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 2,
-        "id": "y2",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      }
-    ],
-    "values": [
-      [
-        "0.5",
-        " 238318",
-        " 208192"
-      ],
-      [
-        "2.5",
-        " 20764",
-        " 20035"
-      ],
-      [
-        "4.5",
-        " 106740",
-        " 94914"
-      ],
-      [
-        "6.5",
-        " 33090",
-        " 30577"
-      ]
-    ]
-  },
-  "plots": [
-    {
-      "legend": {
-        "label": "Total Population"
-      },
-      "horizontalaxis": {
-        "Buncombe County": "x"
-      },
-      "verticalaxis": {
-        "y": "y1"
-      },
-      "options": {
-        "linecolor": "0xC99C14",
-        "fillcolor": "0xE0C77B",
-        "barwidth": "0.5",
-        "baroffset": "0",
-        "barbase": "0",
-        "hidelines": "2"
-      },
-      "style": "bar"
-    },
-    {
-      "legend": {
-        "label": "Population White"
-      },
-      "horizontalaxis": {
-        "Buncombe County": "x"
-      },
-      "verticalaxis": {
-        "y": "y2"
-      },
-      "options": {
-        "linecolor": "0x4C1670",
-        "fillcolor": "0x886E99",
-        "barwidth": "0.5",
-        "baroffset": "45",
-        "barbase": "0",
-        "hidelines": "2"
-      },
-      "style": "bar"
-    }
-  ],
   "horizontalaxes": [
     {
       "id": "Buncombe County",
@@ -220,5 +99,126 @@
       "zoom": false,
       "title": false
     }
-  ]
+  ],
+  "verticalaxis": {
+    "id": "y",
+    "min": 0,
+    "max": 240000,
+    "length": "1",
+    "title": {
+      "text": "Number of People",
+      "anchor": [
+        0,
+        -4
+      ],
+      "angle": 90,
+      "position": [
+        -40,
+        0
+      ]
+    },
+    "labels": {
+      "densityfactor": 0.1,
+      "format": "%.0f",
+      "spacing": [
+        5000,
+        1000,
+        500,
+        100,
+        50,
+        20,
+        10,
+        5,
+        2,
+        1
+      ]
+    },
+    "pan": {
+      "min": 0
+    }
+  },
+  "plots": [
+    {
+      "legend": {
+        "label": "Total Population"
+      },
+      "horizontalaxis": {
+        "Buncombe County": "x"
+      },
+      "verticalaxis": {
+        "y": "y1"
+      },
+      "options": {
+        "linecolor": "0xC99C14",
+        "fillcolor": "0xE0C77B",
+        "barwidth": "0.5",
+        "baroffset": "0",
+        "barbase": "0",
+        "hidelines": "2"
+      },
+      "style": "bar"
+    },
+    {
+      "legend": {
+        "label": "Population White"
+      },
+      "horizontalaxis": {
+        "Buncombe County": "x"
+      },
+      "verticalaxis": {
+        "y": "y2"
+      },
+      "options": {
+        "linecolor": "0x4C1670",
+        "fillcolor": "0x886E99",
+        "barwidth": "0.5",
+        "baroffset": "45",
+        "barbase": "0",
+        "hidelines": "2"
+      },
+      "style": "bar"
+    }
+  ],
+  "data": {
+    "variables": [
+      {
+        "column": 0,
+        "id": "x"
+      },
+      {
+        "column": 1,
+        "id": "y1",
+        "missingvalue": "-9000",
+        "missingop": "le"
+      },
+      {
+        "column": 2,
+        "id": "y2",
+        "missingvalue": "-9000",
+        "missingop": "le"
+      }
+    ],
+    "values": [
+      [
+        "0.5",
+        " 238318",
+        " 208192"
+      ],
+      [
+        "2.5",
+        " 20764",
+        " 20035"
+      ],
+      [
+        "4.5",
+        " 106740",
+        " 94914"
+      ],
+      [
+        "6.5",
+        " 33090",
+        " 30577"
+      ]
+    ]
+  }
 }

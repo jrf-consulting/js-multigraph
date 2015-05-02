@@ -4,9 +4,6 @@
     "margin": 0,
     "padding": 0
   },
-  "legend": {
-    "visible": "false"
-  },
   "plotarea": {
     "marginbottom": 50,
     "marginleft": 60,
@@ -144,5 +141,8 @@
       },
       "style": "line"
     }
-  ]
+  ],
+  "legend": {
+    "visible": "false"
+  }
 }

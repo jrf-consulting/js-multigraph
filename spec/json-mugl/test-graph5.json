@@ -1,7 +1,4 @@
 {
-  "background": {
-    "color": "0xeeeeee"
-  },
   "window": {
     "margin": 0,
     "padding": 5,
@@ -14,8 +11,8 @@
     "marginbottom": 35,
     "marginright": 15
   },
-  "legend": {
-    "visible": "false"
+  "background": {
+    "color": "0xeeeeee"
   },
   "horizontalaxis": {
     "id": "x",
@@ -97,6 +94,44 @@
     "grid": {
       "color": "0xcccccc"
     }
+  },
+  "plots": [
+    {
+      "horizontalaxis": {
+        "x": "x"
+      },
+      "verticalaxis": {
+        "y": "y"
+      },
+      "options": {
+        "linecolor": "0x310085",
+        "linewidth": "2",
+        "fillcolor": "0x310085",
+        "fillopacity": ".1",
+        "fillbase": "0"
+      },
+      "style": "fill"
+    },
+    {
+      "horizontalaxis": {
+        "x": "x"
+      },
+      "verticalaxis": {
+        "y": "y1"
+      },
+      "options": {
+        "linecolor": "0x004516",
+        "linewidth": "3",
+        "pointsize": "3",
+        "pointcolor": "0x004516",
+        "pointoutlinecolor": "0x004516",
+        "pointshape": "diamond"
+      },
+      "style": "point"
+    }
+  ],
+  "legend": {
+    "visible": "false"
   },
   "data": {
     "variables": [
@@ -624,40 +659,5 @@
         "0.7"
       ]
     ]
-  },
-  "plots": [
-    {
-      "horizontalaxis": {
-        "x": "x"
-      },
-      "verticalaxis": {
-        "y": "y"
-      },
-      "options": {
-        "linecolor": "0x310085",
-        "linewidth": "2",
-        "fillcolor": "0x310085",
-        "fillopacity": ".1",
-        "fillbase": "0"
-      },
-      "style": "fill"
-    },
-    {
-      "horizontalaxis": {
-        "x": "x"
-      },
-      "verticalaxis": {
-        "y": "y1"
-      },
-      "options": {
-        "linecolor": "0x004516",
-        "linewidth": "3",
-        "pointsize": "3",
-        "pointcolor": "0x004516",
-        "pointoutlinecolor": "0x004516",
-        "pointshape": "diamond"
-      },
-      "style": "point"
-    }
-  ]
+  }
 }

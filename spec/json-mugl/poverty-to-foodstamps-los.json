@@ -1,7 +1,4 @@
 {
-  "background": {
-    "color": "0xFAFAEB"
-  },
   "window": {
     "margin": 0,
     "padding": 5,
@@ -14,135 +11,9 @@
     "marginbottom": 25,
     "marginright": 15
   },
-  "verticalaxis": {
-    "id": "y",
-    "min": 0,
-    "max": 100,
-    "length": "1",
-    "title": {
-      "text": "Population Percentage",
-      "anchor": [
-        0,
-        -4
-      ],
-      "angle": 90,
-      "position": [
-        -40,
-        0
-      ]
-    },
-    "labels": {
-      "densityfactor": 0.1,
-      "format": "%.1f",
-      "spacing": [
-        5000,
-        1000,
-        500,
-        100,
-        50,
-        20,
-        10,
-        5,
-        2,
-        1,
-        0.5,
-        0.1
-      ]
-    },
-    "grid": {},
-    "pan": {
-      "min": 0
-    }
+  "background": {
+    "color": "0xFAFAEB"
   },
-  "data": {
-    "variables": [
-      {
-        "column": 0,
-        "id": "x"
-      },
-      {
-        "column": 1,
-        "id": "y1",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 2,
-        "id": "y2",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      }
-    ],
-    "values": [
-      [
-        "0.5",
-        " 9.5",
-        " 9.3"
-      ],
-      [
-        "2.5",
-        " 12.2",
-        " 9.7"
-      ],
-      [
-        "4.5",
-        " 9.2",
-        " 7.3"
-      ],
-      [
-        "6.5",
-        " 9.5",
-        " 8.8"
-      ],
-      [
-        "8.5",
-        " 11.4",
-        "10.3"
-      ]
-    ]
-  },
-  "plots": [
-    {
-      "legend": {
-        "label": "% Population with Income Below Poverty Level in Past 12 Months"
-      },
-      "horizontalaxis": {
-        "Buncombe County": "x"
-      },
-      "verticalaxis": {
-        "y": "y1"
-      },
-      "options": {
-        "linecolor": "0x154D12",
-        "fillcolor": "0x64B560",
-        "barwidth": "0.5",
-        "baroffset": "0",
-        "barbase": "0",
-        "hidelines": "2"
-      },
-      "style": "bar"
-    },
-    {
-      "legend": {
-        "label": "% Population with SNAP/Food Stamp Benefits in Past 12 Months"
-      },
-      "horizontalaxis": {
-        "Buncombe County": "x"
-      },
-      "verticalaxis": {
-        "y": "y2"
-      },
-      "options": {
-        "linecolor": "0x4A124D",
-        "fillcolor": "0xB160B5",
-        "barwidth": "0.5",
-        "baroffset": "37",
-        "barbase": "0",
-        "hidelines": "2"
-      },
-      "style": "bar"
-    }
-  ],
   "horizontalaxes": [
     {
       "id": "Buncombe County",
@@ -249,5 +120,134 @@
       "zoom": false,
       "title": false
     }
-  ]
+  ],
+  "verticalaxis": {
+    "id": "y",
+    "min": 0,
+    "max": 100,
+    "length": "1",
+    "title": {
+      "text": "Population Percentage",
+      "anchor": [
+        0,
+        -4
+      ],
+      "angle": 90,
+      "position": [
+        -40,
+        0
+      ]
+    },
+    "labels": {
+      "densityfactor": 0.1,
+      "format": "%.1f",
+      "spacing": [
+        5000,
+        1000,
+        500,
+        100,
+        50,
+        20,
+        10,
+        5,
+        2,
+        1,
+        0.5,
+        0.1
+      ]
+    },
+    "grid": {},
+    "pan": {
+      "min": 0
+    }
+  },
+  "plots": [
+    {
+      "legend": {
+        "label": "% Population with Income Below Poverty Level in Past 12 Months"
+      },
+      "horizontalaxis": {
+        "Buncombe County": "x"
+      },
+      "verticalaxis": {
+        "y": "y1"
+      },
+      "options": {
+        "linecolor": "0x154D12",
+        "fillcolor": "0x64B560",
+        "barwidth": "0.5",
+        "baroffset": "0",
+        "barbase": "0",
+        "hidelines": "2"
+      },
+      "style": "bar"
+    },
+    {
+      "legend": {
+        "label": "% Population with SNAP/Food Stamp Benefits in Past 12 Months"
+      },
+      "horizontalaxis": {
+        "Buncombe County": "x"
+      },
+      "verticalaxis": {
+        "y": "y2"
+      },
+      "options": {
+        "linecolor": "0x4A124D",
+        "fillcolor": "0xB160B5",
+        "barwidth": "0.5",
+        "baroffset": "37",
+        "barbase": "0",
+        "hidelines": "2"
+      },
+      "style": "bar"
+    }
+  ],
+  "data": {
+    "variables": [
+      {
+        "column": 0,
+        "id": "x"
+      },
+      {
+        "column": 1,
+        "id": "y1",
+        "missingvalue": "-9000",
+        "missingop": "le"
+      },
+      {
+        "column": 2,
+        "id": "y2",
+        "missingvalue": "-9000",
+        "missingop": "le"
+      }
+    ],
+    "values": [
+      [
+        "0.5",
+        " 9.5",
+        " 9.3"
+      ],
+      [
+        "2.5",
+        " 12.2",
+        " 9.7"
+      ],
+      [
+        "4.5",
+        " 9.2",
+        " 7.3"
+      ],
+      [
+        "6.5",
+        " 9.5",
+        " 8.8"
+      ],
+      [
+        "8.5",
+        " 11.4",
+        "10.3"
+      ]
+    ]
+  }
 }

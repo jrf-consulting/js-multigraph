@@ -1,23 +1,20 @@
 {
-  "background": {
-    "color": "0xFFFFFF"
+  "ui": {
+    "eventhandler": "saui"
   },
   "window": {
     "border": 0,
     "margin": 0,
     "padding": 0
   },
-  "ui": {
-    "eventhandler": "saui"
-  },
-  "legend": {
-    "visible": "false"
-  },
   "plotarea": {
     "marginbottom": 50,
     "marginleft": 60,
     "marginright": 25,
     "margintop": 10
+  },
+  "background": {
+    "color": "0xFFFFFF"
   },
   "horizontalaxis": {
     "highlightstyle": "labels",
@@ -136,6 +133,9 @@
       "fillopacity": "0.2"
     },
     "style": "fill"
+  },
+  "legend": {
+    "visible": "false"
   },
   "data": {
     "variables": [

@@ -1,7 +1,4 @@
 {
-  "background": {
-    "color": "0xffffff"
-  },
   "window": {
     "margin": 0,
     "padding": 5,
@@ -13,6 +10,9 @@
     "marginleft": 90,
     "marginbottom": 35,
     "marginright": 35
+  },
+  "background": {
+    "color": "0xffffff"
   },
   "horizontalaxis": {
     "id": "time",
@@ -78,6 +78,147 @@
     },
     "title": false
   },
+  "verticalaxes": [
+    {
+      "id": "tempc",
+      "min": -20,
+      "max": 30,
+      "length": "1",
+      "position": [
+        0,
+        0
+      ],
+      "labels": {
+        "format": "%.1f",
+        "start": 0,
+        "spacing": [
+          20,
+          10,
+          5,
+          2,
+          1,
+          0.5,
+          0.1
+        ],
+        "anchor": [
+          0,
+          0
+        ],
+        "position": [
+          -15,
+          0
+        ],
+        "angle": 0
+      },
+      "title": {
+        "text": "Degrees C",
+        "angle": 90,
+        "anchor": [
+          0,
+          -1
+        ],
+        "position": [
+          -27,
+          0
+        ]
+      },
+      "zoom": {
+        "max": 100,
+        "min": 1
+      },
+      "pan": {
+        "min": -50,
+        "max": 70
+      }
+    },
+    {
+      "id": "prcpmm",
+      "min": 0,
+      "max": 50,
+      "length": "1",
+      "position": [
+        -50,
+        0
+      ],
+      "labels": {
+        "format": "%1d",
+        "start": 0,
+        "spacing": [
+          100,
+          50,
+          20,
+          10,
+          5,
+          2,
+          1
+        ],
+        "anchor": [
+          0,
+          0
+        ],
+        "position": [
+          -15,
+          0
+        ],
+        "angle": 0
+      },
+      "title": {
+        "text": "Precipitation (mm)",
+        "angle": 90,
+        "anchor": [
+          0,
+          -1
+        ],
+        "position": [
+          -27,
+          0
+        ]
+      },
+      "pan": false,
+      "zoom": {
+        "anchor": 0
+      }
+    }
+  ],
+  "plots": [
+    {
+      "legend": {
+        "label": "Daily Max/Min Temp"
+      },
+      "horizontalaxis": {
+        "time": "temp-time"
+      },
+      "verticalaxis": {
+        "tempc": [
+          "temp-tmin",
+          "temp-tmax"
+        ]
+      },
+      "options": {
+        "fillcolor": "0x0000cc",
+        "barwidth": "20H",
+        "baroffset": "0.5"
+      },
+      "style": "rangebar"
+    },
+    {
+      "legend": {
+        "label": "Daily Precip"
+      },
+      "horizontalaxis": {
+        "time": "prcp-time"
+      },
+      "verticalaxis": {
+        "prcpmm": "prcp-prcp"
+      },
+      "options": {
+        "barwidth": "20H",
+        "baroffset": "0.5",
+        "fillcolor": "0x00ff00"
+      },
+      "style": "bar"
+    }
+  ],
   "data": [
     {
       "variables": [
@@ -208,147 +349,6 @@
           "0.0"
         ]
       ]
-    }
-  ],
-  "plots": [
-    {
-      "legend": {
-        "label": "Daily Max/Min Temp"
-      },
-      "horizontalaxis": {
-        "time": "temp-time"
-      },
-      "verticalaxis": {
-        "tempc": [
-          "temp-tmin",
-          "temp-tmax"
-        ]
-      },
-      "options": {
-        "fillcolor": "0x0000cc",
-        "barwidth": "20H",
-        "baroffset": "0.5"
-      },
-      "style": "rangebar"
-    },
-    {
-      "legend": {
-        "label": "Daily Precip"
-      },
-      "horizontalaxis": {
-        "time": "prcp-time"
-      },
-      "verticalaxis": {
-        "prcpmm": "prcp-prcp"
-      },
-      "options": {
-        "barwidth": "20H",
-        "baroffset": "0.5",
-        "fillcolor": "0x00ff00"
-      },
-      "style": "bar"
-    }
-  ],
-  "verticalaxes": [
-    {
-      "id": "tempc",
-      "min": -20,
-      "max": 30,
-      "length": "1",
-      "position": [
-        0,
-        0
-      ],
-      "labels": {
-        "format": "%.1f",
-        "start": 0,
-        "spacing": [
-          20,
-          10,
-          5,
-          2,
-          1,
-          0.5,
-          0.1
-        ],
-        "anchor": [
-          0,
-          0
-        ],
-        "position": [
-          -15,
-          0
-        ],
-        "angle": 0
-      },
-      "title": {
-        "text": "Degrees C",
-        "angle": 90,
-        "anchor": [
-          0,
-          -1
-        ],
-        "position": [
-          -27,
-          0
-        ]
-      },
-      "zoom": {
-        "max": 100,
-        "min": 1
-      },
-      "pan": {
-        "min": -50,
-        "max": 70
-      }
-    },
-    {
-      "id": "prcpmm",
-      "min": 0,
-      "max": 50,
-      "length": "1",
-      "position": [
-        -50,
-        0
-      ],
-      "labels": {
-        "format": "%1d",
-        "start": 0,
-        "spacing": [
-          100,
-          50,
-          20,
-          10,
-          5,
-          2,
-          1
-        ],
-        "anchor": [
-          0,
-          0
-        ],
-        "position": [
-          -15,
-          0
-        ],
-        "angle": 0
-      },
-      "title": {
-        "text": "Precipitation (mm)",
-        "angle": 90,
-        "anchor": [
-          0,
-          -1
-        ],
-        "position": [
-          -27,
-          0
-        ]
-      },
-      "pan": false,
-      "zoom": {
-        "anchor": 0
-      }
     }
   ]
 }

@@ -1,17 +1,4 @@
 {
-  "legend": {
-    "visible": "true",
-    "opacity": 0,
-    "rows": 2,
-    "border": 0,
-    "position": [
-      0,
-      80
-    ]
-  },
-  "background": {
-    "color": "0xEBF8FC"
-  },
   "window": {
     "margin": 0,
     "padding": 5,
@@ -23,6 +10,9 @@
     "marginleft": 60,
     "marginbottom": 35,
     "marginright": 40
+  },
+  "background": {
+    "color": "0xEBF8FC"
   },
   "horizontalaxis": {
     "id": "x",
@@ -51,119 +41,100 @@
       ]
     }
   },
-  "data": {
-    "variables": [
-      {
-        "column": 0,
-        "id": "x"
+  "verticalaxes": [
+    {
+      "id": "y1",
+      "min": 0,
+      "max": 220000,
+      "length": "1",
+      "title": {
+        "text": "County Population",
+        "angle": 90,
+        "position": [
+          -50,
+          0
+        ],
+        "anchor": [
+          0,
+          -1
+        ]
       },
-      {
-        "column": 1,
-        "id": "b1",
-        "missingvalue": "-9000",
-        "missingop": "le"
+      "binding": {
+        "id": "ybinding",
+        "min": 0,
+        "max": 220000
       },
-      {
-        "column": 2,
-        "id": "b2",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 3,
-        "id": "h1",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 4,
-        "id": "h2",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 5,
-        "id": "m1",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 6,
-        "id": "m2",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 7,
-        "id": "t1",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 8,
-        "id": "t2",
-        "missingvalue": "-9000",
-        "missingop": "le"
+      "labels": {
+        "format": "%.0f",
+        "start": 0,
+        "angle": 0,
+        "position": [
+          -10,
+          0
+        ],
+        "anchor": [
+          1,
+          0
+        ],
+        "spacing": [
+          50000,
+          10000,
+          5000,
+          1000,
+          500,
+          250,
+          100,
+          50
+        ]
       }
-    ],
-    "values": [
-      [
-        "1985",
-        " 168000",
-        "22.10",
-        " 66200",
-        "7.75",
-        " 17300",
-        "1.14",
-        " 25700",
-        "1.00"
+    },
+    {
+      "id": "y2",
+      "length": "1",
+      "base": [
+        1,
+        -1
       ],
-      [
-        "1990",
-        " 174820",
-        "24.94",
-        " 69290",
-        "6.57",
-        " 16950",
-        "1.37",
-        " 25520",
-        "1.51"
-      ],
-      [
-        "1995",
-        " 189510",
-        "24.26",
-        " 76700",
-        "5.86",
-        " 17940",
-        "0.48",
-        " 27340",
-        "1.50"
-      ],
-      [
-        "2000",
-        " 206330",
-        "24.66",
-        " 89170",
-        "8.45",
-        " 19640",
-        "0.67",
-        " 29330",
-        "1.60"
-      ],
-      [
-        "2005",
-        " 218876",
-        "20.96",
-        " 97217",
-        "8.04",
-        " 20256",
-        "0.53",
-        " 29626",
-        "1.42"
-      ]
-    ]
-  },
+      "title": {
+        "text": "Self-Supplied Withdrawls (Mgal/d)",
+        "angle": 270,
+        "position": [
+          30,
+          0
+        ],
+        "anchor": [
+          0,
+          -1
+        ]
+      },
+      "binding": {
+        "id": "ybinding",
+        "min": 0,
+        "max": 30
+      },
+      "labels": {
+        "format": "%.0f",
+        "start": 0,
+        "angle": 0,
+        "position": [
+          20,
+          0
+        ],
+        "anchor": [
+          1,
+          0
+        ],
+        "spacing": [
+          10,
+          5,
+          1,
+          0.5,
+          0.1,
+          0.01
+        ]
+      }
+    }
+  ],
   "plots": [
     {
       "legend": {
@@ -326,98 +297,127 @@
       "style": "pointline"
     }
   ],
-  "verticalaxes": [
-    {
-      "id": "y1",
-      "min": 0,
-      "max": 220000,
-      "length": "1",
-      "title": {
-        "text": "County Population",
-        "angle": 90,
-        "position": [
-          -50,
-          0
-        ],
-        "anchor": [
-          0,
-          -1
-        ]
+  "legend": {
+    "visible": "true",
+    "opacity": 0,
+    "rows": 2,
+    "border": 0,
+    "position": [
+      0,
+      80
+    ]
+  },
+  "data": {
+    "variables": [
+      {
+        "column": 0,
+        "id": "x"
       },
-      "binding": {
-        "id": "ybinding",
-        "min": 0,
-        "max": 220000
+      {
+        "column": 1,
+        "id": "b1",
+        "missingvalue": "-9000",
+        "missingop": "le"
       },
-      "labels": {
-        "format": "%.0f",
-        "start": 0,
-        "angle": 0,
-        "position": [
-          -10,
-          0
-        ],
-        "anchor": [
-          1,
-          0
-        ],
-        "spacing": [
-          50000,
-          10000,
-          5000,
-          1000,
-          500,
-          250,
-          100,
-          50
-        ]
+      {
+        "column": 2,
+        "id": "b2",
+        "missingvalue": "-9000",
+        "missingop": "le"
+      },
+      {
+        "column": 3,
+        "id": "h1",
+        "missingvalue": "-9000",
+        "missingop": "le"
+      },
+      {
+        "column": 4,
+        "id": "h2",
+        "missingvalue": "-9000",
+        "missingop": "le"
+      },
+      {
+        "column": 5,
+        "id": "m1",
+        "missingvalue": "-9000",
+        "missingop": "le"
+      },
+      {
+        "column": 6,
+        "id": "m2",
+        "missingvalue": "-9000",
+        "missingop": "le"
+      },
+      {
+        "column": 7,
+        "id": "t1",
+        "missingvalue": "-9000",
+        "missingop": "le"
+      },
+      {
+        "column": 8,
+        "id": "t2",
+        "missingvalue": "-9000",
+        "missingop": "le"
       }
-    },
-    {
-      "id": "y2",
-      "length": "1",
-      "base": [
-        1,
-        -1
+    ],
+    "values": [
+      [
+        "1985",
+        " 168000",
+        "22.10",
+        " 66200",
+        "7.75",
+        " 17300",
+        "1.14",
+        " 25700",
+        "1.00"
       ],
-      "title": {
-        "text": "Self-Supplied Withdrawls (Mgal/d)",
-        "angle": 270,
-        "position": [
-          30,
-          0
-        ],
-        "anchor": [
-          0,
-          -1
-        ]
-      },
-      "binding": {
-        "id": "ybinding",
-        "min": 0,
-        "max": 30
-      },
-      "labels": {
-        "format": "%.0f",
-        "start": 0,
-        "angle": 0,
-        "position": [
-          20,
-          0
-        ],
-        "anchor": [
-          1,
-          0
-        ],
-        "spacing": [
-          10,
-          5,
-          1,
-          0.5,
-          0.1,
-          0.01
-        ]
-      }
-    }
-  ]
+      [
+        "1990",
+        " 174820",
+        "24.94",
+        " 69290",
+        "6.57",
+        " 16950",
+        "1.37",
+        " 25520",
+        "1.51"
+      ],
+      [
+        "1995",
+        " 189510",
+        "24.26",
+        " 76700",
+        "5.86",
+        " 17940",
+        "0.48",
+        " 27340",
+        "1.50"
+      ],
+      [
+        "2000",
+        " 206330",
+        "24.66",
+        " 89170",
+        "8.45",
+        " 19640",
+        "0.67",
+        " 29330",
+        "1.60"
+      ],
+      [
+        "2005",
+        " 218876",
+        "20.96",
+        " 97217",
+        "8.04",
+        " 20256",
+        "0.53",
+        " 29626",
+        "1.42"
+      ]
+    ]
+  }
 }

@@ -4,18 +4,15 @@
     "margin": 0,
     "padding": 0
   },
-  "legend": {
-    "visible": "false"
-  },
-  "background": {
-    "color": "0xcccccc"
-  },
   "plotarea": {
     "marginbottom": 20,
     "marginleft": 60,
     "marginright": 25,
     "margintop": 10,
     "color": "0xffffff"
+  },
+  "background": {
+    "color": "0xcccccc"
   },
   "horizontalaxis": {
     "highlightstyle": "labels",
@@ -136,6 +133,9 @@
       "barbase": "0"
     },
     "style": "bar"
+  },
+  "legend": {
+    "visible": "false"
   },
   "data": {
     "variables": [

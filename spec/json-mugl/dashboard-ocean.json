@@ -1,14 +1,11 @@
 {
+  "ui": {
+    "eventhandler": "saui"
+  },
   "window": {
     "border": 0,
     "margin": 0,
     "padding": 0
-  },
-  "ui": {
-    "eventhandler": "saui"
-  },
-  "legend": {
-    "visible": "false"
   },
   "plotarea": {
     "marginbottom": 50,
@@ -146,6 +143,9 @@
       "barbase": "0"
     },
     "style": "bar"
+  },
+  "legend": {
+    "visible": "false"
   },
   "data": {
     "variables": [
