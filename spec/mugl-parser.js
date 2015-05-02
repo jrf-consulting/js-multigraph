@@ -138,7 +138,7 @@ function standardizePlots (data) {
 
 function standardizePlot (plot) {
 	if (plot.datatips) standardizeDatatips(plot.datatips);
-	if (plot.renderer) standardizeRenderer(plot.renderer);
+	if (plot.renderer) standardizeRenderer(plot.renderer, plot);
 	if (plot.legend) standardizePlotLegend(plot);
 	if (plot.verticalaxis) standardizePlotAxis(plot, "verticalaxis");
 	if (plot.horizontalaxis) standardizePlotAxis(plot, "horizontalaxis");
@@ -181,9 +181,8 @@ function standardizePlotAxis (plot, type) {
 	plot[type] = axisRef;
 }
 
-function standardizeRenderer (renderer) {
+function standardizeRenderer (renderer, plot) {
 	if (renderer.option) {
-		//renderer.renameProperty("option", "options");
 		var options = renderer.option;
 		var newOptions = {};
 		if (Array.isArray(options)) {
@@ -194,9 +193,12 @@ function standardizeRenderer (renderer) {
 		} else {
 			standardizeOption(options, newOptions);
 		}
-		renderer.options = newOptions;
-		delete renderer.option;
+		plot.options = newOptions;
 	}
+	
+	if (renderer.type) plot.style = renderer.type;
+	
+	delete plot.renderer;
 }
 
 function standardizeOption (option, newOptions) {
