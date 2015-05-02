@@ -27,9 +27,33 @@ function convertMugl(file) {
 			standardizeParentData(result);
 			standardizeAxes(result, "verticalaxis", "verticalaxes");
 			standardizeAxes(result, "horizontalaxis", "horizontalaxes");
+			reorderTags(result);
 			fs.writeFile(__dirname + '/json-mugl/' + file.replace(".xml", ".json"), JSON.stringify(result, null, 2), function () {});
 		});
 	});
+}
+
+function reorderTags(mugl) {
+	recreateTag(mugl, "title");
+	recreateTag(mugl, "window");
+	recreateTag(mugl, "plotarea");
+	recreateTag(mugl, "background");
+	recreateTag(mugl, "horizontalaxis");
+	recreateTag(mugl, "horizontalaxes");
+	recreateTag(mugl, "verticalaxis");
+	recreateTag(mugl, "verticalaxes");
+	recreateTag(mugl, "plot");
+	recreateTag(mugl, "plots");
+	recreateTag(mugl, "legend");
+	recreateTag(mugl, "data");
+	recreateTag(mugl, "throttle");
+}
+
+function recreateTag(mugl, tag) {
+	if (mugl[tag]) {
+		mugl.renameProperty(tag, "new-" + tag);
+		mugl.renameProperty("new-" + tag, tag);
+	}
 }
 
 Object.prototype.renameProperty = function (oldName, newName) {
