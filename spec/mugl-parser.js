@@ -33,24 +33,94 @@ function convertMugl(file) {
 	});
 }
 
-function reorderTags(mugl) {
-	recreateTag(mugl, "title");
-	recreateTag(mugl, "window");
-	recreateTag(mugl, "plotarea");
-	recreateTag(mugl, "background");
-	recreateTag(mugl, "horizontalaxis");
-	recreateTag(mugl, "horizontalaxes");
-	recreateTag(mugl, "verticalaxis");
-	recreateTag(mugl, "verticalaxes");
-	recreateTag(mugl, "plot");
-	recreateTag(mugl, "plots");
-	recreateTag(mugl, "legend");
-	recreateTag(mugl, "data");
-	recreateTag(mugl, "throttle");
+function reorderTags (mugl) {
+	var i, l;
+
+	recreateTags(mugl, ["title", "window", "plotarea", "background",
+		"horizontalaxis", "horizontalaxes", "verticalaxis", "verticalaxes",
+		"plot", "plots", "legend", "data", "throttle"]);
+
+	if (mugl.title) reorderTitle(mugl.title);
+	if (mugl.window) reorderWindow(mugl.window);
+	if (mugl.plotarea) reorderPlotarea(mugl.plotarea);
+	if (mugl.background) reorderBackground(mugl.background);
+	if (mugl.horizontalaxis) reorderAxis(mugl.horizontalaxis);
+	if (mugl.horizontalaxes) for (i = 0, l = mugl.horizontalaxes.length; i < l; i++) reorderAxis(mugl.horizontalaxes[i]);
+	if (mugl.verticalaxis) reorderAxis(mugl.verticalaxis);
+	if (mugl.verticalaxes) for (i = 0, l = mugl.verticalaxes.length; i < l; i++) reorderAxis(mugl.verticalaxes[i]);
+	if (mugl.plot) reorderPlot(mugl.plot);
+	if (mugl.plots) for (i = 0, l = mugl.plots.length; i < l; i++) reorderPlot(mugl.plots[i]);
+	if (mugl.data) {
+		if (Array.isArray(mugl.data)) for (i = 0, l = mugl.data.length; i < l; i++) reorderData(mugl.data[i]);
+		else reorderData(mugl.data)
+	}
+	if (mugl.throttle) reorderThrottle(mugl.throttle);
 }
 
-function recreateTag(mugl, tag) {
-	if (mugl[tag]) {
+function reorderTitle (title) {
+	recreateTags(title, ["text", "base", "anchor", "position", "frame", "fontsize",
+		"color", "opacity", "border", "bordercolor", "padding", "cornerradius"]);
+}
+
+function reorderWindow (wind) {
+	recreateTags(wind, ["width", "height", "border", "bordercolor", "padding", "margin"]);
+}
+
+function reorderPlotarea (plotarea) {
+	recreateTags(plotarea, ["color", "border", "bordercolor",
+	 "marginbottom", "margintop", "marginleft", "marginright"]);
+}
+
+function reorderBackground (background) {
+	recreateTags(background, ["color", "img"]);
+	if (background.img) recreateTags(background.img, ["src", "base", "anchor", "position", "frame"]);
+}
+
+function reorderAxis (axis) {
+	recreateTags(axis, ["id", "type", "length", "base", "anchor", "position",
+		"min", "max", "minposition", "maxposition", "color", "linewidth",
+		"tickmin", "tickmax", "tickcolor", "title", "labels", "grid", "pan",
+		"zoom", "binding"]);
+
+	if (axis.title) recreateTags(axis.title, ["text", "base", "anchor", "position", "angle"]);
+	if (axis.labels) {
+		recreateTags(axis.labels, ["format", "spacing", "start", "anchor", "position",
+			"angle", "color", "densityfactor", "label"]);
+		if (axis.labels.label) {
+			var i, l;
+			for (i = 0, l = axis.labels.label.length; i < l; i++) recreateTags(axis.labels.label[i], [
+				"format", "spacing", "start", "anchor", "position", "angle", "color", "densityfactor"
+			])
+		}
+	}
+	if (axis.grid) recreateTags(axis.grid, ["color", "visible"]);
+	if (axis.pan) recreateTags(axis.pan, ["allowed", "min", "max"]);
+	if (axis.zoom) recreateTags(axis.zoom, ["allowed", "min", "max", "anchor"]);
+	if (axis.binding) recreateTags(axis.binding, ["id", "min", "max"]);
+}
+
+function reorderPlot (plot) {
+	recreateTags(plot, ["style", "options", "horizontalaxis", "verticalaxis", "verticalaxes", "legend", "datatips"]);
+
+	if (plot.datatips) recreateTags(plot.datatips, ["format", "bgcolor", "bgalpha",
+		"border", "bordercolor", "pad", "variable-formats"]);
+}
+
+function reorderData (data) {
+	recreateTags(data, ["id", "adapter", "missingvalue", "missingop", "variables", "repeat", "values", "csv", "service"]);
+}
+
+function reorderThrottle (throttle) {
+	recreateTags(throttle, ["pattern", "requests", "period", "concurrent"]);
+}
+
+function recreateTags (mugl, tags) {
+	var i, l;
+	for (i = 0, l = tags.length; i < l; i++) recreateTag(mugl, tags[i]);
+}
+
+function recreateTag (mugl, tag) {
+	if (mugl.hasOwnProperty(tag)) {
 		mugl.renameProperty(tag, "new-" + tag);
 		mugl.renameProperty("new-" + tag, tag);
 	}
