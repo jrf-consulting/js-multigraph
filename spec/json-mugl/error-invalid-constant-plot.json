@@ -114,39 +114,33 @@
     {
       "legend": false,
       "verticalaxis": "y",
-      "renderer": {
-        "type": "line",
-        "options": {
-          "linecolor": "0x999999",
-          "linewidth": "1"
-        }
-      }
+      "options": {
+        "linecolor": "0x999999",
+        "linewidth": "1"
+      },
+      "style": "line"
     },
     {
       "legend": false,
       "verticalaxis": {
         "y": "2"
       },
-      "renderer": {
-        "type": "line",
-        "options": {
-          "linecolor": "0x990000",
-          "linewidth": "1"
-        }
-      }
+      "options": {
+        "linecolor": "0x990000",
+        "linewidth": "1"
+      },
+      "style": "line"
     },
     {
       "legend": false,
       "verticalaxis": {
         "y": "-2"
       },
-      "renderer": {
-        "type": "line",
-        "options": {
-          "linecolor": "0x000099",
-          "linewidth": "3"
-        }
-      }
+      "options": {
+        "linecolor": "0x000099",
+        "linewidth": "3"
+      },
+      "style": "line"
     }
   ]
 }

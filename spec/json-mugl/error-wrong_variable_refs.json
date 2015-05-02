@@ -19,9 +19,7 @@
     "verticalaxis": {
       "y": "yFOOERROR"
     },
-    "renderer": {
-      "type": "line"
-    }
+    "style": "line"
   },
   "data": {
     "variables": [

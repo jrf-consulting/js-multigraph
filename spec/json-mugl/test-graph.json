@@ -340,17 +340,15 @@
       "verticalaxis": {
         "y": "y1"
       },
-      "renderer": {
-        "type": "pointline",
-        "options": {
-          "linecolor": "0x07CCEB",
-          "linewidth": "4",
-          "pointsize": "4",
-          "pointcolor": "0x111111",
-          "pointoutlinewidth": "2",
-          "pointoutlinecolor": "0x07CCEB"
-        }
-      }
+      "options": {
+        "linecolor": "0x07CCEB",
+        "linewidth": "4",
+        "pointsize": "4",
+        "pointcolor": "0x111111",
+        "pointoutlinewidth": "2",
+        "pointoutlinecolor": "0x07CCEB"
+      },
+      "style": "pointline"
     },
     {
       "horizontalaxis": {
@@ -359,17 +357,15 @@
       "verticalaxis": {
         "y": "y"
       },
-      "renderer": {
-        "type": "pointline",
-        "options": {
-          "linecolor": "0xEB2607",
-          "linewidth": "4",
-          "pointsize": "4",
-          "pointcolor": "0x111111",
-          "pointoutlinewidth": "2",
-          "pointoutlinecolor": "0xEB2607"
-        }
-      }
+      "options": {
+        "linecolor": "0xEB2607",
+        "linewidth": "4",
+        "pointsize": "4",
+        "pointcolor": "0x111111",
+        "pointoutlinewidth": "2",
+        "pointoutlinecolor": "0xEB2607"
+      },
+      "style": "pointline"
     }
   ]
 }

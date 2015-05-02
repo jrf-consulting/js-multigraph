@@ -633,16 +633,14 @@
       "verticalaxis": {
         "y": "y"
       },
-      "renderer": {
-        "type": "fill",
-        "options": {
-          "linecolor": "0x310085",
-          "linewidth": "2",
-          "fillcolor": "0x310085",
-          "fillopacity": ".1",
-          "fillbase": "0"
-        }
-      }
+      "options": {
+        "linecolor": "0x310085",
+        "linewidth": "2",
+        "fillcolor": "0x310085",
+        "fillopacity": ".1",
+        "fillbase": "0"
+      },
+      "style": "fill"
     },
     {
       "horizontalaxis": {
@@ -651,17 +649,15 @@
       "verticalaxis": {
         "y": "y1"
       },
-      "renderer": {
-        "type": "point",
-        "options": {
-          "linecolor": "0x004516",
-          "linewidth": "3",
-          "pointsize": "3",
-          "pointcolor": "0x004516",
-          "pointoutlinecolor": "0x004516",
-          "pointshape": "diamond"
-        }
-      }
+      "options": {
+        "linecolor": "0x004516",
+        "linewidth": "3",
+        "pointsize": "3",
+        "pointcolor": "0x004516",
+        "pointoutlinecolor": "0x004516",
+        "pointshape": "diamond"
+      },
+      "style": "point"
     }
   ]
 }

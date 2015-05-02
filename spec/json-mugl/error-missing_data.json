@@ -19,8 +19,6 @@
     "verticalaxis": {
       "y": "y"
     },
-    "renderer": {
-      "type": "line"
-    }
+    "style": "line"
   }
 }

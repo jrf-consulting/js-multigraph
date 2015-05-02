@@ -91,13 +91,11 @@
     "verticalaxis": {
       "temp": "normal_maxt"
     },
-    "renderer": {
-      "type": "line",
-      "options": {
-        "linecolor": "0x0000ff",
-        "linewidth": "2"
-      }
-    }
+    "options": {
+      "linecolor": "0x0000ff",
+      "linewidth": "2"
+    },
+    "style": "line"
   },
   "data": {
     "variables": [

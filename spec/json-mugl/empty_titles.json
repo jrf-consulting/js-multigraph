@@ -37,15 +37,13 @@
         "z"
       ]
     },
-    "renderer": {
-      "type": "band",
-      "options": {
-        "linecolor": "0x000000",
-        "linewidth": "2",
-        "fillcolor": "0x0000ff",
-        "fillopacity": "0.5"
-      }
-    }
+    "options": {
+      "linecolor": "0x000000",
+      "linewidth": "2",
+      "fillcolor": "0x0000ff",
+      "fillopacity": "0.5"
+    },
+    "style": "band"
   },
   "data": {
     "variables": [

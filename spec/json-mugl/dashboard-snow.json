@@ -108,32 +108,30 @@
     "verticalaxis": {
       "col1": "col1"
     },
-    "renderer": {
-      "type": "bar",
-      "options": {
-        "barwidth": "0.5Y",
-        "baroffset": "1",
-        "barbase": "0",
-        "fillcolor": [
-          {
-            "value": "0x6666FF",
-            "min": "0"
-          },
-          {
-            "value": "0x663333",
-            "max": "0"
-          }
-        ],
-        "fillopacity": "1"
-      }
-    },
     "datatips": {
       "format": "{0}: {1}",
       "variable-formats": [
         "'%y",
         "%.1f"
       ]
-    }
+    },
+    "options": {
+      "barwidth": "0.5Y",
+      "baroffset": "1",
+      "barbase": "0",
+      "fillcolor": [
+        {
+          "value": "0x6666FF",
+          "min": "0"
+        },
+        {
+          "value": "0x663333",
+          "max": "0"
+        }
+      ],
+      "fillopacity": "1"
+    },
+    "style": "bar"
   },
   "data": {
     "variables": [

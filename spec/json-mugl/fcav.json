@@ -34,14 +34,12 @@
     "verticalaxis": {
       "value": "value"
     },
-    "renderer": {
-      "type": "line",
-      "options": {
-        "linecolor": "black",
-        "dotcolor": "blue",
-        "pointsize": "2"
-      }
-    }
+    "options": {
+      "linecolor": "black",
+      "dotcolor": "blue",
+      "pointsize": "2"
+    },
+    "style": "line"
   },
   "data": {
     "variables": [

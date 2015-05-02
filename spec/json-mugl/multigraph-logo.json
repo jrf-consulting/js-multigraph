@@ -51,15 +51,13 @@
     "verticalaxis": {
       "y": "y"
     },
-    "renderer": {
-      "type": "bar",
-      "options": {
-        "linecolor": "0xffffff",
-        "fillcolor": "0xffffff",
-        "barwidth": "0.6",
-        "baroffset": "0.4"
-      }
-    }
+    "options": {
+      "linecolor": "0xffffff",
+      "fillcolor": "0xffffff",
+      "barwidth": "0.6",
+      "baroffset": "0.4"
+    },
+    "style": "bar"
   },
   "data": {
     "variables": [

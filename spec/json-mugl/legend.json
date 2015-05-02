@@ -49,16 +49,14 @@
     "verticalaxis": {
       "y": "y"
     },
-    "renderer": {
-      "type": "fill",
-      "options": {
-        "linecolor": "0xff00ff",
-        "linewidth": "1",
-        "fillcolor": "0x00ff00",
-        "fillopacity": "1",
-        "fillbase": "-0.05"
-      }
-    }
+    "options": {
+      "linecolor": "0xff00ff",
+      "linewidth": "1",
+      "fillcolor": "0x00ff00",
+      "fillopacity": "1",
+      "fillbase": "-0.05"
+    },
+    "style": "fill"
   },
   "data": {
     "variables": [

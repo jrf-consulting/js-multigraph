@@ -378,16 +378,14 @@
       "verticalaxis": {
         "y": "bunc"
       },
-      "renderer": {
-        "type": "bar",
-        "options": {
-          "linecolor": "0xC99C14",
-          "fillcolor": "0xE0C77B",
-          "barwidth": "0.5",
-          "baroffset": "0",
-          "hidelines": "2"
-        }
-      }
+      "options": {
+        "linecolor": "0xC99C14",
+        "fillcolor": "0xE0C77B",
+        "barwidth": "0.5",
+        "baroffset": "0",
+        "hidelines": "2"
+      },
+      "style": "bar"
     },
     {
       "legend": {
@@ -399,16 +397,14 @@
       "verticalaxis": {
         "y": "madi"
       },
-      "renderer": {
-        "type": "bar",
-        "options": {
-          "linecolor": "0xA1A624",
-          "fillcolor": "0xD3D674",
-          "barwidth": "0.5",
-          "barbase": "238318",
-          "hidelines": "2"
-        }
-      }
+      "options": {
+        "linecolor": "0xA1A624",
+        "fillcolor": "0xD3D674",
+        "barwidth": "0.5",
+        "barbase": "238318",
+        "hidelines": "2"
+      },
+      "style": "bar"
     },
     {
       "legend": {
@@ -420,16 +416,14 @@
       "verticalaxis": {
         "y": "hend"
       },
-      "renderer": {
-        "type": "bar",
-        "options": {
-          "linecolor": "0xA16533",
-          "fillcolor": "0xD1A988",
-          "barwidth": "0.5",
-          "barbase": "259082",
-          "hidelines": "2"
-        }
-      }
+      "options": {
+        "linecolor": "0xA16533",
+        "fillcolor": "0xD1A988",
+        "barwidth": "0.5",
+        "barbase": "259082",
+        "hidelines": "2"
+      },
+      "style": "bar"
     },
     {
       "legend": {
@@ -441,16 +435,14 @@
       "verticalaxis": {
         "y": "tran"
       },
-      "renderer": {
-        "type": "bar",
-        "options": {
-          "linecolor": "0x708A21",
-          "fillcolor": "0xB1C478",
-          "barwidth": "0.5",
-          "barbase": "365822",
-          "hidelines": "2"
-        }
-      }
+      "options": {
+        "linecolor": "0x708A21",
+        "fillcolor": "0xB1C478",
+        "barwidth": "0.5",
+        "barbase": "365822",
+        "hidelines": "2"
+      },
+      "style": "bar"
     },
     {
       "legend": {
@@ -462,16 +454,14 @@
       "verticalaxis": {
         "y": "wilk"
       },
-      "renderer": {
-        "type": "bar",
-        "options": {
-          "linecolor": "0xC99C14",
-          "fillcolor": "0xE0C77B",
-          "barwidth": "0.5",
-          "baroffset": "0",
-          "hidelines": "2"
-        }
-      }
+      "options": {
+        "linecolor": "0xC99C14",
+        "fillcolor": "0xE0C77B",
+        "barwidth": "0.5",
+        "baroffset": "0",
+        "hidelines": "2"
+      },
+      "style": "bar"
     },
     {
       "legend": {
@@ -483,16 +473,14 @@
       "verticalaxis": {
         "y": "wata"
       },
-      "renderer": {
-        "type": "bar",
-        "options": {
-          "linecolor": "0xA1A624",
-          "fillcolor": "0xD3D674",
-          "barwidth": "0.5",
-          "barbase": "69340",
-          "hidelines": "2"
-        }
-      }
+      "options": {
+        "linecolor": "0xA1A624",
+        "fillcolor": "0xD3D674",
+        "barwidth": "0.5",
+        "barbase": "69340",
+        "hidelines": "2"
+      },
+      "style": "bar"
     },
     {
       "legend": {
@@ -504,16 +492,14 @@
       "verticalaxis": {
         "y": "mitc"
       },
-      "renderer": {
-        "type": "bar",
-        "options": {
-          "linecolor": "0xA16533",
-          "fillcolor": "0xD1A988",
-          "barwidth": "0.5",
-          "barbase": "120419",
-          "hidelines": "2"
-        }
-      }
+      "options": {
+        "linecolor": "0xA16533",
+        "fillcolor": "0xD1A988",
+        "barwidth": "0.5",
+        "barbase": "120419",
+        "hidelines": "2"
+      },
+      "style": "bar"
     },
     {
       "legend": {
@@ -525,16 +511,14 @@
       "verticalaxis": {
         "y": "yanc"
       },
-      "renderer": {
-        "type": "bar",
-        "options": {
-          "linecolor": "0x708A21",
-          "fillcolor": "0xB1C478",
-          "barwidth": "0.5",
-          "barbase": "135998",
-          "hidelines": "2"
-        }
-      }
+      "options": {
+        "linecolor": "0x708A21",
+        "fillcolor": "0xB1C478",
+        "barwidth": "0.5",
+        "barbase": "135998",
+        "hidelines": "2"
+      },
+      "style": "bar"
     },
     {
       "legend": {
@@ -546,16 +530,14 @@
       "verticalaxis": {
         "y": "ashe"
       },
-      "renderer": {
-        "type": "bar",
-        "options": {
-          "linecolor": "0x156A70",
-          "fillcolor": "0x58868A",
-          "barwidth": "0.5",
-          "barbase": "153816",
-          "hidelines": "2"
-        }
-      }
+      "options": {
+        "linecolor": "0x156A70",
+        "fillcolor": "0x58868A",
+        "barwidth": "0.5",
+        "barbase": "153816",
+        "hidelines": "2"
+      },
+      "style": "bar"
     },
     {
       "legend": {
@@ -567,16 +549,14 @@
       "verticalaxis": {
         "y": "aver"
       },
-      "renderer": {
-        "type": "bar",
-        "options": {
-          "linecolor": "0x651873",
-          "fillcolor": "0x7F5F85",
-          "barwidth": "0.5",
-          "barbase": "171613",
-          "hidelines": "2"
-        }
-      }
+      "options": {
+        "linecolor": "0x651873",
+        "fillcolor": "0x7F5F85",
+        "barwidth": "0.5",
+        "barbase": "171613",
+        "hidelines": "2"
+      },
+      "style": "bar"
     },
     {
       "legend": {
@@ -588,16 +568,14 @@
       "verticalaxis": {
         "y": "alle"
       },
-      "renderer": {
-        "type": "bar",
-        "options": {
-          "linecolor": "0x6E6316",
-          "fillcolor": "0xA8A271",
-          "barwidth": "0.5",
-          "barbase": "198894",
-          "hidelines": "2"
-        }
-      }
+      "options": {
+        "linecolor": "0x6E6316",
+        "fillcolor": "0xA8A271",
+        "barwidth": "0.5",
+        "barbase": "198894",
+        "hidelines": "2"
+      },
+      "style": "bar"
     },
     {
       "legend": {
@@ -609,16 +587,14 @@
       "verticalaxis": {
         "y": "clev"
       },
-      "renderer": {
-        "type": "bar",
-        "options": {
-          "linecolor": "0xC99C14",
-          "fillcolor": "0xE0C77B",
-          "barwidth": "0.5",
-          "baroffset": "0",
-          "hidelines": "2"
-        }
-      }
+      "options": {
+        "linecolor": "0xC99C14",
+        "fillcolor": "0xE0C77B",
+        "barwidth": "0.5",
+        "baroffset": "0",
+        "hidelines": "2"
+      },
+      "style": "bar"
     },
     {
       "legend": {
@@ -630,16 +606,14 @@
       "verticalaxis": {
         "y": "mcdo"
       },
-      "renderer": {
-        "type": "bar",
-        "options": {
-          "linecolor": "0xA1A624",
-          "fillcolor": "0xD3D674",
-          "barwidth": "0.5",
-          "barbase": "98078",
-          "hidelines": "2"
-        }
-      }
+      "options": {
+        "linecolor": "0xA1A624",
+        "fillcolor": "0xD3D674",
+        "barwidth": "0.5",
+        "barbase": "98078",
+        "hidelines": "2"
+      },
+      "style": "bar"
     },
     {
       "legend": {
@@ -651,16 +625,14 @@
       "verticalaxis": {
         "y": "polk"
       },
-      "renderer": {
-        "type": "bar",
-        "options": {
-          "linecolor": "0xA16533",
-          "fillcolor": "0xD1A988",
-          "barwidth": "0.5",
-          "barbase": "143074",
-          "hidelines": "2"
-        }
-      }
+      "options": {
+        "linecolor": "0xA16533",
+        "fillcolor": "0xD1A988",
+        "barwidth": "0.5",
+        "barbase": "143074",
+        "hidelines": "2"
+      },
+      "style": "bar"
     },
     {
       "legend": {
@@ -672,16 +644,14 @@
       "verticalaxis": {
         "y": "ruth"
       },
-      "renderer": {
-        "type": "bar",
-        "options": {
-          "linecolor": "0x708A21",
-          "fillcolor": "0xB1C478",
-          "barwidth": "0.5",
-          "barbase": "163584",
-          "hidelines": "2"
-        }
-      }
+      "options": {
+        "linecolor": "0x708A21",
+        "fillcolor": "0xB1C478",
+        "barwidth": "0.5",
+        "barbase": "163584",
+        "hidelines": "2"
+      },
+      "style": "bar"
     },
     {
       "legend": {
@@ -693,16 +663,14 @@
       "verticalaxis": {
         "y": "hayw"
       },
-      "renderer": {
-        "type": "bar",
-        "options": {
-          "linecolor": "0xC99C14",
-          "fillcolor": "0xE0C77B",
-          "barwidth": "0.5",
-          "baroffset": "0",
-          "hidelines": "2"
-        }
-      }
+      "options": {
+        "linecolor": "0xC99C14",
+        "fillcolor": "0xE0C77B",
+        "barwidth": "0.5",
+        "baroffset": "0",
+        "hidelines": "2"
+      },
+      "style": "bar"
     },
     {
       "legend": {
@@ -714,16 +682,14 @@
       "verticalaxis": {
         "y": "jack"
       },
-      "renderer": {
-        "type": "bar",
-        "options": {
-          "linecolor": "0xA1A624",
-          "fillcolor": "0xD3D674",
-          "barwidth": "0.5",
-          "barbase": "59036",
-          "hidelines": "2"
-        }
-      }
+      "options": {
+        "linecolor": "0xA1A624",
+        "fillcolor": "0xD3D674",
+        "barwidth": "0.5",
+        "barbase": "59036",
+        "hidelines": "2"
+      },
+      "style": "bar"
     },
     {
       "legend": {
@@ -735,16 +701,14 @@
       "verticalaxis": {
         "y": "maco"
       },
-      "renderer": {
-        "type": "bar",
-        "options": {
-          "linecolor": "0xA16533",
-          "fillcolor": "0xD1A988",
-          "barwidth": "0.5",
-          "barbase": "099307",
-          "hidelines": "2"
-        }
-      }
+      "options": {
+        "linecolor": "0xA16533",
+        "fillcolor": "0xD1A988",
+        "barwidth": "0.5",
+        "barbase": "099307",
+        "hidelines": "2"
+      },
+      "style": "bar"
     },
     {
       "legend": {
@@ -756,16 +720,14 @@
       "verticalaxis": {
         "y": "cher"
       },
-      "renderer": {
-        "type": "bar",
-        "options": {
-          "linecolor": "0x708A21",
-          "fillcolor": "0xB1C478",
-          "barwidth": "0.5",
-          "barbase": "133229",
-          "hidelines": "2"
-        }
-      }
+      "options": {
+        "linecolor": "0x708A21",
+        "fillcolor": "0xB1C478",
+        "barwidth": "0.5",
+        "barbase": "133229",
+        "hidelines": "2"
+      },
+      "style": "bar"
     },
     {
       "legend": {
@@ -777,16 +739,14 @@
       "verticalaxis": {
         "y": "swai"
       },
-      "renderer": {
-        "type": "bar",
-        "options": {
-          "linecolor": "0x156A70",
-          "fillcolor": "0x58868A",
-          "barwidth": "0.5",
-          "barbase": "160673",
-          "hidelines": "2"
-        }
-      }
+      "options": {
+        "linecolor": "0x156A70",
+        "fillcolor": "0x58868A",
+        "barwidth": "0.5",
+        "barbase": "160673",
+        "hidelines": "2"
+      },
+      "style": "bar"
     },
     {
       "legend": {
@@ -798,16 +758,14 @@
       "verticalaxis": {
         "y": "clay"
       },
-      "renderer": {
-        "type": "bar",
-        "options": {
-          "linecolor": "0x651873",
-          "fillcolor": "0x7F5F85",
-          "barwidth": "0.5",
-          "barbase": "174654",
-          "hidelines": "2"
-        }
-      }
+      "options": {
+        "linecolor": "0x651873",
+        "fillcolor": "0x7F5F85",
+        "barwidth": "0.5",
+        "barbase": "174654",
+        "hidelines": "2"
+      },
+      "style": "bar"
     },
     {
       "legend": {
@@ -819,16 +777,14 @@
       "verticalaxis": {
         "y": "grah"
       },
-      "renderer": {
-        "type": "bar",
-        "options": {
-          "linecolor": "0x6E6316",
-          "fillcolor": "0xA8A271",
-          "barwidth": "0.5",
-          "barbase": "185241",
-          "hidelines": "2"
-        }
-      }
+      "options": {
+        "linecolor": "0x6E6316",
+        "fillcolor": "0xA8A271",
+        "barwidth": "0.5",
+        "barbase": "185241",
+        "hidelines": "2"
+      },
+      "style": "bar"
     },
     {
       "legend": {
@@ -840,16 +796,14 @@
       "verticalaxis": {
         "y": "burk"
       },
-      "renderer": {
-        "type": "bar",
-        "options": {
-          "linecolor": "0xC99C14",
-          "fillcolor": "0xE0C77B",
-          "barwidth": "0.5",
-          "baroffset": "0",
-          "hidelines": "2"
-        }
-      }
+      "options": {
+        "linecolor": "0xC99C14",
+        "fillcolor": "0xE0C77B",
+        "barwidth": "0.5",
+        "baroffset": "0",
+        "hidelines": "2"
+      },
+      "style": "bar"
     },
     {
       "legend": {
@@ -861,16 +815,14 @@
       "verticalaxis": {
         "y": "cald"
       },
-      "renderer": {
-        "type": "bar",
-        "options": {
-          "linecolor": "0xA1A624",
-          "fillcolor": "0xD3D674",
-          "barwidth": "0.5",
-          "barbase": "90912",
-          "hidelines": "2"
-        }
-      }
+      "options": {
+        "linecolor": "0xA1A624",
+        "fillcolor": "0xD3D674",
+        "barwidth": "0.5",
+        "barbase": "90912",
+        "hidelines": "2"
+      },
+      "style": "bar"
     },
     {
       "legend": {
@@ -882,16 +834,14 @@
       "verticalaxis": {
         "y": "alex"
       },
-      "renderer": {
-        "type": "bar",
-        "options": {
-          "linecolor": "0xA16533",
-          "fillcolor": "0xD1A988",
-          "barwidth": "0.5",
-          "barbase": "173941",
-          "hidelines": "2"
-        }
-      }
+      "options": {
+        "linecolor": "0xA16533",
+        "fillcolor": "0xD1A988",
+        "barwidth": "0.5",
+        "barbase": "173941",
+        "hidelines": "2"
+      },
+      "style": "bar"
     }
   ],
   "horizontalaxes": [

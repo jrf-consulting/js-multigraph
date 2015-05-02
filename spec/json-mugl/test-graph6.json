@@ -101,23 +101,21 @@
     "verticalaxis": {
       "tempaxis": "temp1"
     },
-    "renderer": {
-      "type": "pointline",
-      "options": {
-        "linecolor": "0x83CF25",
-        "linewidth": "2",
-        "pointoutlinecolor": "0x83CF25",
-        "pointsize": "2",
-        "pointcolor": "0x83CF25"
-      }
-    },
     "datatips": {
       "format": "{0}: {1}",
       "variable-formats": [
         "'%y",
         "%.1f"
       ]
-    }
+    },
+    "options": {
+      "linecolor": "0x83CF25",
+      "linewidth": "2",
+      "pointoutlinecolor": "0x83CF25",
+      "pointsize": "2",
+      "pointcolor": "0x83CF25"
+    },
+    "style": "pointline"
   },
   "data": {
     "variables": [

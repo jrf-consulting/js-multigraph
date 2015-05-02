@@ -36,17 +36,15 @@
         "z"
       ]
     },
-    "renderer": {
-      "type": "rangebar",
-      "options": {
-        "barwidth": "0.8",
-        "linecolor": "0x000000",
-        "linewidth": "2",
-        "fillcolor": "0x0000ff",
-        "fillopacity": "0.5",
-        "hidelines": "4"
-      }
-    }
+    "options": {
+      "barwidth": "0.8",
+      "linecolor": "0x000000",
+      "linewidth": "2",
+      "fillcolor": "0x0000ff",
+      "fillopacity": "0.5",
+      "hidelines": "4"
+    },
+    "style": "rangebar"
   },
   "data": {
     "variables": [

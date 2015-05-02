@@ -3425,20 +3425,18 @@
         "co2": "co2"
       },
       "legend": false,
-      "renderer": {
-        "type": "fill",
-        "options": {
-          "fillcolor": "0xBBBBBB",
-          "fillopacity": "0.35"
-        }
-      },
       "datatips": {
         "format": "{0}: {1}",
         "variable-formats": [
           "%n '%y",
           "%1d"
         ]
-      }
+      },
+      "options": {
+        "fillcolor": "0xBBBBBB",
+        "fillopacity": "0.35"
+      },
+      "style": "fill"
     },
     {
       "horizontalaxis": {
@@ -3450,13 +3448,11 @@
       "legend": {
         "label": "annual"
       },
-      "renderer": {
-        "type": "pointline",
-        "options": {
-          "linecolor": "0x990000",
-          "linewidth": "1.5"
-        }
-      }
+      "options": {
+        "linecolor": "0x990000",
+        "linewidth": "1.5"
+      },
+      "style": "pointline"
     }
   ]
 }

@@ -112,17 +112,15 @@
       "verticalaxis": {
         "y": "y1"
       },
-      "renderer": {
-        "type": "bar",
-        "options": {
-          "linecolor": "0x611115",
-          "fillcolor": "0xB56064",
-          "barwidth": "0.5",
-          "baroffset": "0",
-          "barbase": "0",
-          "hidelines": "2"
-        }
-      }
+      "options": {
+        "linecolor": "0x611115",
+        "fillcolor": "0xB56064",
+        "barwidth": "0.5",
+        "baroffset": "0",
+        "barbase": "0",
+        "hidelines": "2"
+      },
+      "style": "bar"
     },
     {
       "legend": {
@@ -134,17 +132,15 @@
       "verticalaxis": {
         "y": "y2"
       },
-      "renderer": {
-        "type": "bar",
-        "options": {
-          "linecolor": "0x154D12",
-          "fillcolor": "0x64B560",
-          "barwidth": "0.5",
-          "baroffset": "37",
-          "barbase": "0",
-          "hidelines": "2"
-        }
-      }
+      "options": {
+        "linecolor": "0x154D12",
+        "fillcolor": "0x64B560",
+        "barwidth": "0.5",
+        "baroffset": "37",
+        "barbase": "0",
+        "hidelines": "2"
+      },
+      "style": "bar"
     }
   ],
   "horizontalaxes": [

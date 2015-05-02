@@ -107,15 +107,13 @@
     "verticalaxis": {
       "col1": "col1"
     },
-    "renderer": {
-      "type": "fill",
-      "options": {
-        "fillcolor": "0x055885",
-        "fillopacity": "0.1",
-        "linecolor": "0x055885",
-        "linewidth": "1"
-      }
-    }
+    "options": {
+      "fillcolor": "0x055885",
+      "fillopacity": "0.1",
+      "linecolor": "0x055885",
+      "linewidth": "1"
+    },
+    "style": "fill"
   },
   "data": {
     "variables": [

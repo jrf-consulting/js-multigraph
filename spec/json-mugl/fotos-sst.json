@@ -144,15 +144,13 @@
     "verticalaxis": {
       "Degrees C": "smc"
     },
-    "renderer": {
-      "type": "line",
-      "options": {
-        "linecolor": "black",
-        "dotcolor": "red",
-        "dotsize": "3",
-        "linewidth": "2"
-      }
-    }
+    "options": {
+      "linecolor": "black",
+      "dotcolor": "red",
+      "dotsize": "3",
+      "linewidth": "2"
+    },
+    "style": "line"
   },
   "data": {
     "variables": [

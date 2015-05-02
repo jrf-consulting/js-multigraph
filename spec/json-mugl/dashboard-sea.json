@@ -114,20 +114,18 @@
       "col1": "col1"
     },
     "legend": false,
-    "renderer": {
-      "type": "fill",
-      "options": {
-        "fillcolor": "0x3299CC",
-        "fillopacity": "0.5"
-      }
-    },
     "datatips": {
       "format": "{0}: {1}",
       "variable-formats": [
         "'%y",
         "%1d"
       ]
-    }
+    },
+    "options": {
+      "fillcolor": "0x3299CC",
+      "fillopacity": "0.5"
+    },
+    "style": "fill"
   },
   "data": {
     "variables": [

@@ -781,24 +781,22 @@
       "verticalaxis": {
         "tempaxis": "temp"
       },
-      "renderer": {
-        "type": "pointline",
-        "options": {
-          "linecolor": "0xad1fff",
-          "linewidth": "1",
-          "pointoutlinecolor": "0xad1fff",
-          "pointsize": "1.5",
-          "pointshape": "diamond",
-          "pointcolor": "0xad1fff"
-        }
-      },
       "datatips": {
         "format": "{0}: {1}",
         "variable-formats": [
           "'%y",
           "%.1f"
         ]
-      }
+      },
+      "options": {
+        "linecolor": "0xad1fff",
+        "linewidth": "1",
+        "pointoutlinecolor": "0xad1fff",
+        "pointsize": "1.5",
+        "pointshape": "diamond",
+        "pointcolor": "0xad1fff"
+      },
+      "style": "pointline"
     },
     {
       "horizontalaxis": {
@@ -807,23 +805,21 @@
       "verticalaxis": {
         "tempaxis": "temp1"
       },
-      "renderer": {
-        "type": "pointline",
-        "options": {
-          "linecolor": "0xEB9800",
-          "linewidth": "1",
-          "pointoutlinecolor": "0xEB9800",
-          "pointsize": "1.5",
-          "pointcolor": "0xEB9800"
-        }
-      },
       "datatips": {
         "format": "{0}: {1}",
         "variable-formats": [
           "'%y",
           "%.1f"
         ]
-      }
+      },
+      "options": {
+        "linecolor": "0xEB9800",
+        "linewidth": "1",
+        "pointoutlinecolor": "0xEB9800",
+        "pointsize": "1.5",
+        "pointcolor": "0xEB9800"
+      },
+      "style": "pointline"
     }
   ]
 }

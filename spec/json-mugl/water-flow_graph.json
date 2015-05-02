@@ -4748,13 +4748,11 @@
       "verticalaxis": {
         "y": "Flow Rate"
       },
-      "renderer": {
-        "type": "line",
-        "options": {
-          "linecolor": "0x116ED1",
-          "linewidth": "3"
-        }
-      }
+      "options": {
+        "linecolor": "0x116ED1",
+        "linewidth": "3"
+      },
+      "style": "line"
     },
     {
       "horizontalaxis": {
@@ -4763,16 +4761,14 @@
       "verticalaxis": {
         "y": "Mean Daily Flow Rate (117 Years)"
       },
-      "renderer": {
-        "type": "point",
-        "options": {
-          "pointoutlinecolor": "0xE01BD9",
-          "pointoutlinewidth": "2",
-          "pointcolor": "0xE8F9FC",
-          "pointsize": "3",
-          "pointshape": "circle"
-        }
-      }
+      "options": {
+        "pointoutlinecolor": "0xE01BD9",
+        "pointoutlinewidth": "2",
+        "pointcolor": "0xE8F9FC",
+        "pointsize": "3",
+        "pointshape": "circle"
+      },
+      "style": "point"
     }
   ]
 }

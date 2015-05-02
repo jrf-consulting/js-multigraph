@@ -2597,14 +2597,12 @@
           "max_20c3m"
         ]
       },
-      "renderer": {
-        "type": "band",
-        "options": {
-          "fillcolor": "0xCCCCCC",
-          "fillopacity": "0.5",
-          "linewidth": "0"
-        }
-      }
+      "options": {
+        "fillcolor": "0xCCCCCC",
+        "fillopacity": "0.5",
+        "linewidth": "0"
+      },
+      "style": "band"
     },
     {
       "horizontalaxis": {
@@ -2616,14 +2614,12 @@
           "max_a2"
         ]
       },
-      "renderer": {
-        "type": "band",
-        "options": {
-          "fillcolor": "0xFFCCCC",
-          "fillopacity": "0.5",
-          "linewidth": "0"
-        }
-      }
+      "options": {
+        "fillcolor": "0xFFCCCC",
+        "fillopacity": "0.5",
+        "linewidth": "0"
+      },
+      "style": "band"
     },
     {
       "horizontalaxis": {
@@ -2635,14 +2631,12 @@
           "max_a1b"
         ]
       },
-      "renderer": {
-        "type": "band",
-        "options": {
-          "fillcolor": "0xCCFFCC",
-          "fillopacity": "0.5",
-          "linewidth": "0"
-        }
-      }
+      "options": {
+        "fillcolor": "0xCCFFCC",
+        "fillopacity": "0.5",
+        "linewidth": "0"
+      },
+      "style": "band"
     },
     {
       "horizontalaxis": {
@@ -2654,14 +2648,12 @@
           "max_b1"
         ]
       },
-      "renderer": {
-        "type": "band",
-        "options": {
-          "fillcolor": "0xCCCCFF",
-          "fillopacity": "0.5",
-          "linewidth": "0"
-        }
-      }
+      "options": {
+        "fillcolor": "0xCCCCFF",
+        "fillopacity": "0.5",
+        "linewidth": "0"
+      },
+      "style": "band"
     },
     {
       "horizontalaxis": {
@@ -2670,20 +2662,18 @@
       "verticalaxis": {
         "temp": "temp_20c3m"
       },
-      "renderer": {
-        "type": "line",
-        "options": {
-          "linecolor": "0x000000",
-          "linewidth": "2"
-        }
-      },
       "datatips": {
         "format": "{0}: {1}",
         "variable-formats": [
           "%Y",
           "%.1f °C"
         ]
-      }
+      },
+      "options": {
+        "linecolor": "0x000000",
+        "linewidth": "2"
+      },
+      "style": "line"
     },
     {
       "horizontalaxis": {
@@ -2692,20 +2682,18 @@
       "verticalaxis": {
         "temp": "temp_a2"
       },
-      "renderer": {
-        "type": "line",
-        "options": {
-          "linecolor": "0x990000",
-          "linewidth": "2"
-        }
-      },
       "datatips": {
         "format": "{0}: {1}",
         "variable-formats": [
           "%Y A2",
           "%.1f °C"
         ]
-      }
+      },
+      "options": {
+        "linecolor": "0x990000",
+        "linewidth": "2"
+      },
+      "style": "line"
     },
     {
       "horizontalaxis": {
@@ -2714,20 +2702,18 @@
       "verticalaxis": {
         "temp": "temp_a1b"
       },
-      "renderer": {
-        "type": "line",
-        "options": {
-          "linecolor": "0x009900",
-          "linewidth": "2"
-        }
-      },
       "datatips": {
         "format": "{0}: {1}",
         "variable-formats": [
           "%Y A1B",
           "%.1f °C"
         ]
-      }
+      },
+      "options": {
+        "linecolor": "0x009900",
+        "linewidth": "2"
+      },
+      "style": "line"
     },
     {
       "horizontalaxis": {
@@ -2736,20 +2722,18 @@
       "verticalaxis": {
         "temp": "temp_b1"
       },
-      "renderer": {
-        "type": "line",
-        "options": {
-          "linecolor": "0x000099",
-          "linewidth": "2"
-        }
-      },
       "datatips": {
         "format": "{0}: {1}",
         "variable-formats": [
           "%Y B1",
           "%.1f °C"
         ]
-      }
+      },
+      "options": {
+        "linecolor": "0x000099",
+        "linewidth": "2"
+      },
+      "style": "line"
     }
   ]
 }

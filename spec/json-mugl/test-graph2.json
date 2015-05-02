@@ -101,32 +101,30 @@
     "verticalaxis": {
       "tempaxis": "temp"
     },
-    "renderer": {
-      "type": "bar",
-      "options": {
-        "fillcolor": [
-          {
-            "value": "0xff6600",
-            "min": "0"
-          },
-          {
-            "value": "0x00cc66",
-            "max": "0"
-          }
-        ],
-        "linecolor": "0x333333",
-        "barwidth": "1Y",
-        "baroffset": "0",
-        "barbase": "0"
-      }
-    },
     "datatips": {
       "format": "{0}: {1}",
       "variable-formats": [
         "'%y",
         "%.1f"
       ]
-    }
+    },
+    "options": {
+      "fillcolor": [
+        {
+          "value": "0xff6600",
+          "min": "0"
+        },
+        {
+          "value": "0x00cc66",
+          "max": "0"
+        }
+      ],
+      "linecolor": "0x333333",
+      "barwidth": "1Y",
+      "baroffset": "0",
+      "barbase": "0"
+    },
+    "style": "bar"
   },
   "data": {
     "variables": [

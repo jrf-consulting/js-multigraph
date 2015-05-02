@@ -80,15 +80,13 @@
     "verticalaxis": {
       "y": "y"
     },
-    "renderer": {
-      "type": "band",
-      "options": {
-        "linecolor": "0xFAFAAC",
-        "linewidth": "2",
-        "fillcolor": "0xFFCF4D",
-        "fillopacity": ".5"
-      }
-    }
+    "options": {
+      "linecolor": "0xFAFAAC",
+      "linewidth": "2",
+      "fillcolor": "0xFFCF4D",
+      "fillopacity": ".5"
+    },
+    "style": "band"
   },
   "data": {
     "variables": [

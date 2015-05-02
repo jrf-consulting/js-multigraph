@@ -442,19 +442,17 @@
       "verticalaxis": {
         "�F": "Sky Cover"
       },
-      "renderer": {
-        "type": "pointline",
-        "options": {
-          "linecolor": "0xC41899",
-          "linewidth": "3",
-          "pointshape": "circle",
-          "pointoutlinewidth": "2",
-          "pointoutlinecolor": "0xC41899",
-          "pointcolor": "0xffffff",
-          "pointopacity": "1.0",
-          "pointsize": "3"
-        }
-      }
+      "options": {
+        "linecolor": "0xC41899",
+        "linewidth": "3",
+        "pointshape": "circle",
+        "pointoutlinewidth": "2",
+        "pointoutlinecolor": "0xC41899",
+        "pointcolor": "0xffffff",
+        "pointopacity": "1.0",
+        "pointsize": "3"
+      },
+      "style": "pointline"
     },
     {
       "horizontalaxis": {
@@ -463,19 +461,17 @@
       "verticalaxis": {
         "�F": "Pcpn. Potential"
       },
-      "renderer": {
-        "type": "pointline",
-        "options": {
-          "linecolor": "0x0A38CF",
-          "linewidth": "3",
-          "pointshape": "circle",
-          "pointoutlinewidth": "2",
-          "pointoutlinecolor": "0x0A38CF",
-          "pointcolor": "0xffffff",
-          "pointopacity": "1.0",
-          "pointsize": "3"
-        }
-      }
+      "options": {
+        "linecolor": "0x0A38CF",
+        "linewidth": "3",
+        "pointshape": "circle",
+        "pointoutlinewidth": "2",
+        "pointoutlinecolor": "0x0A38CF",
+        "pointcolor": "0xffffff",
+        "pointopacity": "1.0",
+        "pointsize": "3"
+      },
+      "style": "pointline"
     },
     {
       "horizontalaxis": {
@@ -484,19 +480,17 @@
       "verticalaxis": {
         "�F": "Rel. Humidity"
       },
-      "renderer": {
-        "type": "pointline",
-        "options": {
-          "linecolor": "0x25A15B",
-          "linewidth": "3",
-          "pointshape": "circle",
-          "pointoutlinewidth": "2",
-          "pointoutlinecolor": "0x25A15B",
-          "pointcolor": "0xffffff",
-          "pointopacity": "1.0",
-          "pointsize": "3"
-        }
-      }
+      "options": {
+        "linecolor": "0x25A15B",
+        "linewidth": "3",
+        "pointshape": "circle",
+        "pointoutlinewidth": "2",
+        "pointoutlinecolor": "0x25A15B",
+        "pointcolor": "0xffffff",
+        "pointopacity": "1.0",
+        "pointsize": "3"
+      },
+      "style": "pointline"
     }
   ]
 }

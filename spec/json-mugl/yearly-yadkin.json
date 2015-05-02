@@ -580,13 +580,11 @@
       "verticalaxis": {
         "y": "Yadkin River, Wilkesboro"
       },
-      "renderer": {
-        "type": "line",
-        "options": {
-          "linecolor": "0x00A6FF",
-          "linewidth": "3"
-        }
-      }
+      "options": {
+        "linecolor": "0x00A6FF",
+        "linewidth": "3"
+      },
+      "style": "line"
     },
     {
       "horizontalaxis": {
@@ -595,13 +593,11 @@
       "verticalaxis": {
         "y": "Yadkin River, Elkin"
       },
-      "renderer": {
-        "type": "line",
-        "options": {
-          "linecolor": "0x0080C4",
-          "linewidth": "3"
-        }
-      }
+      "options": {
+        "linecolor": "0x0080C4",
+        "linewidth": "3"
+      },
+      "style": "line"
     },
     {
       "horizontalaxis": {
@@ -610,13 +606,11 @@
       "verticalaxis": {
         "y": "Yadkin River, Enon"
       },
-      "renderer": {
-        "type": "line",
-        "options": {
-          "linecolor": "0x005A8A",
-          "linewidth": "3"
-        }
-      }
+      "options": {
+        "linecolor": "0x005A8A",
+        "linewidth": "3"
+      },
+      "style": "line"
     },
     {
       "horizontalaxis": {
@@ -625,13 +619,11 @@
       "verticalaxis": {
         "y": "Yadkin River, Yadkin College"
       },
-      "renderer": {
-        "type": "line",
-        "options": {
-          "linecolor": "0x003D5E",
-          "linewidth": "3"
-        }
-      }
+      "options": {
+        "linecolor": "0x003D5E",
+        "linewidth": "3"
+      },
+      "style": "line"
     },
     {
       "horizontalaxis": {
@@ -640,13 +632,11 @@
       "verticalaxis": {
         "y": "Pee Dee River, Rockingham"
       },
-      "renderer": {
-        "type": "line",
-        "options": {
-          "linecolor": "0x000000",
-          "linewidth": "3"
-        }
-      }
+      "options": {
+        "linecolor": "0x000000",
+        "linewidth": "3"
+      },
+      "style": "line"
     }
   ]
 }

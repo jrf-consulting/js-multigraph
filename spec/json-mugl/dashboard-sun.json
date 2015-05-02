@@ -108,22 +108,20 @@
     "verticalaxis": {
       "wm2": "sunsenergy"
     },
-    "renderer": {
-      "type": "fill",
-      "options": {
-        "linecolor": "0x90480f",
-        "linewidth": "1.0",
-        "fillcolor": "0xed7619",
-        "fillopacity": "0.1"
-      }
-    },
     "datatips": {
       "format": "{0}: {1}",
       "variable-formats": [
         "'%y",
         "%.1f"
       ]
-    }
+    },
+    "options": {
+      "linecolor": "0x90480f",
+      "linewidth": "1.0",
+      "fillcolor": "0xed7619",
+      "fillopacity": "0.1"
+    },
+    "style": "fill"
   },
   "data": {
     "variables": [

@@ -130,19 +130,17 @@
     "verticalaxis": {
       "�F": "Wind"
     },
-    "renderer": {
-      "type": "pointline",
-      "options": {
-        "linecolor": "0xD19D0D",
-        "linewidth": "3",
-        "pointshape": "circle",
-        "pointoutlinewidth": "2",
-        "pointoutlinecolor": "0xD19D0D",
-        "pointcolor": "0xffffff",
-        "pointopacity": "1.0",
-        "pointsize": "3"
-      }
-    }
+    "options": {
+      "linecolor": "0xD19D0D",
+      "linewidth": "3",
+      "pointshape": "circle",
+      "pointoutlinewidth": "2",
+      "pointoutlinecolor": "0xD19D0D",
+      "pointcolor": "0xffffff",
+      "pointopacity": "1.0",
+      "pointsize": "3"
+    },
+    "style": "pointline"
   },
   "data": {
     "variables": [

@@ -131,14 +131,12 @@
           "normal_maxt"
         ]
       },
-      "renderer": {
-        "type": "band",
-        "options": {
-          "fillcolor": "0x99ff99",
-          "linewidth": "0",
-          "linecolor": "0x99ff99"
-        }
-      }
+      "options": {
+        "fillcolor": "0x99ff99",
+        "linewidth": "0",
+        "linecolor": "0x99ff99"
+      },
+      "style": "band"
     },
     {
       "legend": {
@@ -153,14 +151,12 @@
           "maxt"
         ]
       },
-      "renderer": {
-        "type": "rangebar",
-        "options": {
-          "fillcolor": "0x0000cc",
-          "barwidth": "20H",
-          "baroffset": "0.5"
-        }
-      }
+      "options": {
+        "fillcolor": "0x0000cc",
+        "barwidth": "20H",
+        "baroffset": "0.5"
+      },
+      "style": "rangebar"
     }
   ]
 }

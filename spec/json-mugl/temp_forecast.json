@@ -444,19 +444,17 @@
       "verticalaxis": {
         "�F": "Temperature"
       },
-      "renderer": {
-        "type": "pointline",
-        "options": {
-          "linecolor": "0xD12913",
-          "linewidth": "3",
-          "pointshape": "circle",
-          "pointoutlinewidth": "2",
-          "pointoutlinecolor": "0xD12913",
-          "pointcolor": "0xffffff",
-          "pointopacity": "1.0",
-          "pointsize": "3"
-        }
-      }
+      "options": {
+        "linecolor": "0xD12913",
+        "linewidth": "3",
+        "pointshape": "circle",
+        "pointoutlinewidth": "2",
+        "pointoutlinecolor": "0xD12913",
+        "pointcolor": "0xffffff",
+        "pointopacity": "1.0",
+        "pointsize": "3"
+      },
+      "style": "pointline"
     },
     {
       "horizontalaxis": {
@@ -465,19 +463,17 @@
       "verticalaxis": {
         "�F": "Dewpoint"
       },
-      "renderer": {
-        "type": "pointline",
-        "options": {
-          "linecolor": "0x0A82D1",
-          "linewidth": "3",
-          "pointshape": "circle",
-          "pointoutlinewidth": "2",
-          "pointoutlinecolor": "0x0A82D1",
-          "pointcolor": "0xffffff",
-          "pointopacity": "1.0",
-          "pointsize": "3"
-        }
-      }
+      "options": {
+        "linecolor": "0x0A82D1",
+        "linewidth": "3",
+        "pointshape": "circle",
+        "pointoutlinewidth": "2",
+        "pointoutlinecolor": "0x0A82D1",
+        "pointcolor": "0xffffff",
+        "pointopacity": "1.0",
+        "pointsize": "3"
+      },
+      "style": "pointline"
     },
     {
       "horizontalaxis": {
@@ -486,19 +482,17 @@
       "verticalaxis": {
         "�F": "Wind Chill"
       },
-      "renderer": {
-        "type": "pointline",
-        "options": {
-          "linecolor": "0x8D07E0",
-          "linewidth": "3",
-          "pointshape": "circle",
-          "pointoutlinewidth": "2",
-          "pointoutlinecolor": "0x8D07E0",
-          "pointcolor": "0xffffff",
-          "pointopacity": "1.0",
-          "pointsize": "3"
-        }
-      }
+      "options": {
+        "linecolor": "0x8D07E0",
+        "linewidth": "3",
+        "pointshape": "circle",
+        "pointoutlinewidth": "2",
+        "pointoutlinecolor": "0x8D07E0",
+        "pointcolor": "0xffffff",
+        "pointopacity": "1.0",
+        "pointsize": "3"
+      },
+      "style": "pointline"
     }
   ]
 }

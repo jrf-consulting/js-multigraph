@@ -123,31 +123,29 @@
     "verticalaxis": {
       "y": "a_ohc"
     },
-    "renderer": {
-      "type": "bar",
-      "options": {
-        "fillcolor": [
-          {
-            "value": "0xFFCC33",
-            "min": "0"
-          },
-          {
-            "value": "0x66CCFF",
-            "max": "0"
-          }
-        ],
-        "barwidth": "3M",
-        "baroffset": "0",
-        "barbase": "0"
-      }
-    },
     "datatips": {
       "format": "{0}: {1}",
       "variable-formats": [
         "'%y",
         "%.2f"
       ]
-    }
+    },
+    "options": {
+      "fillcolor": [
+        {
+          "value": "0xFFCC33",
+          "min": "0"
+        },
+        {
+          "value": "0x66CCFF",
+          "max": "0"
+        }
+      ],
+      "barwidth": "3M",
+      "baroffset": "0",
+      "barbase": "0"
+    },
+    "style": "bar"
   },
   "data": {
     "variables": [

@@ -75,51 +75,49 @@
     "verticalaxis": {
       "pdsi": "pdsi"
     },
-    "renderer": {
-      "type": "bar",
-      "options": {
-        "linecolor": "0x000000",
-        "fillcolor": [
-          {
-            "value": "0xfe9b00",
-            "max": "-4"
-          },
-          {
-            "value": "0xfece00",
-            "min": "-4",
-            "max": "-3"
-          },
-          {
-            "value": "0xffff33",
-            "min": "-3",
-            "max": "-2"
-          },
-          {
-            "value": "0xdddddd",
-            "min": "-2",
-            "max": "2"
-          },
-          {
-            "value": "0x9cff89",
-            "min": "2",
-            "max": "3"
-          },
-          {
-            "value": "0x69cd52",
-            "min": "3",
-            "max": "4"
-          },
-          {
-            "value": "0x109a00",
-            "min": "4"
-          }
-        ],
-        "barbase": "0",
-        "barwidth": "1M",
-        "baroffset": "0",
-        "hidelines": "10"
-      }
-    }
+    "options": {
+      "linecolor": "0x000000",
+      "fillcolor": [
+        {
+          "value": "0xfe9b00",
+          "max": "-4"
+        },
+        {
+          "value": "0xfece00",
+          "min": "-4",
+          "max": "-3"
+        },
+        {
+          "value": "0xffff33",
+          "min": "-3",
+          "max": "-2"
+        },
+        {
+          "value": "0xdddddd",
+          "min": "-2",
+          "max": "2"
+        },
+        {
+          "value": "0x9cff89",
+          "min": "2",
+          "max": "3"
+        },
+        {
+          "value": "0x69cd52",
+          "min": "3",
+          "max": "4"
+        },
+        {
+          "value": "0x109a00",
+          "min": "4"
+        }
+      ],
+      "barbase": "0",
+      "barwidth": "1M",
+      "baroffset": "0",
+      "hidelines": "10"
+    },
+    "style": "bar"
   },
   "data": {
     "adapter": "drought",

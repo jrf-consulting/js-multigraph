@@ -4509,15 +4509,13 @@
       "verticalaxis": {
         "temp": "temp"
       },
-      "renderer": {
-        "type": "line",
-        "options": {
-          "linecolor": "orange",
-          "linewidth": "2",
-          "missingvalue": "-9999.9999",
-          "missingop": "EQ"
-        }
-      }
+      "options": {
+        "linecolor": "orange",
+        "linewidth": "2",
+        "missingvalue": "-9999.9999",
+        "missingop": "EQ"
+      },
+      "style": "line"
     },
     {
       "legend": {
@@ -4529,15 +4527,13 @@
       "verticalaxis": {
         "dewp": "dewp"
       },
-      "renderer": {
-        "type": "line",
-        "options": {
-          "linecolor": "magenta",
-          "linewidth": "2",
-          "missingvalue": "-9999.9999",
-          "missingop": "EQ"
-        }
-      }
+      "options": {
+        "linecolor": "magenta",
+        "linewidth": "2",
+        "missingvalue": "-9999.9999",
+        "missingop": "EQ"
+      },
+      "style": "line"
     }
   ],
   "verticalaxes": [

@@ -8593,14 +8593,12 @@
       "verticalaxis": {
         "Flow Rate": "Flow Rate"
       },
-      "renderer": {
-        "type": "fill",
-        "options": {
-          "linecolor": "0x003A96",
-          "fillcolor": "0x71A1F0",
-          "fillopacity": "0.4"
-        }
-      }
+      "options": {
+        "linecolor": "0x003A96",
+        "fillcolor": "0x71A1F0",
+        "fillopacity": "0.4"
+      },
+      "style": "fill"
     },
     {
       "legend": {
@@ -8612,14 +8610,12 @@
       "verticalaxis": {
         "Flow Rate": "histaverage"
       },
-      "renderer": {
-        "type": "point",
-        "options": {
-          "pointsize": "3",
-          "pointcolor": "0xF5D938",
-          "pointoutlinecolor": "0x4D4100"
-        }
-      }
+      "options": {
+        "pointsize": "3",
+        "pointcolor": "0xF5D938",
+        "pointoutlinecolor": "0x4D4100"
+      },
+      "style": "point"
     },
     {
       "legend": {
@@ -8631,16 +8627,14 @@
       "verticalaxis": {
         "precip": "precip"
       },
-      "renderer": {
-        "type": "bar",
-        "options": {
-          "fillcolor": "0x9700E3",
-          "barwidth": "15m",
-          "baroffset": "0",
-          "barbase": "0",
-          "linecolor": "0xE9BDFF"
-        }
-      }
+      "options": {
+        "fillcolor": "0x9700E3",
+        "barwidth": "15m",
+        "baroffset": "0",
+        "barbase": "0",
+        "linecolor": "0xE9BDFF"
+      },
+      "style": "bar"
     }
   ],
   "verticalaxes": [

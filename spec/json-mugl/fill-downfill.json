@@ -3137,13 +3137,11 @@
       "verticalaxis": {
         "y": "0"
       },
-      "renderer": {
-        "type": "line",
-        "options": {
-          "linecolor": "0x999999",
-          "linewidth": "1"
-        }
-      }
+      "options": {
+        "linecolor": "0x999999",
+        "linewidth": "1"
+      },
+      "style": "line"
     },
     {
       "legend": {
@@ -3155,22 +3153,20 @@
       "verticalaxis": {
         "y": "number"
       },
-      "renderer": {
-        "type": "fill",
-        "options": {
-          "fillcolor": "0x23238E",
-          "fillbase": "0",
-          "downfillcolor": "0x94BDE9",
-          "linecolor": "0x000000"
-        }
-      },
       "datatips": {
         "format": "{0}: {1}",
         "variable-formats": [
           "%n '%y",
           "%.2f"
         ]
-      }
+      },
+      "options": {
+        "fillcolor": "0x23238E",
+        "fillbase": "0",
+        "downfillcolor": "0x94BDE9",
+        "linecolor": "0x000000"
+      },
+      "style": "fill"
     }
   ]
 }

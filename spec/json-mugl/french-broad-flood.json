@@ -3811,13 +3811,11 @@
       "verticalaxis": {
         "y": "Stage Height"
       },
-      "renderer": {
-        "type": "line",
-        "options": {
-          "linecolor": "0x116ED1",
-          "linewidth": "1.5"
-        }
-      }
+      "options": {
+        "linecolor": "0x116ED1",
+        "linewidth": "1.5"
+      },
+      "style": "line"
     },
     {
       "legend": {
@@ -3827,13 +3825,11 @@
       "verticalaxis": {
         "y": "8"
       },
-      "renderer": {
-        "type": "line",
-        "options": {
-          "linecolor": "0xFF0D41",
-          "linewidth": "2"
-        }
-      }
+      "options": {
+        "linecolor": "0xFF0D41",
+        "linewidth": "2"
+      },
+      "style": "line"
     }
   ]
 }

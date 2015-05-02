@@ -3096,13 +3096,11 @@
       "verticalaxis": {
         "y": "0"
       },
-      "renderer": {
-        "type": "line",
-        "options": {
-          "linecolor": "0x999999",
-          "linewidth": "1"
-        }
-      }
+      "options": {
+        "linecolor": "0x999999",
+        "linewidth": "1"
+      },
+      "style": "line"
     },
     {
       "legend": {
@@ -3114,42 +3112,40 @@
       "verticalaxis": {
         "y": "number"
       },
-      "renderer": {
-        "type": "bar",
-        "options": {
-          "fillcolor": [
-            {
-              "value": "0xFFCC33",
-              "max": "0.5"
-            },
-            {
-              "value": "0x888888",
-              "min": "0.0",
-              "max": "0.5"
-            },
-            {
-              "value": "0x888888",
-              "min": "-0.5",
-              "max": "0.0"
-            },
-            {
-              "value": "0x66CCFF",
-              "min": "-0.5"
-            }
-          ],
-          "linecolor": "0x000000",
-          "barwidth": "1M",
-          "baroffset": "0",
-          "barbase": "0"
-        }
-      },
       "datatips": {
         "format": "{0}: {1}",
         "variable-formats": [
           "%n '%y",
           "%.2f"
         ]
-      }
+      },
+      "options": {
+        "fillcolor": [
+          {
+            "value": "0xFFCC33",
+            "max": "0.5"
+          },
+          {
+            "value": "0x888888",
+            "min": "0.0",
+            "max": "0.5"
+          },
+          {
+            "value": "0x888888",
+            "min": "-0.5",
+            "max": "0.0"
+          },
+          {
+            "value": "0x66CCFF",
+            "min": "-0.5"
+          }
+        ],
+        "linecolor": "0x000000",
+        "barwidth": "1M",
+        "baroffset": "0",
+        "barbase": "0"
+      },
+      "style": "bar"
     }
   ]
 }

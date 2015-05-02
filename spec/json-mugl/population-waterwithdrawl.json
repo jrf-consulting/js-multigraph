@@ -175,17 +175,15 @@
       "verticalaxis": {
         "y1": "b1"
       },
-      "renderer": {
-        "type": "pointline",
-        "options": {
-          "linecolor": "0x68038C",
-          "linewidth": "5",
-          "pointsize": "4",
-          "pointcolor": "0xEBF8FC",
-          "pointoutlinewidth": "3",
-          "pointoutlinecolor": "0x68038C"
-        }
-      }
+      "options": {
+        "linecolor": "0x68038C",
+        "linewidth": "5",
+        "pointsize": "4",
+        "pointcolor": "0xEBF8FC",
+        "pointoutlinewidth": "3",
+        "pointoutlinecolor": "0x68038C"
+      },
+      "style": "pointline"
     },
     {
       "legend": {
@@ -197,17 +195,15 @@
       "verticalaxis": {
         "y2": "b2"
       },
-      "renderer": {
-        "type": "pointline",
-        "options": {
-          "linecolor": "0xC35DE8",
-          "linewidth": "5",
-          "pointsize": "4",
-          "pointcolor": "0xEBF8FC",
-          "pointoutlinewidth": "3",
-          "pointoutlinecolor": "0xC35DE8"
-        }
-      }
+      "options": {
+        "linecolor": "0xC35DE8",
+        "linewidth": "5",
+        "pointsize": "4",
+        "pointcolor": "0xEBF8FC",
+        "pointoutlinewidth": "3",
+        "pointoutlinecolor": "0xC35DE8"
+      },
+      "style": "pointline"
     },
     {
       "legend": {
@@ -219,17 +215,15 @@
       "verticalaxis": {
         "y1": "h1"
       },
-      "renderer": {
-        "type": "pointline",
-        "options": {
-          "linecolor": "0xD9790B",
-          "linewidth": "5",
-          "pointsize": "4",
-          "pointcolor": "0xEBF8FC",
-          "pointoutlinewidth": "3",
-          "pointoutlinecolor": "0xD9790B"
-        }
-      }
+      "options": {
+        "linecolor": "0xD9790B",
+        "linewidth": "5",
+        "pointsize": "4",
+        "pointcolor": "0xEBF8FC",
+        "pointoutlinewidth": "3",
+        "pointoutlinecolor": "0xD9790B"
+      },
+      "style": "pointline"
     },
     {
       "legend": {
@@ -241,17 +235,15 @@
       "verticalaxis": {
         "y2": "h2"
       },
-      "renderer": {
-        "type": "pointline",
-        "options": {
-          "linecolor": "0xE6AD6C",
-          "linewidth": "5",
-          "pointsize": "4",
-          "pointcolor": "0xEBF8FC",
-          "pointoutlinewidth": "3",
-          "pointoutlinecolor": "0xE6AD6C"
-        }
-      }
+      "options": {
+        "linecolor": "0xE6AD6C",
+        "linewidth": "5",
+        "pointsize": "4",
+        "pointcolor": "0xEBF8FC",
+        "pointoutlinewidth": "3",
+        "pointoutlinecolor": "0xE6AD6C"
+      },
+      "style": "pointline"
     },
     {
       "legend": {
@@ -263,17 +255,15 @@
       "verticalaxis": {
         "y1": "m1"
       },
-      "renderer": {
-        "type": "pointline",
-        "options": {
-          "linecolor": "0x167502",
-          "linewidth": "5",
-          "pointsize": "4",
-          "pointcolor": "0xEBF8FC",
-          "pointoutlinewidth": "3",
-          "pointoutlinecolor": "0x167502"
-        }
-      }
+      "options": {
+        "linecolor": "0x167502",
+        "linewidth": "5",
+        "pointsize": "4",
+        "pointcolor": "0xEBF8FC",
+        "pointoutlinewidth": "3",
+        "pointoutlinecolor": "0x167502"
+      },
+      "style": "pointline"
     },
     {
       "legend": {
@@ -285,17 +275,15 @@
       "verticalaxis": {
         "y2": "m2"
       },
-      "renderer": {
-        "type": "pointline",
-        "options": {
-          "linecolor": "0x7AD169",
-          "linewidth": "5",
-          "pointsize": "4",
-          "pointcolor": "0xEBF8FC",
-          "pointoutlinewidth": "3",
-          "pointoutlinecolor": "0x7AD169"
-        }
-      }
+      "options": {
+        "linecolor": "0x7AD169",
+        "linewidth": "5",
+        "pointsize": "4",
+        "pointcolor": "0xEBF8FC",
+        "pointoutlinewidth": "3",
+        "pointoutlinecolor": "0x7AD169"
+      },
+      "style": "pointline"
     },
     {
       "legend": {
@@ -307,17 +295,15 @@
       "verticalaxis": {
         "y1": "t1"
       },
-      "renderer": {
-        "type": "pointline",
-        "options": {
-          "linecolor": "0xB31D09",
-          "linewidth": "5",
-          "pointsize": "4",
-          "pointcolor": "0xEBF8FC",
-          "pointoutlinewidth": "3",
-          "pointoutlinecolor": "0xB31D09"
-        }
-      }
+      "options": {
+        "linecolor": "0xB31D09",
+        "linewidth": "5",
+        "pointsize": "4",
+        "pointcolor": "0xEBF8FC",
+        "pointoutlinewidth": "3",
+        "pointoutlinecolor": "0xB31D09"
+      },
+      "style": "pointline"
     },
     {
       "legend": {
@@ -329,17 +315,15 @@
       "verticalaxis": {
         "y2": "t2"
       },
-      "renderer": {
-        "type": "pointline",
-        "options": {
-          "linecolor": "0xD67467",
-          "linewidth": "5",
-          "pointsize": "4",
-          "pointcolor": "0xEBF8FC",
-          "pointoutlinewidth": "3",
-          "pointoutlinecolor": "0xD67467"
-        }
-      }
+      "options": {
+        "linecolor": "0xD67467",
+        "linewidth": "5",
+        "pointsize": "4",
+        "pointcolor": "0xEBF8FC",
+        "pointoutlinewidth": "3",
+        "pointoutlinecolor": "0xD67467"
+      },
+      "style": "pointline"
     }
   ],
   "verticalaxes": [

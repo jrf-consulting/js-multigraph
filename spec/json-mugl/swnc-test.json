@@ -232,16 +232,14 @@
       "verticalaxis": {
         "houseaxis": "Haywood County"
       },
-      "renderer": {
-        "type": "pointline",
-        "options": {
-          "linecolor": "0xEB9800",
-          "pointoutlinecolor": "0xEB9800",
-          "pointcolor": "0xEB9800",
-          "linewidth": "2",
-          "pointsize": "2.5"
-        }
-      }
+      "options": {
+        "linecolor": "0xEB9800",
+        "pointoutlinecolor": "0xEB9800",
+        "pointcolor": "0xEB9800",
+        "linewidth": "2",
+        "pointsize": "2.5"
+      },
+      "style": "pointline"
     },
     {
       "horizontalaxis": {
@@ -250,16 +248,14 @@
       "verticalaxis": {
         "houseaxis": "Cherokee County"
       },
-      "renderer": {
-        "type": "pointline",
-        "options": {
-          "linecolor": "0xad1fff",
-          "pointoutlinecolor": "0xad1fff",
-          "pointcolor": "0xad1fff",
-          "linewidth": "2",
-          "pointsize": "2.5"
-        }
-      }
+      "options": {
+        "linecolor": "0xad1fff",
+        "pointoutlinecolor": "0xad1fff",
+        "pointcolor": "0xad1fff",
+        "linewidth": "2",
+        "pointsize": "2.5"
+      },
+      "style": "pointline"
     },
     {
       "horizontalaxis": {
@@ -268,16 +264,14 @@
       "verticalaxis": {
         "houseaxis": "Clay County"
       },
-      "renderer": {
-        "type": "pointline",
-        "options": {
-          "linecolor": "0x00EB98",
-          "pointoutlinecolor": "0x00EB98",
-          "pointcolor": "0x00EB98",
-          "linewidth": "2",
-          "pointsize": "2.5"
-        }
-      }
+      "options": {
+        "linecolor": "0x00EB98",
+        "pointoutlinecolor": "0x00EB98",
+        "pointcolor": "0x00EB98",
+        "linewidth": "2",
+        "pointsize": "2.5"
+      },
+      "style": "pointline"
     },
     {
       "horizontalaxis": {
@@ -286,16 +280,14 @@
       "verticalaxis": {
         "houseaxis": "Graham County"
       },
-      "renderer": {
-        "type": "pointline",
-        "options": {
-          "linecolor": "0xEB0053",
-          "pointoutlinecolor": "0xEB0053",
-          "pointcolor": "0xEB0053",
-          "linewidth": "2",
-          "pointsize": "2.5"
-        }
-      }
+      "options": {
+        "linecolor": "0xEB0053",
+        "pointoutlinecolor": "0xEB0053",
+        "pointcolor": "0xEB0053",
+        "linewidth": "2",
+        "pointsize": "2.5"
+      },
+      "style": "pointline"
     },
     {
       "horizontalaxis": {
@@ -304,16 +296,14 @@
       "verticalaxis": {
         "houseaxis": "Jackson County"
       },
-      "renderer": {
-        "type": "pointline",
-        "options": {
-          "linecolor": "0x2300EB",
-          "pointoutlinecolor": "0x2300EB",
-          "pointcolor": "0x2300EB",
-          "linewidth": "2",
-          "pointsize": "2.5"
-        }
-      }
+      "options": {
+        "linecolor": "0x2300EB",
+        "pointoutlinecolor": "0x2300EB",
+        "pointcolor": "0x2300EB",
+        "linewidth": "2",
+        "pointsize": "2.5"
+      },
+      "style": "pointline"
     },
     {
       "horizontalaxis": {
@@ -322,16 +312,14 @@
       "verticalaxis": {
         "houseaxis": "Macon County"
       },
-      "renderer": {
-        "type": "pointline",
-        "options": {
-          "linecolor": "0x00C8EB",
-          "pointoutlinecolor": "0x00C8EB",
-          "pointcolor": "0x00C8EB",
-          "linewidth": "2",
-          "pointsize": "2.5"
-        }
-      }
+      "options": {
+        "linecolor": "0x00C8EB",
+        "pointoutlinecolor": "0x00C8EB",
+        "pointcolor": "0x00C8EB",
+        "linewidth": "2",
+        "pointsize": "2.5"
+      },
+      "style": "pointline"
     },
     {
       "horizontalaxis": {
@@ -340,16 +328,14 @@
       "verticalaxis": {
         "houseaxis": "Swain County"
       },
-      "renderer": {
-        "type": "pointline",
-        "options": {
-          "linecolor": "0x9FC932",
-          "pointoutlinecolor": "0x9FC932",
-          "pointcolor": "0x9FC932",
-          "linewidth": "2",
-          "pointsize": "2.5"
-        }
-      }
+      "options": {
+        "linecolor": "0x9FC932",
+        "pointoutlinecolor": "0x9FC932",
+        "pointcolor": "0x9FC932",
+        "linewidth": "2",
+        "pointsize": "2.5"
+      },
+      "style": "pointline"
     }
   ]
 }

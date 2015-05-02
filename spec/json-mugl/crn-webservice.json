@@ -141,13 +141,11 @@
       "verticalaxis": {
         "solarad": "solarad"
       },
-      "renderer": {
-        "type": "fill",
-        "options": {
-          "linecolor": "#990000",
-          "fillcolor": "#ffaaaa"
-        }
-      }
+      "options": {
+        "linecolor": "#990000",
+        "fillcolor": "#ffaaaa"
+      },
+      "style": "fill"
     },
     {
       "legend": {
@@ -159,15 +157,13 @@
       "verticalaxis": {
         "precip": "precip"
       },
-      "renderer": {
-        "type": "bar",
-        "options": {
-          "fillcolor": "green",
-          "barwidth": "5m",
-          "baroffset": "0",
-          "linecolor": "black"
-        }
-      }
+      "options": {
+        "fillcolor": "green",
+        "barwidth": "5m",
+        "baroffset": "0",
+        "linecolor": "black"
+      },
+      "style": "bar"
     },
     {
       "legend": {
@@ -179,16 +175,14 @@
       "verticalaxis": {
         "temp": "temp"
       },
-      "renderer": {
-        "type": "pointline",
-        "options": {
-          "linecolor": "blue",
-          "linewidth": "1",
-          "pointcolor": "blue",
-          "pointsize": "1",
-          "pointoutlinecolor": "blue"
-        }
-      }
+      "options": {
+        "linecolor": "blue",
+        "linewidth": "1",
+        "pointcolor": "blue",
+        "pointsize": "1",
+        "pointoutlinecolor": "blue"
+      },
+      "style": "pointline"
     },
     {
       "legend": {
@@ -200,16 +194,14 @@
       "verticalaxis": {
         "windspd": "windspd"
       },
-      "renderer": {
-        "type": "pointline",
-        "options": {
-          "linecolor": "black",
-          "linewidth": "1",
-          "pointcolor": "black",
-          "pointsize": "1",
-          "pointoutlinecolor": "black"
-        }
-      }
+      "options": {
+        "linecolor": "black",
+        "linewidth": "1",
+        "pointcolor": "black",
+        "pointsize": "1",
+        "pointoutlinecolor": "black"
+      },
+      "style": "pointline"
     }
   ],
   "verticalaxes": [

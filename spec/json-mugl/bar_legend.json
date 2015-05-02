@@ -42,17 +42,15 @@
     "verticalaxis": {
       "y": "y"
     },
-    "renderer": {
-      "type": "bar",
-      "options": {
-        "linecolor": "0xff00ff",
-        "fillcolor": "0x00ff00",
-        "barwidth": "1",
-        "baroffset": "0",
-        "hidelines": "2",
-        "barbase": "-.7"
-      }
-    }
+    "options": {
+      "linecolor": "0xff00ff",
+      "fillcolor": "0x00ff00",
+      "barwidth": "1",
+      "baroffset": "0",
+      "hidelines": "2",
+      "barbase": "-.7"
+    },
+    "style": "bar"
   },
   "data": {
     "variables": [

@@ -224,14 +224,12 @@
           "temp-tmax"
         ]
       },
-      "renderer": {
-        "type": "rangebar",
-        "options": {
-          "fillcolor": "0x0000cc",
-          "barwidth": "20H",
-          "baroffset": "0.5"
-        }
-      }
+      "options": {
+        "fillcolor": "0x0000cc",
+        "barwidth": "20H",
+        "baroffset": "0.5"
+      },
+      "style": "rangebar"
     },
     {
       "legend": {
@@ -243,14 +241,12 @@
       "verticalaxis": {
         "prcpmm": "prcp-prcp"
       },
-      "renderer": {
-        "type": "bar",
-        "options": {
-          "barwidth": "20H",
-          "baroffset": "0.5",
-          "fillcolor": "0x00ff00"
-        }
-      }
+      "options": {
+        "barwidth": "20H",
+        "baroffset": "0.5",
+        "fillcolor": "0x00ff00"
+      },
+      "style": "bar"
     }
   ],
   "verticalaxes": [

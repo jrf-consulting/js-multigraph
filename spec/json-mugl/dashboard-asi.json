@@ -124,20 +124,18 @@
     "verticalaxis": {
       "y": "minSQ"
     },
-    "renderer": {
-      "type": "fill",
-      "options": {
-        "fillcolor": "0x8fc6ff",
-        "fillopacity": "0.2"
-      }
-    },
     "datatips": {
       "format": "{0}: {1}",
       "variable-formats": [
         "'%y",
         "%.1f"
       ]
-    }
+    },
+    "options": {
+      "fillcolor": "0x8fc6ff",
+      "fillopacity": "0.2"
+    },
+    "style": "fill"
   },
   "data": {
     "variables": [

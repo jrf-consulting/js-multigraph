@@ -99,19 +99,17 @@
     "verticalaxis": {
       "y": "y784372"
     },
-    "renderer": {
-      "type": "pointline",
-      "options": {
-        "linecolor": "0xff0ff",
-        "linewidth": "3",
-        "pointshape": "circe",
-        "pointoutlinewidth": "2",
-        "pointoutlinecolor": "0x000000",
-        "pointcolor": "0xffffff",
-        "pointopacity": "1.0",
-        "pointsize": "HUGE"
-      }
-    }
+    "options": {
+      "linecolor": "0xff0ff",
+      "linewidth": "3",
+      "pointshape": "circe",
+      "pointoutlinewidth": "2",
+      "pointoutlinecolor": "0x000000",
+      "pointcolor": "0xffffff",
+      "pointopacity": "1.0",
+      "pointsize": "HUGE"
+    },
+    "style": "pointline"
   },
   "data": {
     "variables": [
