@@ -1,5 +1,6 @@
 var xml2js = require("xml2js");
 var fs = require("fs");
+require("./stringify.js");
 
 var parser = new xml2js.Parser({
     explicitArray: false,
@@ -78,9 +79,9 @@ function reorderBackground (background) {
 
 function reorderAxis (axis) {
 	recreateTags(axis, ["id", "type", "length", "base", "anchor", "position",
-		"min", "max", "minposition", "maxposition", "color", "linewidth",
-		"tickmin", "tickmax", "tickcolor", "title", "labels", "grid", "pan",
-		"zoom", "binding"]);
+		"min", "max", "minoffset", "maxoffset", "minposition", "maxposition",
+		"color", "linewidth", "tickmin", "tickmax", "tickcolor", "highlightstyle",
+		"pregap", "postgap", "title", "labels", "grid", "pan", "zoom", "binding"]);
 
 	if (axis.title) recreateTags(axis.title, ["text", "base", "anchor", "position", "angle"]);
 	if (axis.labels) {
