@@ -11,39 +11,19 @@
     "marginright": 170
   },
   "horizontalaxis": {
-    "pregap": 0,
-    "postgap": 0,
     "id": "time",
     "type": "datetime",
-    "position": [
-      0,
-      0
-    ],
+    "position": [0, 0],
     "min": "2015-03-01-08-00",
     "max": "2015-03-04-08-00",
+    "pregap": 0,
+    "postgap": 0,
     "title": "",
     "labels": {
       "format": "%h:00%L%d %n%L%Y",
-      "spacing": [
-        "2M",
-        "1M",
-        "7D",
-        "5D",
-        "2D",
-        "24H",
-        "12H",
-        "6H",
-        "3H",
-        "2H",
-        "1H",
-        "30m",
-        "1m"
-      ],
+      "spacing": ["2M", "1M", "7D", "5D", "2D", "24H", "12H", "6H", "3H", "2H", "1H", "30m", "1m"],
       "start": "0",
-      "anchor": [
-        0,
-        1
-      ],
+      "anchor": [0, 1],
       "angle": 0
     },
     "grid": {},
@@ -55,53 +35,26 @@
   },
   "verticalaxes": [
     {
-      "pregap": 0,
-      "postgap": 0,
       "id": "temp",
       "type": "number",
-      "base": [
-        -1,
-        -1
-      ],
-      "position": [
-        0,
-        0
-      ],
+      "base": [-1, -1],
+      "position": [0, 0],
       "min": 0,
       "max": 20.5,
+      "pregap": 0,
+      "postgap": 0,
       "title": {
         "text": "Temperature (C)",
-        "anchor": [
-          0,
-          -1
-        ],
-        "position": [
-          -45,
-          0
-        ],
+        "anchor": [0, -1],
+        "position": [-45, 0],
         "angle": 90
       },
       "labels": {
         "format": "%.1f",
-        "spacing": [
-          50,
-          20,
-          10,
-          5,
-          2,
-          1,
-          0.1,
-          0.01
-        ],
+        "spacing": [50, 20, 10, 5, 2, 1, 0.1, 0.01],
         "start": 0,
-        "anchor": [
-          1,
-          0
-        ],
-        "position": [
-          -10,
-          0
-        ],
+        "anchor": [1, 0],
+        "position": [-10, 0],
         "angle": 0
       },
       "binding": {
@@ -111,53 +64,26 @@
       }
     },
     {
-      "pregap": 0,
-      "postgap": 0,
       "id": "precip",
       "type": "number",
-      "base": [
-        1,
-        -1
-      ],
-      "position": [
-        0,
-        0
-      ],
+      "base": [1, -1],
+      "position": [0, 0],
       "min": 0,
       "max": 10.1,
+      "pregap": 0,
+      "postgap": 0,
       "title": {
         "text": "Precip (mm)",
-        "anchor": [
-          0,
-          1
-        ],
-        "position": [
-          25,
-          0
-        ],
+        "anchor": [0, 1],
+        "position": [25, 0],
         "angle": 90
       },
       "labels": {
         "format": "%.1f",
-        "spacing": [
-          50,
-          20,
-          10,
-          5,
-          2,
-          1,
-          0.1,
-          0.01
-        ],
+        "spacing": [50, 20, 10, 5, 2, 1, 0.1, 0.01],
         "start": 0,
-        "anchor": [
-          -1,
-          0
-        ],
-        "position": [
-          5,
-          0
-        ],
+        "anchor": [-1, 0],
+        "position": [5, 0],
         "angle": 0
       },
       "pan": false,
@@ -171,56 +97,26 @@
       }
     },
     {
-      "pregap": 0,
-      "postgap": 0,
       "id": "solarad",
       "type": "number",
-      "base": [
-        1,
-        -1
-      ],
-      "position": [
-        60,
-        0
-      ],
+      "base": [1, -1],
+      "position": [60, 0],
       "min": 0,
       "max": 1100,
+      "pregap": 0,
+      "postgap": 0,
       "title": {
         "text": "Solar Radiation (W/m^2)",
-        "anchor": [
-          0,
-          1
-        ],
-        "position": [
-          35,
-          0
-        ],
+        "anchor": [0, 1],
+        "position": [35, 0],
         "angle": 90
       },
       "labels": {
         "format": "%1d",
-        "spacing": [
-          1000,
-          500,
-          200,
-          50,
-          20,
-          10,
-          5,
-          2,
-          1,
-          0.1,
-          0.01
-        ],
+        "spacing": [1000, 500, 200, 50, 20, 10, 5, 2, 1, 0.1, 0.01],
         "start": 0,
-        "anchor": [
-          -1,
-          0
-        ],
-        "position": [
-          5,
-          0
-        ],
+        "anchor": [-1, 0],
+        "position": [5, 0],
         "angle": 0
       },
       "pan": false,
@@ -234,56 +130,26 @@
       }
     },
     {
-      "pregap": 0,
-      "postgap": 0,
       "id": "windspd",
       "type": "number",
-      "base": [
-        1,
-        -1
-      ],
-      "position": [
-        120,
-        0
-      ],
+      "base": [1, -1],
+      "position": [120, 0],
       "min": 0,
       "max": 15,
+      "pregap": 0,
+      "postgap": 0,
       "title": {
         "text": "Wind (m/s)",
-        "anchor": [
-          0,
-          1
-        ],
-        "position": [
-          35,
-          0
-        ],
+        "anchor": [0, 1],
+        "position": [35, 0],
         "angle": 90
       },
       "labels": {
         "format": "%.1f",
-        "spacing": [
-          1000,
-          500,
-          200,
-          50,
-          20,
-          10,
-          5,
-          2,
-          1,
-          0.1,
-          0.01
-        ],
+        "spacing": [1000, 500, 200, 50, 20, 10, 5, 2, 1, 0.1, 0.01],
         "start": 0,
-        "anchor": [
-          -1,
-          0
-        ],
-        "position": [
-          5,
-          0
-        ],
+        "anchor": [-1, 0],
+        "position": [5, 0],
         "angle": 0
       },
       "pan": false,
@@ -372,18 +238,9 @@
     }
   ],
   "legend": {
-    "base": [
-      0,
-      1
-    ],
-    "anchor": [
-      0,
-      1
-    ],
-    "position": [
-      0,
-      5
-    ],
+    "base": [0, 1],
+    "anchor": [0, 1],
+    "position": [0, 5],
     "border": 0,
     "rows": 1,
     "frame": "padding",
@@ -396,26 +253,10 @@
   "data": [
     {
       "variables": [
-        {
-          "id": "time_1h",
-          "column": 0,
-          "type": "datetime"
-        },
-        {
-          "id": "solarad",
-          "column": 1,
-          "type": "number"
-        },
-        {
-          "id": "sur_temp",
-          "column": 2,
-          "type": "number"
-        },
-        {
-          "id": "windspd",
-          "column": 3,
-          "type": "number"
-        }
+        {"id": "time_1h", "column": 0, "type": "datetime"},
+        {"id": "solarad", "column": 1, "type": "number"},
+        {"id": "sur_temp", "column": 2, "type": "number"},
+        {"id": "windspd", "column": 3, "type": "number"}
       ],
       "service": {
         "location": "http://data.multigraph.org/crn/1026/SOLARAD,SUR_TEMP,WINDSPD/"
@@ -423,19 +264,9 @@
     },
     {
       "variables": [
-        {
-          "column": 0,
-          "id": "time_5m",
-          "type": "datetime"
-        },
-        {
-          "column": 1,
-          "id": "temp"
-        },
-        {
-          "column": 2,
-          "id": "precip"
-        }
+        {"column": 0, "id": "time_5m", "type": "datetime"},
+        {"column": 1, "id": "temp"},
+        {"column": 2, "id": "precip"}
       ],
       "service": {
         "location": "http://data.multigraph.org/crn/1026/T5,P5/"

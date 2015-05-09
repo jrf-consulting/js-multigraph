@@ -18,19 +18,14 @@
     {
       "id": "Buncombe County",
       "length": "1",
-      "base": [
-        -1,
-        -1
-      ],
+      "base": [-1, -1],
       "anchor": -1,
       "min": 0,
       "max": 10,
       "title": false,
       "labels": {
         "format": "",
-        "spacing": [
-          1000
-        ],
+        "spacing": [1000],
         "densityfactor": 0.5
       },
       "pan": false,
@@ -39,19 +34,14 @@
     {
       "id": "Madison County",
       "length": "1",
-      "base": [
-        -1,
-        -1
-      ],
+      "base": [-1, -1],
       "anchor": -1,
       "min": 0,
       "max": 10,
       "title": false,
       "labels": {
         "format": "",
-        "spacing": [
-          1000
-        ],
+        "spacing": [1000],
         "densityfactor": 0.5
       },
       "pan": false,
@@ -60,19 +50,14 @@
     {
       "id": "Henderson County",
       "length": "1",
-      "base": [
-        -1,
-        -1
-      ],
+      "base": [-1, -1],
       "anchor": -1,
       "min": 0,
       "max": 10,
       "title": false,
       "labels": {
         "format": "",
-        "spacing": [
-          1000
-        ],
+        "spacing": [1000],
         "densityfactor": 0.5
       },
       "pan": false,
@@ -81,19 +66,14 @@
     {
       "id": "Transylvania County",
       "length": "1",
-      "base": [
-        -1,
-        -1
-      ],
+      "base": [-1, -1],
       "anchor": -1,
       "min": 0,
       "max": 10,
       "title": false,
       "labels": {
         "format": "",
-        "spacing": [
-          1000
-        ],
+        "spacing": [1000],
         "densityfactor": 0.5
       },
       "pan": false,
@@ -102,19 +82,14 @@
     {
       "id": "North Carolina",
       "length": "1",
-      "base": [
-        -1,
-        -1
-      ],
+      "base": [-1, -1],
       "anchor": -1,
       "min": 0,
       "max": 10,
       "title": false,
       "labels": {
         "format": "",
-        "spacing": [
-          1000
-        ],
+        "spacing": [1000],
         "densityfactor": 0.5
       },
       "pan": false,
@@ -128,30 +103,13 @@
     "max": 50000,
     "title": {
       "text": "Dollar Income",
-      "anchor": [
-        0,
-        -4
-      ],
-      "position": [
-        -40,
-        0
-      ],
+      "anchor": [0, -4],
+      "position": [-40, 0],
       "angle": 90
     },
     "labels": {
       "format": "%.0f",
-      "spacing": [
-        5000,
-        1000,
-        500,
-        100,
-        50,
-        20,
-        10,
-        5,
-        2,
-        1
-      ],
+      "spacing": [5000, 1000, 500, 100, 50, 20, 10, 5, 2, 1],
       "densityfactor": 0.1
     },
     "grid": {},
@@ -203,49 +161,16 @@
   ],
   "data": {
     "variables": [
-      {
-        "column": 0,
-        "id": "x"
-      },
-      {
-        "column": 1,
-        "id": "y1",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 2,
-        "id": "y2",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      }
+      {"column": 0, "id": "x"},
+      {"column": 1, "id": "y1", "missingvalue": "-9000", "missingop": "le"},
+      {"column": 2, "id": "y2", "missingvalue": "-9000", "missingop": "le"}
     ],
     "values": [
-      [
-        "0.5",
-        " 38314",
-        " 32292"
-      ],
-      [
-        "2.5",
-        " 40073",
-        " 31309"
-      ],
-      [
-        "4.5",
-        " 35866",
-        " 27963"
-      ],
-      [
-        "6.5",
-        " 35770",
-        " 28708"
-      ],
-      [
-        "8.5",
-        " 41329",
-        "32990"
-      ]
+      ["0.5", " 38314", " 32292"],
+      ["2.5", " 40073", " 31309"],
+      ["4.5", " 35866", " 27963"],
+      ["6.5", " 35770", " 28708"],
+      ["8.5", " 41329", "32990"]
     ]
   }
 }

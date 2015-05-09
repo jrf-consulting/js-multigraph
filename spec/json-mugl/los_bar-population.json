@@ -18,19 +18,14 @@
     {
       "id": "Buncombe County",
       "length": "1",
-      "base": [
-        -1,
-        -1
-      ],
+      "base": [-1, -1],
       "anchor": -1,
       "min": 0,
       "max": 8,
       "title": false,
       "labels": {
         "format": "",
-        "spacing": [
-          1000
-        ],
+        "spacing": [1000],
         "densityfactor": 0.5
       },
       "pan": false,
@@ -39,19 +34,14 @@
     {
       "id": "Madison County",
       "length": "1",
-      "base": [
-        -1,
-        -1
-      ],
+      "base": [-1, -1],
       "anchor": -1,
       "min": 0,
       "max": 8,
       "title": false,
       "labels": {
         "format": "",
-        "spacing": [
-          1000
-        ],
+        "spacing": [1000],
         "densityfactor": 0.5
       },
       "pan": false,
@@ -60,19 +50,14 @@
     {
       "id": "Henderson County",
       "length": "1",
-      "base": [
-        -1,
-        -1
-      ],
+      "base": [-1, -1],
       "anchor": -1,
       "min": 0,
       "max": 8,
       "title": false,
       "labels": {
         "format": "",
-        "spacing": [
-          1000
-        ],
+        "spacing": [1000],
         "densityfactor": 0.5
       },
       "pan": false,
@@ -81,19 +66,14 @@
     {
       "id": "Transylvania County",
       "length": "1",
-      "base": [
-        -1,
-        -1
-      ],
+      "base": [-1, -1],
       "anchor": -1,
       "min": 0,
       "max": 8,
       "title": false,
       "labels": {
         "format": "",
-        "spacing": [
-          1000
-        ],
+        "spacing": [1000],
         "densityfactor": 0.5
       },
       "pan": false,
@@ -107,30 +87,13 @@
     "max": 240000,
     "title": {
       "text": "Number of People",
-      "anchor": [
-        0,
-        -4
-      ],
-      "position": [
-        -40,
-        0
-      ],
+      "anchor": [0, -4],
+      "position": [-40, 0],
       "angle": 90
     },
     "labels": {
       "format": "%.0f",
-      "spacing": [
-        5000,
-        1000,
-        500,
-        100,
-        50,
-        20,
-        10,
-        5,
-        2,
-        1
-      ],
+      "spacing": [5000, 1000, 500, 100, 50, 20, 10, 5, 2, 1],
       "densityfactor": 0.1
     },
     "pan": {
@@ -181,44 +144,15 @@
   ],
   "data": {
     "variables": [
-      {
-        "column": 0,
-        "id": "x"
-      },
-      {
-        "column": 1,
-        "id": "y1",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 2,
-        "id": "y2",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      }
+      {"column": 0, "id": "x"},
+      {"column": 1, "id": "y1", "missingvalue": "-9000", "missingop": "le"},
+      {"column": 2, "id": "y2", "missingvalue": "-9000", "missingop": "le"}
     ],
     "values": [
-      [
-        "0.5",
-        " 238318",
-        " 208192"
-      ],
-      [
-        "2.5",
-        " 20764",
-        " 20035"
-      ],
-      [
-        "4.5",
-        " 106740",
-        " 94914"
-      ],
-      [
-        "6.5",
-        " 33090",
-        " 30577"
-      ]
+      ["0.5", " 238318", " 208192"],
+      ["2.5", " 20764", " 20035"],
+      ["4.5", " 106740", " 94914"],
+      ["6.5", " 33090", " 30577"]
     ]
   }
 }

@@ -17,10 +17,7 @@
   "horizontalaxis": {
     "id": "x",
     "length": "1",
-    "base": [
-      -1,
-      -1
-    ],
+    "base": [-1, -1],
     "anchor": -1,
     "min": 1900,
     "max": 2000,
@@ -28,27 +25,10 @@
     "tickmax": 5,
     "labels": {
       "format": "%1d",
-      "spacing": [
-        1000,
-        500,
-        200,
-        100,
-        50,
-        20,
-        10,
-        5,
-        2,
-        1
-      ],
+      "spacing": [1000, 500, 200, 100, 50, 20, 10, 5, 2, 1],
       "start": 0,
-      "anchor": [
-        0,
-        0
-      ],
-      "position": [
-        10,
-        -10
-      ],
+      "anchor": [0, 0],
+      "position": [10, -10],
       "angle": 45
     }
   },
@@ -59,29 +39,10 @@
     "max": 1,
     "labels": {
       "format": "%.2f",
-      "spacing": [
-        100,
-        20,
-        10,
-        5,
-        2,
-        1,
-        0.5,
-        0.2,
-        0.1,
-        0.05,
-        0.02,
-        0.01
-      ],
+      "spacing": [100, 20, 10, 5, 2, 1, 0.5, 0.2, 0.1, 0.05, 0.02, 0.01],
       "start": 0,
-      "anchor": [
-        0,
-        0
-      ],
-      "position": [
-        0,
-        0
-      ],
+      "anchor": [0, 0],
+      "position": [0, 0],
       "angle": 0
     }
   },
@@ -106,18 +67,8 @@
   },
   "data": {
     "variables": [
-      {
-        "column": 0,
-        "type": "number",
-        "id": "x"
-      },
-      {
-        "column": 1,
-        "type": "number",
-        "id": "y",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      }
+      {"column": 0, "type": "number", "id": "x"},
+      {"column": 1, "type": "number", "id": "y", "missingvalue": "-9000", "missingop": "le"}
     ],
     "csv": {
       "location": "../../mugl/FOOBARtempdataERRORERROR.csv"

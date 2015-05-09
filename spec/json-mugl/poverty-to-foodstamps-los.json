@@ -18,19 +18,14 @@
     {
       "id": "Buncombe County",
       "length": "1",
-      "base": [
-        -1,
-        -1
-      ],
+      "base": [-1, -1],
       "anchor": -1,
       "min": 0,
       "max": 10,
       "title": false,
       "labels": {
         "format": "",
-        "spacing": [
-          1000
-        ],
+        "spacing": [1000],
         "densityfactor": 0.5
       },
       "pan": false,
@@ -39,19 +34,14 @@
     {
       "id": "Madison County",
       "length": "1",
-      "base": [
-        -1,
-        -1
-      ],
+      "base": [-1, -1],
       "anchor": -1,
       "min": 0,
       "max": 10,
       "title": false,
       "labels": {
         "format": "",
-        "spacing": [
-          1000
-        ],
+        "spacing": [1000],
         "densityfactor": 0.5
       },
       "pan": false,
@@ -60,19 +50,14 @@
     {
       "id": "Henderson County",
       "length": "1",
-      "base": [
-        -1,
-        -1
-      ],
+      "base": [-1, -1],
       "anchor": -1,
       "min": 0,
       "max": 10,
       "title": false,
       "labels": {
         "format": "",
-        "spacing": [
-          1000
-        ],
+        "spacing": [1000],
         "densityfactor": 0.5
       },
       "pan": false,
@@ -81,19 +66,14 @@
     {
       "id": "Transylvania County",
       "length": "1",
-      "base": [
-        -1,
-        -1
-      ],
+      "base": [-1, -1],
       "anchor": -1,
       "min": 0,
       "max": 10,
       "title": false,
       "labels": {
         "format": "",
-        "spacing": [
-          1000
-        ],
+        "spacing": [1000],
         "densityfactor": 0.5
       },
       "pan": false,
@@ -102,19 +82,14 @@
     {
       "id": "North Carolina",
       "length": "1",
-      "base": [
-        -1,
-        -1
-      ],
+      "base": [-1, -1],
       "anchor": -1,
       "min": 0,
       "max": 10,
       "title": false,
       "labels": {
         "format": "",
-        "spacing": [
-          1000
-        ],
+        "spacing": [1000],
         "densityfactor": 0.5
       },
       "pan": false,
@@ -128,32 +103,13 @@
     "max": 100,
     "title": {
       "text": "Population Percentage",
-      "anchor": [
-        0,
-        -4
-      ],
-      "position": [
-        -40,
-        0
-      ],
+      "anchor": [0, -4],
+      "position": [-40, 0],
       "angle": 90
     },
     "labels": {
       "format": "%.1f",
-      "spacing": [
-        5000,
-        1000,
-        500,
-        100,
-        50,
-        20,
-        10,
-        5,
-        2,
-        1,
-        0.5,
-        0.1
-      ],
+      "spacing": [5000, 1000, 500, 100, 50, 20, 10, 5, 2, 1, 0.5, 0.1],
       "densityfactor": 0.1
     },
     "grid": {},
@@ -205,49 +161,16 @@
   ],
   "data": {
     "variables": [
-      {
-        "column": 0,
-        "id": "x"
-      },
-      {
-        "column": 1,
-        "id": "y1",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 2,
-        "id": "y2",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      }
+      {"column": 0, "id": "x"},
+      {"column": 1, "id": "y1", "missingvalue": "-9000", "missingop": "le"},
+      {"column": 2, "id": "y2", "missingvalue": "-9000", "missingop": "le"}
     ],
     "values": [
-      [
-        "0.5",
-        " 9.5",
-        " 9.3"
-      ],
-      [
-        "2.5",
-        " 12.2",
-        " 9.7"
-      ],
-      [
-        "4.5",
-        " 9.2",
-        " 7.3"
-      ],
-      [
-        "6.5",
-        " 9.5",
-        " 8.8"
-      ],
-      [
-        "8.5",
-        " 11.4",
-        "10.3"
-      ]
+      ["0.5", " 9.5", " 9.3"],
+      ["2.5", " 12.2", " 9.7"],
+      ["4.5", " 9.2", " 7.3"],
+      ["6.5", " 9.5", " 8.8"],
+      ["8.5", " 11.4", "10.3"]
     ]
   }
 }

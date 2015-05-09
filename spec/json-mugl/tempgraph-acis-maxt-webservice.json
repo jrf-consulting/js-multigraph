@@ -18,10 +18,7 @@
     "id": "x",
     "type": "datetime",
     "length": "1",
-    "base": [
-      -1,
-      -1
-    ],
+    "base": [-1, -1],
     "anchor": -1,
     "min": "20120601",
     "max": "20120608",
@@ -29,20 +26,10 @@
     "tickmax": 5,
     "labels": {
       "format": "%n %d",
-      "spacing": [
-        "7D",
-        "2D",
-        "1D"
-      ],
+      "spacing": ["7D", "2D", "1D"],
       "start": "0",
-      "anchor": [
-        0,
-        0
-      ],
-      "position": [
-        10,
-        -10
-      ],
+      "anchor": [0, 0],
+      "position": [10, -10],
       "angle": 45
     }
   },
@@ -53,29 +40,10 @@
     "max": 100,
     "labels": {
       "format": "%.2f",
-      "spacing": [
-        100,
-        20,
-        10,
-        5,
-        2,
-        1,
-        0.5,
-        0.2,
-        0.1,
-        0.05,
-        0.02,
-        0.01
-      ],
+      "spacing": [100, 20, 10, 5, 2, 1, 0.5, 0.2, 0.1, 0.05, 0.02, 0.01],
       "start": 0,
-      "anchor": [
-        0,
-        0
-      ],
-      "position": [
-        0,
-        0
-      ],
+      "anchor": [0, 0],
+      "position": [0, 0],
       "angle": 0
     }
   },
@@ -100,18 +68,8 @@
   },
   "data": {
     "variables": [
-      {
-        "column": 0,
-        "type": "datetime",
-        "id": "datetime"
-      },
-      {
-        "column": 1,
-        "type": "number",
-        "id": "maxt",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      }
+      {"column": 0, "type": "datetime", "id": "datetime"},
+      {"column": 1, "type": "number", "id": "maxt", "missingvalue": "-9000", "missingop": "le"}
     ],
     "service": {
       "location": "http://acis.multigraph.org/acisdata/13881-1/maxt/",

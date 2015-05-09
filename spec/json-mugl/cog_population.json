@@ -19,19 +19,14 @@
     {
       "id": "Land of Sky",
       "length": "1",
-      "base": [
-        -1,
-        -1
-      ],
+      "base": [-1, -1],
       "anchor": -1,
       "min": 0,
       "max": 5.5,
       "title": false,
       "labels": {
         "format": "",
-        "spacing": [
-          1000
-        ],
+        "spacing": [1000],
         "densityfactor": 0.5
       },
       "pan": false,
@@ -40,19 +35,14 @@
     {
       "id": "High Country",
       "length": "1",
-      "base": [
-        -1,
-        -1
-      ],
+      "base": [-1, -1],
       "anchor": -1,
       "min": 0,
       "max": 5.5,
       "title": false,
       "labels": {
         "format": "",
-        "spacing": [
-          1000
-        ],
+        "spacing": [1000],
         "densityfactor": 0.5
       },
       "pan": false,
@@ -61,19 +51,14 @@
     {
       "id": "Isothermal",
       "length": "1",
-      "base": [
-        -1,
-        -1
-      ],
+      "base": [-1, -1],
       "anchor": -1,
       "min": 0,
       "max": 5.5,
       "title": false,
       "labels": {
         "format": "",
-        "spacing": [
-          1000
-        ],
+        "spacing": [1000],
         "densityfactor": 0.5
       },
       "pan": false,
@@ -82,19 +67,14 @@
     {
       "id": "Southwestern",
       "length": "1",
-      "base": [
-        -1,
-        -1
-      ],
+      "base": [-1, -1],
       "anchor": -1,
       "min": 0,
       "max": 5.5,
       "title": false,
       "labels": {
         "format": "",
-        "spacing": [
-          1000
-        ],
+        "spacing": [1000],
         "densityfactor": 0.5
       },
       "pan": false,
@@ -103,19 +83,14 @@
     {
       "id": "Western Piedmont",
       "length": "1",
-      "base": [
-        -1,
-        -1
-      ],
+      "base": [-1, -1],
       "anchor": -1,
       "min": 0,
       "max": 5.5,
       "title": false,
       "labels": {
         "format": "",
-        "spacing": [
-          1000
-        ],
+        "spacing": [1000],
         "densityfactor": 0.5
       },
       "pan": false,
@@ -129,31 +104,13 @@
     "max": 400000,
     "title": {
       "text": "Population, 2010",
-      "anchor": [
-        0,
-        -4
-      ],
-      "position": [
-        -40,
-        0
-      ],
+      "anchor": [0, -4],
+      "position": [-40, 0],
       "angle": 90
     },
     "labels": {
       "format": "%.0f",
-      "spacing": [
-        100000,
-        5000,
-        1000,
-        500,
-        100,
-        50,
-        20,
-        10,
-        5,
-        2,
-        1
-      ],
+      "spacing": [100000, 5000, 1000, 500, 100, 50, 20, 10, 5, 2, 1],
       "densityfactor": 0.1
     },
     "pan": {
@@ -641,10 +598,7 @@
     "border": 0,
     "opacity": 0,
     "columns": 8,
-    "position": [
-      30,
-      80
-    ],
+    "position": [30, 80],
     "icon": {
       "width": 15,
       "height": 15,
@@ -653,302 +607,39 @@
   },
   "data": {
     "variables": [
-      {
-        "column": 0,
-        "id": "x"
-      },
-      {
-        "column": 1,
-        "id": "bunc",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 2,
-        "id": "madi",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 3,
-        "id": "hend",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 4,
-        "id": "tran",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 5,
-        "id": "wilk",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 6,
-        "id": "wata",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 7,
-        "id": "mitc",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 8,
-        "id": "yanc",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 9,
-        "id": "ashe",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 10,
-        "id": "aver",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 11,
-        "id": "alle",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 12,
-        "id": "clev",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 13,
-        "id": "mcdo",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 14,
-        "id": "polk",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 15,
-        "id": "ruth",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 16,
-        "id": "hayw",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 17,
-        "id": "jack",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 18,
-        "id": "maco",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 19,
-        "id": "cher",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 20,
-        "id": "swai",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 21,
-        "id": "clay",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 22,
-        "id": "grah",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 23,
-        "id": "burk",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 24,
-        "id": "cald",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      },
-      {
-        "column": 25,
-        "id": "alex",
-        "missingvalue": "-9000",
-        "missingop": "le"
-      }
+      {"column": 0, "id": "x"},
+      {"column": 1, "id": "bunc", "missingvalue": "-9000", "missingop": "le"},
+      {"column": 2, "id": "madi", "missingvalue": "-9000", "missingop": "le"},
+      {"column": 3, "id": "hend", "missingvalue": "-9000", "missingop": "le"},
+      {"column": 4, "id": "tran", "missingvalue": "-9000", "missingop": "le"},
+      {"column": 5, "id": "wilk", "missingvalue": "-9000", "missingop": "le"},
+      {"column": 6, "id": "wata", "missingvalue": "-9000", "missingop": "le"},
+      {"column": 7, "id": "mitc", "missingvalue": "-9000", "missingop": "le"},
+      {"column": 8, "id": "yanc", "missingvalue": "-9000", "missingop": "le"},
+      {"column": 9, "id": "ashe", "missingvalue": "-9000", "missingop": "le"},
+      {"column": 10, "id": "aver", "missingvalue": "-9000", "missingop": "le"},
+      {"column": 11, "id": "alle", "missingvalue": "-9000", "missingop": "le"},
+      {"column": 12, "id": "clev", "missingvalue": "-9000", "missingop": "le"},
+      {"column": 13, "id": "mcdo", "missingvalue": "-9000", "missingop": "le"},
+      {"column": 14, "id": "polk", "missingvalue": "-9000", "missingop": "le"},
+      {"column": 15, "id": "ruth", "missingvalue": "-9000", "missingop": "le"},
+      {"column": 16, "id": "hayw", "missingvalue": "-9000", "missingop": "le"},
+      {"column": 17, "id": "jack", "missingvalue": "-9000", "missingop": "le"},
+      {"column": 18, "id": "maco", "missingvalue": "-9000", "missingop": "le"},
+      {"column": 19, "id": "cher", "missingvalue": "-9000", "missingop": "le"},
+      {"column": 20, "id": "swai", "missingvalue": "-9000", "missingop": "le"},
+      {"column": 21, "id": "clay", "missingvalue": "-9000", "missingop": "le"},
+      {"column": 22, "id": "grah", "missingvalue": "-9000", "missingop": "le"},
+      {"column": 23, "id": "burk", "missingvalue": "-9000", "missingop": "le"},
+      {"column": 24, "id": "cald", "missingvalue": "-9000", "missingop": "le"},
+      {"column": 25, "id": "alex", "missingvalue": "-9000", "missingop": "le"}
     ],
     "values": [
-      [
-        "0.5",
-        " 238318",
-        " 259082",
-        " 365822",
-        " 398912",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000"
-      ],
-      [
-        "1.5",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " 069340",
-        " 120419",
-        " 135998",
-        " 153816",
-        " 171613",
-        " 198894",
-        " 210049",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000"
-      ],
-      [
-        "2.5",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " 098078",
-        " 143074",
-        " 163584",
-        " 231394",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000"
-      ],
-      [
-        "3.5",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " 059036",
-        " 099307",
-        " 133229",
-        " 160673",
-        " 174654",
-        " 185241",
-        " 194102",
-        " -9000",
-        " -9000",
-        " -9000"
-      ],
-      [
-        "4.5",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " -9000",
-        " 090912",
-        " 173941",
-        " 211139"
-      ]
+      ["0.5", " 238318", " 259082", " 365822", " 398912", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000"],
+      ["1.5", " -9000", " -9000", " -9000", " -9000", " 069340", " 120419", " 135998", " 153816", " 171613", " 198894", " 210049", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000"],
+      ["2.5", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " 098078", " 143074", " 163584", " 231394", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000"],
+      ["3.5", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " 059036", " 099307", " 133229", " 160673", " 174654", " 185241", " 194102", " -9000", " -9000", " -9000"],
+      ["4.5", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " -9000", " 090912", " 173941", " 211139"]
     ]
   }
 }
