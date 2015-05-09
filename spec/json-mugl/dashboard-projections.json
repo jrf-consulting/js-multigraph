@@ -51,15 +51,8 @@
         "fillopacity": "0.5",
         "linewidth": "0"
       },
-      "horizontalaxis": {
-        "year": "year_20c3m"
-      },
-      "verticalaxis": {
-        "temp": [
-          "min_20c3m",
-          "max_20c3m"
-        ]
-      }
+      "horizontalaxis": {"year": "year_20c3m"},
+      "verticalaxis": {"temp": ["min_20c3m", "max_20c3m"]}
     },
     {
       "style": "band",
@@ -68,15 +61,8 @@
         "fillopacity": "0.5",
         "linewidth": "0"
       },
-      "horizontalaxis": {
-        "year": "year_a2"
-      },
-      "verticalaxis": {
-        "temp": [
-          "min_a2",
-          "max_a2"
-        ]
-      }
+      "horizontalaxis": {"year": "year_a2"},
+      "verticalaxis": {"temp": ["min_a2", "max_a2"]}
     },
     {
       "style": "band",
@@ -85,15 +71,8 @@
         "fillopacity": "0.5",
         "linewidth": "0"
       },
-      "horizontalaxis": {
-        "year": "year_a1b"
-      },
-      "verticalaxis": {
-        "temp": [
-          "min_a1b",
-          "max_a1b"
-        ]
-      }
+      "horizontalaxis": {"year": "year_a1b"},
+      "verticalaxis": {"temp": ["min_a1b", "max_a1b"]}
     },
     {
       "style": "band",
@@ -102,15 +81,8 @@
         "fillopacity": "0.5",
         "linewidth": "0"
       },
-      "horizontalaxis": {
-        "year": "year_b1"
-      },
-      "verticalaxis": {
-        "temp": [
-          "min_b1",
-          "max_b1"
-        ]
-      }
+      "horizontalaxis": {"year": "year_b1"},
+      "verticalaxis": {"temp": ["min_b1", "max_b1"]}
     },
     {
       "style": "line",
@@ -118,12 +90,8 @@
         "linecolor": "0x000000",
         "linewidth": "2"
       },
-      "horizontalaxis": {
-        "year": "year_20c3m"
-      },
-      "verticalaxis": {
-        "temp": "temp_20c3m"
-      },
+      "horizontalaxis": {"year": "year_20c3m"},
+      "verticalaxis": {"temp": "temp_20c3m"},
       "datatips": {
         "format": "{0}: {1}",
         "variable-formats": ["%Y", "%.1f °C"]
@@ -135,12 +103,8 @@
         "linecolor": "0x990000",
         "linewidth": "2"
       },
-      "horizontalaxis": {
-        "year": "year_a2"
-      },
-      "verticalaxis": {
-        "temp": "temp_a2"
-      },
+      "horizontalaxis": {"year": "year_a2"},
+      "verticalaxis": {"temp": "temp_a2"},
       "datatips": {
         "format": "{0}: {1}",
         "variable-formats": ["%Y A2", "%.1f °C"]
@@ -152,12 +116,8 @@
         "linecolor": "0x009900",
         "linewidth": "2"
       },
-      "horizontalaxis": {
-        "year": "year_a1b"
-      },
-      "verticalaxis": {
-        "temp": "temp_a1b"
-      },
+      "horizontalaxis": {"year": "year_a1b"},
+      "verticalaxis": {"temp": "temp_a1b"},
       "datatips": {
         "format": "{0}: {1}",
         "variable-formats": ["%Y A1B", "%.1f °C"]
@@ -169,12 +129,8 @@
         "linecolor": "0x000099",
         "linewidth": "2"
       },
-      "horizontalaxis": {
-        "year": "year_b1"
-      },
-      "verticalaxis": {
-        "temp": "temp_b1"
-      },
+      "horizontalaxis": {"year": "year_b1"},
+      "verticalaxis": {"temp": "temp_b1"},
       "datatips": {
         "format": "{0}: {1}",
         "variable-formats": ["%Y B1", "%.1f °C"]

@@ -68,12 +68,8 @@
       "fillcolor": "0xed7619",
       "fillopacity": "0.1"
     },
-    "horizontalaxis": {
-      "year": "year"
-    },
-    "verticalaxis": {
-      "wm2": "sunsenergy"
-    },
+    "horizontalaxis": {"year": "year"},
+    "verticalaxis": {"wm2": "sunsenergy"},
     "datatips": {
       "format": "{0}: {1}",
       "variable-formats": ["'%y", "%.1f"]

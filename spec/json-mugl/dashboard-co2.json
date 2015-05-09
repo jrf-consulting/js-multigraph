@@ -71,12 +71,8 @@
         "fillcolor": "0xBBBBBB",
         "fillopacity": "0.35"
       },
-      "horizontalaxis": {
-        "datetime": "datetime"
-      },
-      "verticalaxis": {
-        "co2": "co2"
-      },
+      "horizontalaxis": {"datetime": "datetime"},
+      "verticalaxis": {"co2": "co2"},
       "legend": false,
       "datatips": {
         "format": "{0}: {1}",
@@ -89,12 +85,8 @@
         "linecolor": "0x990000",
         "linewidth": "1.5"
       },
-      "horizontalaxis": {
-        "datetime": "datetime"
-      },
-      "verticalaxis": {
-        "co2": "co2avg"
-      },
+      "horizontalaxis": {"datetime": "datetime"},
+      "verticalaxis": {"co2": "co2avg"},
       "legend": {
         "label": "annual"
       }

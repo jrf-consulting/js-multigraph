@@ -59,12 +59,8 @@
       "pointopacity": "1.0",
       "pointsize": "3"
     },
-    "horizontalaxis": {
-      "x": "datetime"
-    },
-    "verticalaxis": {
-      "y": "maxt"
-    }
+    "horizontalaxis": {"x": "datetime"},
+    "verticalaxis": {"y": "maxt"}
   },
   "data": {
     "variables": [

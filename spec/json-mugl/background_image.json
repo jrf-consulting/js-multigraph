@@ -63,12 +63,8 @@
   ],
   "plot": {
     "style": "line",
-    "horizontalaxis": {
-      "x": "x"
-    },
-    "verticalaxis": {
-      "y": "y"
-    }
+    "horizontalaxis": {"x": "x"},
+    "verticalaxis": {"y": "y"}
   },
   "data": {
     "variables": [

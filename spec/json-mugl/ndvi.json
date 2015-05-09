@@ -30,12 +30,8 @@
       "pointcolor": "blue",
       "pointsize": "1.5"
     },
-    "horizontalaxis": {
-      "datetime": "datetime"
-    },
-    "verticalaxis": {
-      "value": "value"
-    }
+    "horizontalaxis": {"datetime": "datetime"},
+    "verticalaxis": {"value": "value"}
   },
   "data": {
     "variables": [

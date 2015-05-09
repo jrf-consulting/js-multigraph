@@ -52,12 +52,8 @@
         "pointoutlinewidth": "2",
         "pointoutlinecolor": "0x07CCEB"
       },
-      "horizontalaxis": {
-        "Date": "datetime"
-      },
-      "verticalaxis": {
-        "y": "y1"
-      }
+      "horizontalaxis": {"Date": "datetime"},
+      "verticalaxis": {"y": "y1"}
     },
     {
       "style": "pointline",
@@ -69,12 +65,8 @@
         "pointoutlinewidth": "2",
         "pointoutlinecolor": "0xEB2607"
       },
-      "horizontalaxis": {
-        "Date": "datetime"
-      },
-      "verticalaxis": {
-        "y": "y"
-      }
+      "horizontalaxis": {"Date": "datetime"},
+      "verticalaxis": {"y": "y"}
     }
   ],
   "legend": {

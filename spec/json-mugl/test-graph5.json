@@ -64,12 +64,8 @@
         "fillopacity": ".1",
         "fillbase": "0"
       },
-      "horizontalaxis": {
-        "x": "x"
-      },
-      "verticalaxis": {
-        "y": "y"
-      }
+      "horizontalaxis": {"x": "x"},
+      "verticalaxis": {"y": "y"}
     },
     {
       "style": "point",
@@ -81,12 +77,8 @@
         "pointoutlinecolor": "0x004516",
         "pointshape": "diamond"
       },
-      "horizontalaxis": {
-        "x": "x"
-      },
-      "verticalaxis": {
-        "y": "y1"
-      }
+      "horizontalaxis": {"x": "x"},
+      "verticalaxis": {"y": "y1"}
     }
   ],
   "legend": {

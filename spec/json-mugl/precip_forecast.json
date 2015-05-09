@@ -77,12 +77,8 @@
         "pointopacity": "1.0",
         "pointsize": "3"
       },
-      "horizontalaxis": {
-        "Time": "Time"
-      },
-      "verticalaxis": {
-        "\ufffdF": "Sky Cover"
-      }
+      "horizontalaxis": {"Time": "Time"},
+      "verticalaxis": {"\ufffdF": "Sky Cover"}
     },
     {
       "style": "pointline",
@@ -96,12 +92,8 @@
         "pointopacity": "1.0",
         "pointsize": "3"
       },
-      "horizontalaxis": {
-        "Time": "Time"
-      },
-      "verticalaxis": {
-        "\ufffdF": "Pcpn. Potential"
-      }
+      "horizontalaxis": {"Time": "Time"},
+      "verticalaxis": {"\ufffdF": "Pcpn. Potential"}
     },
     {
       "style": "pointline",
@@ -115,12 +107,8 @@
         "pointopacity": "1.0",
         "pointsize": "3"
       },
-      "horizontalaxis": {
-        "Time": "Time"
-      },
-      "verticalaxis": {
-        "\ufffdF": "Rel. Humidity"
-      }
+      "horizontalaxis": {"Time": "Time"},
+      "verticalaxis": {"\ufffdF": "Rel. Humidity"}
     }
   ],
   "legend": {

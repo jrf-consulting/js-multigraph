@@ -73,12 +73,8 @@
         "pointshape": "diamond",
         "pointcolor": "0xad1fff"
       },
-      "horizontalaxis": {
-        "yearaxis": "year"
-      },
-      "verticalaxis": {
-        "tempaxis": "temp"
-      },
+      "horizontalaxis": {"yearaxis": "year"},
+      "verticalaxis": {"tempaxis": "temp"},
       "datatips": {
         "format": "{0}: {1}",
         "variable-formats": ["'%y", "%.1f"]
@@ -93,12 +89,8 @@
         "pointsize": "1.5",
         "pointcolor": "0xEB9800"
       },
-      "horizontalaxis": {
-        "yearaxis": "year"
-      },
-      "verticalaxis": {
-        "tempaxis": "temp1"
-      },
+      "horizontalaxis": {"yearaxis": "year"},
+      "verticalaxis": {"tempaxis": "temp1"},
       "datatips": {
         "format": "{0}: {1}",
         "variable-formats": ["'%y", "%.1f"]

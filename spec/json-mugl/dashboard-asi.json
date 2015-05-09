@@ -84,12 +84,8 @@
       "fillcolor": "0x8fc6ff",
       "fillopacity": "0.2"
     },
-    "horizontalaxis": {
-      "x": "datetime"
-    },
-    "verticalaxis": {
-      "y": "minSQ"
-    },
+    "horizontalaxis": {"x": "datetime"},
+    "verticalaxis": {"y": "minSQ"},
     "legend": false,
     "datatips": {
       "format": "{0}: {1}",

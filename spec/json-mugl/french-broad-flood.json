@@ -71,12 +71,8 @@
         "linecolor": "0x116ED1",
         "linewidth": "1.5"
       },
-      "horizontalaxis": {
-        "Time": "Time"
-      },
-      "verticalaxis": {
-        "y": "Stage Height"
-      }
+      "horizontalaxis": {"Time": "Time"},
+      "verticalaxis": {"y": "Stage Height"}
     },
     {
       "style": "line",
@@ -84,9 +80,7 @@
         "linecolor": "0xFF0D41",
         "linewidth": "2"
       },
-      "verticalaxis": {
-        "y": "8"
-      },
+      "verticalaxis": {"y": "8"},
       "legend": {
         "visible": true,
         "label": "National Weather Service Floodstage"

@@ -37,12 +37,8 @@
       "fillopacity": "1",
       "fillbase": "-0.05"
     },
-    "horizontalaxis": {
-      "x": "x"
-    },
-    "verticalaxis": {
-      "y": "y"
-    }
+    "horizontalaxis": {"x": "x"},
+    "verticalaxis": {"y": "y"}
   },
   "legend": {
     "visible": "true",

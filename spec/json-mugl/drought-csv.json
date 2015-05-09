@@ -63,12 +63,8 @@
       "baroffset": "0",
       "hidelines": "10"
     },
-    "horizontalaxis": {
-      "time": "time"
-    },
-    "verticalaxis": {
-      "pdsi": "pdsi"
-    }
+    "horizontalaxis": {"time": "time"},
+    "verticalaxis": {"pdsi": "pdsi"}
   },
   "data": {
     "adapter": "drought",

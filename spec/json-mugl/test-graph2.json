@@ -74,12 +74,8 @@
       "baroffset": "0",
       "barbase": "0"
     },
-    "horizontalaxis": {
-      "yearaxis": "year"
-    },
-    "verticalaxis": {
-      "tempaxis": "temp"
-    },
+    "horizontalaxis": {"yearaxis": "year"},
+    "verticalaxis": {"tempaxis": "temp"},
     "datatips": {
       "format": "{0}: {1}",
       "variable-formats": ["'%y", "%.1f"]

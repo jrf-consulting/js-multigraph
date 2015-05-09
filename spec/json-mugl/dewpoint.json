@@ -87,12 +87,8 @@
         "missingvalue": "-9999.9999",
         "missingop": "EQ"
       },
-      "horizontalaxis": {
-        "haxis": "time"
-      },
-      "verticalaxis": {
-        "temp": "temp"
-      },
+      "horizontalaxis": {"haxis": "time"},
+      "verticalaxis": {"temp": "temp"},
       "legend": {
         "label": "Mean Temperature"
       }
@@ -105,12 +101,8 @@
         "missingvalue": "-9999.9999",
         "missingop": "EQ"
       },
-      "horizontalaxis": {
-        "haxis": "time"
-      },
-      "verticalaxis": {
-        "dewp": "dewp"
-      },
+      "horizontalaxis": {"haxis": "time"},
+      "verticalaxis": {"dewp": "dewp"},
       "legend": {
         "label": "Mean Dew Point"
       }

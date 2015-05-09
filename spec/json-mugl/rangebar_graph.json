@@ -36,15 +36,8 @@
       "fillopacity": "0.5",
       "hidelines": "4"
     },
-    "horizontalaxis": {
-      "x": "x"
-    },
-    "verticalaxis": {
-      "y": [
-        "y",
-        "z"
-      ]
-    }
+    "horizontalaxis": {"x": "x"},
+    "verticalaxis": {"y": ["y", "z"]}
   },
   "data": {
     "variables": [

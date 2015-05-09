@@ -64,12 +64,8 @@
         "linewidth": "3",
         "dotsize": "0"
       },
-      "horizontalaxis": {
-        "datetime": "f0d"
-      },
-      "verticalaxis": {
-        "fahrenheit": "f0t"
-      },
+      "horizontalaxis": {"datetime": "f0d"},
+      "verticalaxis": {"fahrenheit": "f0t"},
       "legend": {
         "label": "Outdoor Forecast"
       }
@@ -80,12 +76,8 @@
         "linecolor": "red",
         "dotsize": "0"
       },
-      "horizontalaxis": {
-        "datetime": "datetime"
-      },
-      "verticalaxis": {
-        "celsius": "livtemp"
-      },
+      "horizontalaxis": {"datetime": "datetime"},
+      "verticalaxis": {"celsius": "livtemp"},
       "legend": {
         "label": "Living Room"
       }
@@ -96,12 +88,8 @@
         "linecolor": "black",
         "dotsize": "0"
       },
-      "horizontalaxis": {
-        "datetime": "datetime"
-      },
-      "verticalaxis": {
-        "celsius": "intemp"
-      },
+      "horizontalaxis": {"datetime": "datetime"},
+      "verticalaxis": {"celsius": "intemp"},
       "legend": {
         "label": "Upstairs Office"
       }
@@ -113,12 +101,8 @@
         "linewidth": "3",
         "dotsize": "0"
       },
-      "horizontalaxis": {
-        "datetime": "datetime"
-      },
-      "verticalaxis": {
-        "celsius": "outtemp"
-      },
+      "horizontalaxis": {"datetime": "datetime"},
+      "verticalaxis": {"celsius": "outtemp"},
       "legend": {
         "label": "Outdoor"
       }

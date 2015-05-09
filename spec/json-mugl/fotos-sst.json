@@ -80,12 +80,8 @@
       "dotsize": "3",
       "linewidth": "2"
     },
-    "horizontalaxis": {
-      "haxis": "time"
-    },
-    "verticalaxis": {
-      "Degrees C": "smc"
-    }
+    "horizontalaxis": {"haxis": "time"},
+    "verticalaxis": {"Degrees C": "smc"}
   },
   "legend": {
     "anchor": [0, 1],

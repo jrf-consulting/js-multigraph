@@ -59,12 +59,8 @@
       "pointopacity": "1.0",
       "pointsize": "3"
     },
-    "horizontalaxis": {
-      "x": "x"
-    },
-    "verticalaxis": {
-      "y": "y"
-    }
+    "horizontalaxis": {"x": "x"},
+    "verticalaxis": {"y": "y"}
   },
   "data": {
     "variables": [

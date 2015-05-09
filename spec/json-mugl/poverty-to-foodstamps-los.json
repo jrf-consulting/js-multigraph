@@ -128,12 +128,8 @@
         "barbase": "0",
         "hidelines": "2"
       },
-      "horizontalaxis": {
-        "Buncombe County": "x"
-      },
-      "verticalaxis": {
-        "y": "y1"
-      },
+      "horizontalaxis": {"Buncombe County": "x"},
+      "verticalaxis": {"y": "y1"},
       "legend": {
         "label": "% Population with Income Below Poverty Level in Past 12 Months"
       }
@@ -148,12 +144,8 @@
         "barbase": "0",
         "hidelines": "2"
       },
-      "horizontalaxis": {
-        "Buncombe County": "x"
-      },
-      "verticalaxis": {
-        "y": "y2"
-      },
+      "horizontalaxis": {"Buncombe County": "x"},
+      "verticalaxis": {"y": "y2"},
       "legend": {
         "label": "% Population with SNAP/Food Stamp Benefits in Past 12 Months"
       }

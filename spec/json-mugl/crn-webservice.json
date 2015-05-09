@@ -170,12 +170,8 @@
         "linecolor": "#990000",
         "fillcolor": "#ffaaaa"
       },
-      "horizontalaxis": {
-        "time": "time_1h"
-      },
-      "verticalaxis": {
-        "solarad": "solarad"
-      },
+      "horizontalaxis": {"time": "time_1h"},
+      "verticalaxis": {"solarad": "solarad"},
       "legend": {
         "label": "Solar Radiation"
       }
@@ -188,12 +184,8 @@
         "baroffset": "0",
         "linecolor": "black"
       },
-      "horizontalaxis": {
-        "time": "time_5m"
-      },
-      "verticalaxis": {
-        "precip": "precip"
-      },
+      "horizontalaxis": {"time": "time_5m"},
+      "verticalaxis": {"precip": "precip"},
       "legend": {
         "label": "Precip"
       }
@@ -207,12 +199,8 @@
         "pointsize": "1",
         "pointoutlinecolor": "blue"
       },
-      "horizontalaxis": {
-        "time": "time_5m"
-      },
-      "verticalaxis": {
-        "temp": "temp"
-      },
+      "horizontalaxis": {"time": "time_5m"},
+      "verticalaxis": {"temp": "temp"},
       "legend": {
         "label": "Air Temp"
       }
@@ -226,12 +214,8 @@
         "pointsize": "1",
         "pointoutlinecolor": "black"
       },
-      "horizontalaxis": {
-        "time": "time_1h"
-      },
-      "verticalaxis": {
-        "windspd": "windspd"
-      },
+      "horizontalaxis": {"time": "time_1h"},
+      "verticalaxis": {"windspd": "windspd"},
       "legend": {
         "label": "Wind Speed"
       }

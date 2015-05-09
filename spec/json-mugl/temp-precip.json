@@ -109,15 +109,8 @@
         "barwidth": "20H",
         "baroffset": "0.5"
       },
-      "horizontalaxis": {
-        "time": "temp-time"
-      },
-      "verticalaxis": {
-        "tempc": [
-          "temp-tmin",
-          "temp-tmax"
-        ]
-      },
+      "horizontalaxis": {"time": "temp-time"},
+      "verticalaxis": {"tempc": ["temp-tmin", "temp-tmax"]},
       "legend": {
         "label": "Daily Max/Min Temp"
       }
@@ -129,12 +122,8 @@
         "baroffset": "0.5",
         "fillcolor": "0x00ff00"
       },
-      "horizontalaxis": {
-        "time": "prcp-time"
-      },
-      "verticalaxis": {
-        "prcpmm": "prcp-prcp"
-      },
+      "horizontalaxis": {"time": "prcp-time"},
+      "verticalaxis": {"prcpmm": "prcp-prcp"},
       "legend": {
         "label": "Daily Precip"
       }

@@ -71,12 +71,8 @@
       "pointsize": "2",
       "pointcolor": "0x83CF25"
     },
-    "horizontalaxis": {
-      "yearaxis": "year"
-    },
-    "verticalaxis": {
-      "tempaxis": "temp1"
-    },
+    "horizontalaxis": {"yearaxis": "year"},
+    "verticalaxis": {"tempaxis": "temp1"},
     "datatips": {
       "format": "{0}: {1}",
       "variable-formats": ["'%y", "%.1f"]

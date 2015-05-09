@@ -111,12 +111,8 @@
         "barbase": "0",
         "hidelines": "2"
       },
-      "horizontalaxis": {
-        "Buncombe County": "x"
-      },
-      "verticalaxis": {
-        "y": "y1"
-      },
+      "horizontalaxis": {"Buncombe County": "x"},
+      "verticalaxis": {"y": "y1"},
       "legend": {
         "label": "Total Population"
       }
@@ -131,12 +127,8 @@
         "barbase": "0",
         "hidelines": "2"
       },
-      "horizontalaxis": {
-        "Buncombe County": "x"
-      },
-      "verticalaxis": {
-        "y": "y2"
-      },
+      "horizontalaxis": {"Buncombe County": "x"},
+      "verticalaxis": {"y": "y2"},
       "legend": {
         "label": "Population White"
       }

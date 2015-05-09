@@ -74,12 +74,8 @@
         "linewidth": "2",
         "pointsize": "2.5"
       },
-      "horizontalaxis": {
-        "roomaxis": "Number of Rooms"
-      },
-      "verticalaxis": {
-        "houseaxis": "Haywood County"
-      }
+      "horizontalaxis": {"roomaxis": "Number of Rooms"},
+      "verticalaxis": {"houseaxis": "Haywood County"}
     },
     {
       "style": "pointline",
@@ -90,12 +86,8 @@
         "linewidth": "2",
         "pointsize": "2.5"
       },
-      "horizontalaxis": {
-        "roomaxis": "Number of Rooms"
-      },
-      "verticalaxis": {
-        "houseaxis": "Cherokee County"
-      }
+      "horizontalaxis": {"roomaxis": "Number of Rooms"},
+      "verticalaxis": {"houseaxis": "Cherokee County"}
     },
     {
       "style": "pointline",
@@ -106,12 +98,8 @@
         "linewidth": "2",
         "pointsize": "2.5"
       },
-      "horizontalaxis": {
-        "roomaxis": "Number of Rooms"
-      },
-      "verticalaxis": {
-        "houseaxis": "Clay County"
-      }
+      "horizontalaxis": {"roomaxis": "Number of Rooms"},
+      "verticalaxis": {"houseaxis": "Clay County"}
     },
     {
       "style": "pointline",
@@ -122,12 +110,8 @@
         "linewidth": "2",
         "pointsize": "2.5"
       },
-      "horizontalaxis": {
-        "roomaxis": "Number of Rooms"
-      },
-      "verticalaxis": {
-        "houseaxis": "Graham County"
-      }
+      "horizontalaxis": {"roomaxis": "Number of Rooms"},
+      "verticalaxis": {"houseaxis": "Graham County"}
     },
     {
       "style": "pointline",
@@ -138,12 +122,8 @@
         "linewidth": "2",
         "pointsize": "2.5"
       },
-      "horizontalaxis": {
-        "roomaxis": "Number of Rooms"
-      },
-      "verticalaxis": {
-        "houseaxis": "Jackson County"
-      }
+      "horizontalaxis": {"roomaxis": "Number of Rooms"},
+      "verticalaxis": {"houseaxis": "Jackson County"}
     },
     {
       "style": "pointline",
@@ -154,12 +134,8 @@
         "linewidth": "2",
         "pointsize": "2.5"
       },
-      "horizontalaxis": {
-        "roomaxis": "Number of Rooms"
-      },
-      "verticalaxis": {
-        "houseaxis": "Macon County"
-      }
+      "horizontalaxis": {"roomaxis": "Number of Rooms"},
+      "verticalaxis": {"houseaxis": "Macon County"}
     },
     {
       "style": "pointline",
@@ -170,12 +146,8 @@
         "linewidth": "2",
         "pointsize": "2.5"
       },
-      "horizontalaxis": {
-        "roomaxis": "Number of Rooms"
-      },
-      "verticalaxis": {
-        "houseaxis": "Swain County"
-      }
+      "horizontalaxis": {"roomaxis": "Number of Rooms"},
+      "verticalaxis": {"houseaxis": "Swain County"}
     }
   ],
   "legend": {

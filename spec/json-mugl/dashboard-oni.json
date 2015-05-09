@@ -82,9 +82,7 @@
         "linecolor": "0x999999",
         "linewidth": "1"
       },
-      "verticalaxis": {
-        "y": "0"
-      },
+      "verticalaxis": {"y": "0"},
       "legend": false
     },
     {
@@ -101,12 +99,8 @@
         "baroffset": "0",
         "barbase": "0"
       },
-      "horizontalaxis": {
-        "x": "datetime"
-      },
-      "verticalaxis": {
-        "y": "minSQ"
-      },
+      "horizontalaxis": {"x": "datetime"},
+      "verticalaxis": {"y": "minSQ"},
       "legend": {
         "label": "Yearly average"
       },

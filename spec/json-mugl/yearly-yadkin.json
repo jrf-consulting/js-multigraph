@@ -78,12 +78,8 @@
         "linecolor": "0x00A6FF",
         "linewidth": "3"
       },
-      "horizontalaxis": {
-        "Time": "Time"
-      },
-      "verticalaxis": {
-        "y": "Yadkin River, Wilkesboro"
-      }
+      "horizontalaxis": {"Time": "Time"},
+      "verticalaxis": {"y": "Yadkin River, Wilkesboro"}
     },
     {
       "style": "line",
@@ -91,12 +87,8 @@
         "linecolor": "0x0080C4",
         "linewidth": "3"
       },
-      "horizontalaxis": {
-        "Time": "Time"
-      },
-      "verticalaxis": {
-        "y": "Yadkin River, Elkin"
-      }
+      "horizontalaxis": {"Time": "Time"},
+      "verticalaxis": {"y": "Yadkin River, Elkin"}
     },
     {
       "style": "line",
@@ -104,12 +96,8 @@
         "linecolor": "0x005A8A",
         "linewidth": "3"
       },
-      "horizontalaxis": {
-        "Time": "Time"
-      },
-      "verticalaxis": {
-        "y": "Yadkin River, Enon"
-      }
+      "horizontalaxis": {"Time": "Time"},
+      "verticalaxis": {"y": "Yadkin River, Enon"}
     },
     {
       "style": "line",
@@ -117,12 +105,8 @@
         "linecolor": "0x003D5E",
         "linewidth": "3"
       },
-      "horizontalaxis": {
-        "Time": "Time"
-      },
-      "verticalaxis": {
-        "y": "Yadkin River, Yadkin College"
-      }
+      "horizontalaxis": {"Time": "Time"},
+      "verticalaxis": {"y": "Yadkin River, Yadkin College"}
     },
     {
       "style": "line",
@@ -130,12 +114,8 @@
         "linecolor": "0x000000",
         "linewidth": "3"
       },
-      "horizontalaxis": {
-        "Time": "Time"
-      },
-      "verticalaxis": {
-        "y": "Pee Dee River, Rockingham"
-      }
+      "horizontalaxis": {"Time": "Time"},
+      "verticalaxis": {"y": "Pee Dee River, Rockingham"}
     }
   ],
   "legend": {

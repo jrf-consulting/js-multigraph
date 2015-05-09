@@ -26,12 +26,8 @@
       "dotcolor": "blue",
       "pointsize": "2"
     },
-    "horizontalaxis": {
-      "datetime": "datetime"
-    },
-    "verticalaxis": {
-      "value": "value"
-    }
+    "horizontalaxis": {"datetime": "datetime"},
+    "verticalaxis": {"value": "value"}
   },
   "data": {
     "variables": [

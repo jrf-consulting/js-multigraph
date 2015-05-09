@@ -127,12 +127,8 @@
         "baroffset": "0",
         "hidelines": "2"
       },
-      "horizontalaxis": {
-        "Land of Sky": "x"
-      },
-      "verticalaxis": {
-        "y": "bunc"
-      },
+      "horizontalaxis": {"Land of Sky": "x"},
+      "verticalaxis": {"y": "bunc"},
       "legend": {
         "label": "Buncombe"
       }
@@ -146,12 +142,8 @@
         "barbase": "238318",
         "hidelines": "2"
       },
-      "horizontalaxis": {
-        "Land of Sky": "x"
-      },
-      "verticalaxis": {
-        "y": "madi"
-      },
+      "horizontalaxis": {"Land of Sky": "x"},
+      "verticalaxis": {"y": "madi"},
       "legend": {
         "label": "Madison"
       }
@@ -165,12 +157,8 @@
         "barbase": "259082",
         "hidelines": "2"
       },
-      "horizontalaxis": {
-        "Land of Sky": "x"
-      },
-      "verticalaxis": {
-        "y": "hend"
-      },
+      "horizontalaxis": {"Land of Sky": "x"},
+      "verticalaxis": {"y": "hend"},
       "legend": {
         "label": "Henderson"
       }
@@ -184,12 +172,8 @@
         "barbase": "365822",
         "hidelines": "2"
       },
-      "horizontalaxis": {
-        "Land of Sky": "x"
-      },
-      "verticalaxis": {
-        "y": "tran"
-      },
+      "horizontalaxis": {"Land of Sky": "x"},
+      "verticalaxis": {"y": "tran"},
       "legend": {
         "label": "Transylvania"
       }
@@ -203,12 +187,8 @@
         "baroffset": "0",
         "hidelines": "2"
       },
-      "horizontalaxis": {
-        "High Country": "x"
-      },
-      "verticalaxis": {
-        "y": "wilk"
-      },
+      "horizontalaxis": {"High Country": "x"},
+      "verticalaxis": {"y": "wilk"},
       "legend": {
         "label": "Wilkes"
       }
@@ -222,12 +202,8 @@
         "barbase": "69340",
         "hidelines": "2"
       },
-      "horizontalaxis": {
-        "High Country": "x"
-      },
-      "verticalaxis": {
-        "y": "wata"
-      },
+      "horizontalaxis": {"High Country": "x"},
+      "verticalaxis": {"y": "wata"},
       "legend": {
         "label": "Watauga"
       }
@@ -241,12 +217,8 @@
         "barbase": "120419",
         "hidelines": "2"
       },
-      "horizontalaxis": {
-        "High Country": "x"
-      },
-      "verticalaxis": {
-        "y": "mitc"
-      },
+      "horizontalaxis": {"High Country": "x"},
+      "verticalaxis": {"y": "mitc"},
       "legend": {
         "label": "Mitchell"
       }
@@ -260,12 +232,8 @@
         "barbase": "135998",
         "hidelines": "2"
       },
-      "horizontalaxis": {
-        "High Country": "x"
-      },
-      "verticalaxis": {
-        "y": "yanc"
-      },
+      "horizontalaxis": {"High Country": "x"},
+      "verticalaxis": {"y": "yanc"},
       "legend": {
         "label": "Yancey"
       }
@@ -279,12 +247,8 @@
         "barbase": "153816",
         "hidelines": "2"
       },
-      "horizontalaxis": {
-        "High Country": "x"
-      },
-      "verticalaxis": {
-        "y": "ashe"
-      },
+      "horizontalaxis": {"High Country": "x"},
+      "verticalaxis": {"y": "ashe"},
       "legend": {
         "label": "Ashe"
       }
@@ -298,12 +262,8 @@
         "barbase": "171613",
         "hidelines": "2"
       },
-      "horizontalaxis": {
-        "High Country": "x"
-      },
-      "verticalaxis": {
-        "y": "aver"
-      },
+      "horizontalaxis": {"High Country": "x"},
+      "verticalaxis": {"y": "aver"},
       "legend": {
         "label": "Avery"
       }
@@ -317,12 +277,8 @@
         "barbase": "198894",
         "hidelines": "2"
       },
-      "horizontalaxis": {
-        "High Country": "x"
-      },
-      "verticalaxis": {
-        "y": "alle"
-      },
+      "horizontalaxis": {"High Country": "x"},
+      "verticalaxis": {"y": "alle"},
       "legend": {
         "label": "Alleghany"
       }
@@ -336,12 +292,8 @@
         "baroffset": "0",
         "hidelines": "2"
       },
-      "horizontalaxis": {
-        "Isothermal": "x"
-      },
-      "verticalaxis": {
-        "y": "clev"
-      },
+      "horizontalaxis": {"Isothermal": "x"},
+      "verticalaxis": {"y": "clev"},
       "legend": {
         "label": "Cleveland"
       }
@@ -355,12 +307,8 @@
         "barbase": "98078",
         "hidelines": "2"
       },
-      "horizontalaxis": {
-        "Isothermal": "x"
-      },
-      "verticalaxis": {
-        "y": "mcdo"
-      },
+      "horizontalaxis": {"Isothermal": "x"},
+      "verticalaxis": {"y": "mcdo"},
       "legend": {
         "label": "McDowell"
       }
@@ -374,12 +322,8 @@
         "barbase": "143074",
         "hidelines": "2"
       },
-      "horizontalaxis": {
-        "Isothermal": "x"
-      },
-      "verticalaxis": {
-        "y": "polk"
-      },
+      "horizontalaxis": {"Isothermal": "x"},
+      "verticalaxis": {"y": "polk"},
       "legend": {
         "label": "Polk"
       }
@@ -393,12 +337,8 @@
         "barbase": "163584",
         "hidelines": "2"
       },
-      "horizontalaxis": {
-        "Isothermal": "x"
-      },
-      "verticalaxis": {
-        "y": "ruth"
-      },
+      "horizontalaxis": {"Isothermal": "x"},
+      "verticalaxis": {"y": "ruth"},
       "legend": {
         "label": "Rutherford"
       }
@@ -412,12 +352,8 @@
         "baroffset": "0",
         "hidelines": "2"
       },
-      "horizontalaxis": {
-        "Southwestern": "x"
-      },
-      "verticalaxis": {
-        "y": "hayw"
-      },
+      "horizontalaxis": {"Southwestern": "x"},
+      "verticalaxis": {"y": "hayw"},
       "legend": {
         "label": "Haywood"
       }
@@ -431,12 +367,8 @@
         "barbase": "59036",
         "hidelines": "2"
       },
-      "horizontalaxis": {
-        "Southwestern": "x"
-      },
-      "verticalaxis": {
-        "y": "jack"
-      },
+      "horizontalaxis": {"Southwestern": "x"},
+      "verticalaxis": {"y": "jack"},
       "legend": {
         "label": "Jackson"
       }
@@ -450,12 +382,8 @@
         "barbase": "099307",
         "hidelines": "2"
       },
-      "horizontalaxis": {
-        "Southwestern": "x"
-      },
-      "verticalaxis": {
-        "y": "maco"
-      },
+      "horizontalaxis": {"Southwestern": "x"},
+      "verticalaxis": {"y": "maco"},
       "legend": {
         "label": "Macon"
       }
@@ -469,12 +397,8 @@
         "barbase": "133229",
         "hidelines": "2"
       },
-      "horizontalaxis": {
-        "Southwestern": "x"
-      },
-      "verticalaxis": {
-        "y": "cher"
-      },
+      "horizontalaxis": {"Southwestern": "x"},
+      "verticalaxis": {"y": "cher"},
       "legend": {
         "label": "Cherokee"
       }
@@ -488,12 +412,8 @@
         "barbase": "160673",
         "hidelines": "2"
       },
-      "horizontalaxis": {
-        "Southwestern": "x"
-      },
-      "verticalaxis": {
-        "y": "swai"
-      },
+      "horizontalaxis": {"Southwestern": "x"},
+      "verticalaxis": {"y": "swai"},
       "legend": {
         "label": "Swain"
       }
@@ -507,12 +427,8 @@
         "barbase": "174654",
         "hidelines": "2"
       },
-      "horizontalaxis": {
-        "Southwestern": "x"
-      },
-      "verticalaxis": {
-        "y": "clay"
-      },
+      "horizontalaxis": {"Southwestern": "x"},
+      "verticalaxis": {"y": "clay"},
       "legend": {
         "label": "Clay"
       }
@@ -526,12 +442,8 @@
         "barbase": "185241",
         "hidelines": "2"
       },
-      "horizontalaxis": {
-        "Southwestern": "x"
-      },
-      "verticalaxis": {
-        "y": "grah"
-      },
+      "horizontalaxis": {"Southwestern": "x"},
+      "verticalaxis": {"y": "grah"},
       "legend": {
         "label": "Graham"
       }
@@ -545,12 +457,8 @@
         "baroffset": "0",
         "hidelines": "2"
       },
-      "horizontalaxis": {
-        "Western Piedmont": "x"
-      },
-      "verticalaxis": {
-        "y": "burk"
-      },
+      "horizontalaxis": {"Western Piedmont": "x"},
+      "verticalaxis": {"y": "burk"},
       "legend": {
         "label": "Burke"
       }
@@ -564,12 +472,8 @@
         "barbase": "90912",
         "hidelines": "2"
       },
-      "horizontalaxis": {
-        "Western Piedmont": "x"
-      },
-      "verticalaxis": {
-        "y": "cald"
-      },
+      "horizontalaxis": {"Western Piedmont": "x"},
+      "verticalaxis": {"y": "cald"},
       "legend": {
         "label": "Caldwell"
       }
@@ -583,12 +487,8 @@
         "barbase": "173941",
         "hidelines": "2"
       },
-      "horizontalaxis": {
-        "Western Piedmont": "x"
-      },
-      "verticalaxis": {
-        "y": "alex"
-      },
+      "horizontalaxis": {"Western Piedmont": "x"},
+      "verticalaxis": {"y": "alex"},
       "legend": {
         "label": "Alexander"
       }

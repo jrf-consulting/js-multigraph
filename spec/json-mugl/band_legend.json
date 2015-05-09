@@ -34,15 +34,8 @@
       "fillcolor": "0x0000ff",
       "fillopacity": "0.5"
     },
-    "horizontalaxis": {
-      "x": "x"
-    },
-    "verticalaxis": {
-      "y": [
-        "y",
-        "z"
-      ]
-    }
+    "horizontalaxis": {"x": "x"},
+    "verticalaxis": {"y": ["y", "z"]}
   },
   "legend": {
     "visible": "true"

@@ -38,12 +38,8 @@
       "hidelines": "2",
       "barbase": "-.7"
     },
-    "horizontalaxis": {
-      "x": "x"
-    },
-    "verticalaxis": {
-      "y": "y"
-    }
+    "horizontalaxis": {"x": "x"},
+    "verticalaxis": {"y": "y"}
   },
   "legend": {
     "visible": "true",

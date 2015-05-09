@@ -76,12 +76,8 @@
       "pointopacity": "1.0",
       "pointsize": "3"
     },
-    "horizontalaxis": {
-      "Time": "Time"
-    },
-    "verticalaxis": {
-      "\ufffdF": "Wind"
-    }
+    "horizontalaxis": {"Time": "Time"},
+    "verticalaxis": {"\ufffdF": "Wind"}
   },
   "legend": {
     "visible": "true",

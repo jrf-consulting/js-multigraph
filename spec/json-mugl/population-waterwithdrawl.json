@@ -92,12 +92,8 @@
         "pointoutlinewidth": "3",
         "pointoutlinecolor": "0x68038C"
       },
-      "horizontalaxis": {
-        "x": "x"
-      },
-      "verticalaxis": {
-        "y1": "b1"
-      },
+      "horizontalaxis": {"x": "x"},
+      "verticalaxis": {"y1": "b1"},
       "legend": {
         "label": "Pop, Buncombe"
       }
@@ -112,12 +108,8 @@
         "pointoutlinewidth": "3",
         "pointoutlinecolor": "0xC35DE8"
       },
-      "horizontalaxis": {
-        "x": "x"
-      },
-      "verticalaxis": {
-        "y2": "b2"
-      },
+      "horizontalaxis": {"x": "x"},
+      "verticalaxis": {"y2": "b2"},
       "legend": {
         "label": "Self-Supp. Withdrawls, Buncombe"
       }
@@ -132,12 +124,8 @@
         "pointoutlinewidth": "3",
         "pointoutlinecolor": "0xD9790B"
       },
-      "horizontalaxis": {
-        "x": "x"
-      },
-      "verticalaxis": {
-        "y1": "h1"
-      },
+      "horizontalaxis": {"x": "x"},
+      "verticalaxis": {"y1": "h1"},
       "legend": {
         "label": "Pop, Henderson"
       }
@@ -152,12 +140,8 @@
         "pointoutlinewidth": "3",
         "pointoutlinecolor": "0xE6AD6C"
       },
-      "horizontalaxis": {
-        "x": "x"
-      },
-      "verticalaxis": {
-        "y2": "h2"
-      },
+      "horizontalaxis": {"x": "x"},
+      "verticalaxis": {"y2": "h2"},
       "legend": {
         "label": "Self-Supp. Withdrawls, Henderson"
       }
@@ -172,12 +156,8 @@
         "pointoutlinewidth": "3",
         "pointoutlinecolor": "0x167502"
       },
-      "horizontalaxis": {
-        "x": "x"
-      },
-      "verticalaxis": {
-        "y1": "m1"
-      },
+      "horizontalaxis": {"x": "x"},
+      "verticalaxis": {"y1": "m1"},
       "legend": {
         "label": "Pop, Madison"
       }
@@ -192,12 +172,8 @@
         "pointoutlinewidth": "3",
         "pointoutlinecolor": "0x7AD169"
       },
-      "horizontalaxis": {
-        "x": "x"
-      },
-      "verticalaxis": {
-        "y2": "m2"
-      },
+      "horizontalaxis": {"x": "x"},
+      "verticalaxis": {"y2": "m2"},
       "legend": {
         "label": "Self-Supp. Withdrawls, Madison"
       }
@@ -212,12 +188,8 @@
         "pointoutlinewidth": "3",
         "pointoutlinecolor": "0xB31D09"
       },
-      "horizontalaxis": {
-        "x": "x"
-      },
-      "verticalaxis": {
-        "y1": "t1"
-      },
+      "horizontalaxis": {"x": "x"},
+      "verticalaxis": {"y1": "t1"},
       "legend": {
         "label": "Pop, Transylvania"
       }
@@ -232,12 +204,8 @@
         "pointoutlinewidth": "3",
         "pointoutlinecolor": "0xD67467"
       },
-      "horizontalaxis": {
-        "x": "x"
-      },
-      "verticalaxis": {
-        "y2": "t2"
-      },
+      "horizontalaxis": {"x": "x"},
+      "verticalaxis": {"y2": "t2"},
       "legend": {
         "label": "Self-Supp. Withdrawls, Transylvania"
       }

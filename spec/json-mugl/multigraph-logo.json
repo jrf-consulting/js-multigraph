@@ -48,12 +48,8 @@
       "barwidth": "0.6",
       "baroffset": "0.4"
     },
-    "horizontalaxis": {
-      "x": "x"
-    },
-    "verticalaxis": {
-      "y": "y"
-    }
+    "horizontalaxis": {"x": "x"},
+    "verticalaxis": {"y": "y"}
   },
   "data": {
     "variables": [

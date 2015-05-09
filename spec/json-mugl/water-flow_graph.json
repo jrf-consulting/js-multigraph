@@ -71,12 +71,8 @@
         "linecolor": "0x116ED1",
         "linewidth": "3"
       },
-      "horizontalaxis": {
-        "Time": "Time"
-      },
-      "verticalaxis": {
-        "y": "Flow Rate"
-      }
+      "horizontalaxis": {"Time": "Time"},
+      "verticalaxis": {"y": "Flow Rate"}
     },
     {
       "style": "point",
@@ -87,12 +83,8 @@
         "pointsize": "3",
         "pointshape": "circle"
       },
-      "horizontalaxis": {
-        "Time": "Time"
-      },
-      "verticalaxis": {
-        "y": "Mean Daily Flow Rate (117 Years)"
-      }
+      "horizontalaxis": {"Time": "Time"},
+      "verticalaxis": {"y": "Mean Daily Flow Rate (117 Years)"}
     }
   ],
   "legend": {

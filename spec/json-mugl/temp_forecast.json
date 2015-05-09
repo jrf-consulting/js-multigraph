@@ -79,12 +79,8 @@
         "pointopacity": "1.0",
         "pointsize": "3"
       },
-      "horizontalaxis": {
-        "Time": "Time"
-      },
-      "verticalaxis": {
-        "\ufffdF": "Temperature"
-      }
+      "horizontalaxis": {"Time": "Time"},
+      "verticalaxis": {"\ufffdF": "Temperature"}
     },
     {
       "style": "pointline",
@@ -98,12 +94,8 @@
         "pointopacity": "1.0",
         "pointsize": "3"
       },
-      "horizontalaxis": {
-        "Time": "Time"
-      },
-      "verticalaxis": {
-        "\ufffdF": "Dewpoint"
-      }
+      "horizontalaxis": {"Time": "Time"},
+      "verticalaxis": {"\ufffdF": "Dewpoint"}
     },
     {
       "style": "pointline",
@@ -117,12 +109,8 @@
         "pointopacity": "1.0",
         "pointsize": "3"
       },
-      "horizontalaxis": {
-        "Time": "Time"
-      },
-      "verticalaxis": {
-        "\ufffdF": "Wind Chill"
-      }
+      "horizontalaxis": {"Time": "Time"},
+      "verticalaxis": {"\ufffdF": "Wind Chill"}
     }
   ],
   "legend": {

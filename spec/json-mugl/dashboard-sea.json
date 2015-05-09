@@ -69,12 +69,8 @@
       "fillcolor": "0x3299CC",
       "fillopacity": "0.5"
     },
-    "horizontalaxis": {
-      "datetime": "datetime"
-    },
-    "verticalaxis": {
-      "col1": "col1"
-    },
+    "horizontalaxis": {"datetime": "datetime"},
+    "verticalaxis": {"col1": "col1"},
     "legend": false,
     "datatips": {
       "format": "{0}: {1}",

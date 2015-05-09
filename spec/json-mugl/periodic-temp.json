@@ -36,12 +36,8 @@
       "linecolor": "0x0000ff",
       "linewidth": "2"
     },
-    "horizontalaxis": {
-      "date": "date"
-    },
-    "verticalaxis": {
-      "temp": "normal_maxt"
-    },
+    "horizontalaxis": {"date": "date"},
+    "verticalaxis": {"temp": "normal_maxt"},
     "legend": {
       "label": "Normal Temperature"
     }

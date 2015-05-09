@@ -86,12 +86,8 @@
       "baroffset": "0",
       "barbase": "0"
     },
-    "horizontalaxis": {
-      "x": "a_datetime"
-    },
-    "verticalaxis": {
-      "y": "a_ohc"
-    },
+    "horizontalaxis": {"x": "a_datetime"},
+    "verticalaxis": {"y": "a_ohc"},
     "legend": {
       "label": "Yearly average"
     },

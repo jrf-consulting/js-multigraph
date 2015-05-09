@@ -82,9 +82,7 @@
         "linecolor": "0x999999",
         "linewidth": "1"
       },
-      "verticalaxis": {
-        "y": "0"
-      },
+      "verticalaxis": {"y": "0"},
       "legend": false
     },
     {
@@ -95,12 +93,8 @@
         "downfillcolor": "0x94BDE9",
         "linecolor": "0x000000"
       },
-      "horizontalaxis": {
-        "x": "datetime"
-      },
-      "verticalaxis": {
-        "y": "number"
-      },
+      "horizontalaxis": {"x": "datetime"},
+      "verticalaxis": {"y": "number"},
       "legend": {
         "label": "Yearly average"
       },

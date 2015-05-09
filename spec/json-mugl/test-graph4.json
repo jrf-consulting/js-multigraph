@@ -49,12 +49,8 @@
       "fillcolor": "0xFFCF4D",
       "fillopacity": ".5"
     },
-    "horizontalaxis": {
-      "Date": "datetime"
-    },
-    "verticalaxis": {
-      "y": "y"
-    }
+    "horizontalaxis": {"Date": "datetime"},
+    "verticalaxis": {"y": "y"}
   },
   "legend": {
     "visible": "false"

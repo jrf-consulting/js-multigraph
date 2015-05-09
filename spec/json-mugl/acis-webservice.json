@@ -38,15 +38,8 @@
         "linewidth": "0",
         "linecolor": "0x99ff99"
       },
-      "horizontalaxis": {
-        "date": "date"
-      },
-      "verticalaxis": {
-        "temp": [
-          "normal_mint",
-          "normal_maxt"
-        ]
-      },
+      "horizontalaxis": {"date": "date"},
+      "verticalaxis": {"temp": ["normal_mint", "normal_maxt"]},
       "legend": {
         "label": "Normal Temperature Range"
       }
@@ -58,15 +51,8 @@
         "barwidth": "20H",
         "baroffset": "0.5"
       },
-      "horizontalaxis": {
-        "date": "date"
-      },
-      "verticalaxis": {
-        "temp": [
-          "mint",
-          "maxt"
-        ]
-      },
+      "horizontalaxis": {"date": "date"},
+      "verticalaxis": {"temp": ["mint", "maxt"]},
       "legend": {
         "label": "Actual Temperature Range"
       }

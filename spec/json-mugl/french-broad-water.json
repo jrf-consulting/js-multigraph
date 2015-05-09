@@ -102,12 +102,8 @@
         "fillcolor": "0x71A1F0",
         "fillopacity": "0.4"
       },
-      "horizontalaxis": {
-        "datetime": "datetime"
-      },
-      "verticalaxis": {
-        "Flow Rate": "Flow Rate"
-      },
+      "horizontalaxis": {"datetime": "datetime"},
+      "verticalaxis": {"Flow Rate": "Flow Rate"},
       "legend": {
         "label": "Flow Rate"
       }
@@ -119,12 +115,8 @@
         "pointcolor": "0xF5D938",
         "pointoutlinecolor": "0x4D4100"
       },
-      "horizontalaxis": {
-        "datetime": "datetime"
-      },
-      "verticalaxis": {
-        "Flow Rate": "histaverage"
-      },
+      "horizontalaxis": {"datetime": "datetime"},
+      "verticalaxis": {"Flow Rate": "histaverage"},
       "legend": {
         "label": "Mean Flow Rate (177 Years)"
       }
@@ -138,12 +130,8 @@
         "barbase": "0",
         "linecolor": "0xE9BDFF"
       },
-      "horizontalaxis": {
-        "datetime": "datetime"
-      },
-      "verticalaxis": {
-        "precip": "precip"
-      },
+      "horizontalaxis": {"datetime": "datetime"},
+      "verticalaxis": {"precip": "precip"},
       "legend": {
         "label": "Precipitation"
       }

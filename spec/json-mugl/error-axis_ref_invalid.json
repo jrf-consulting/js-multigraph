@@ -14,12 +14,8 @@
   },
   "plot": {
     "style": "line",
-    "horizontalaxis": {
-      "x": "x"
-    },
-    "verticalaxis": {
-      "yFOO": "y"
-    }
+    "horizontalaxis": {"x": "x"},
+    "verticalaxis": {"yFOO": "y"}
   },
   "data": {
     "variables": [
