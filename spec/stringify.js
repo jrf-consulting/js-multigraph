@@ -123,6 +123,16 @@
 // Create a JSON object only if one does not already exist. We create the
 // methods in a closure to avoid creating global variables.
 
+if (!String.prototype.trim) {
+  (function() {
+    // Make sure we trim BOM and NBSP
+    var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
+    String.prototype.trim = function() {
+      return this.replace(rtrim, '');
+    };
+  })();
+}
+
 (function () {
     'use strict';
     
@@ -242,6 +252,13 @@
 
         case 'object':
 
+			if (inner) {
+				var newKeys = outerKey.slice(0, outerKey.length);
+				newKeys.push(key);
+			} else {
+				var newKeys = [key];
+			}
+
 // Due to a specification blunder in ECMAScript, typeof null is 'object',
 // so watch out for that case.
 
@@ -263,15 +280,16 @@
 
                 length = value.length;
                 for (i = 0; i < length; i += 1) {
-                    partial[i] = str(i, value, true, key) || 'null';
-					if (typeof(partial[i]) === "string") partial[i] = partial[i].trim();
+                    partial[i] = str(i, value, true, newKeys) || 'null';
                 }
 
 // Join all of the elements together, separated with commas, and wrap them in
 // brackets.
 
 				if (key === "spacing" || key === "anchor" || key === "base" || key === "position" || key === "variable-formats" ||
-					(inner === true && outerKey === "values")) {
+					(inner === true && outerKey[outerKey.length - 1] === "values") ||
+					((outerKey.indexOf("plots") !== -1 || outerKey.indexOf("plot") !== -1) &&
+					 (outerKey.indexOf("verticalaxis") !== -1 || outerKey.indexOf("horizontalaxis") !== -1))) {
 					v = partial.length === 0
 						? '[]'
 						: '[' + partial.join(', ') + ']';
@@ -295,7 +313,7 @@
                 for (i = 0; i < length; i += 1) {
                     if (typeof rep[i] === 'string') {
                         k = rep[i];
-                        v = str(k, value);
+                        v = str(k, value, true, newKeys);
                         if (v) {
                             partial.push(quote(k) + (
                                 gap 
@@ -311,7 +329,7 @@
 
                 for (k in value) {
                     if (Object.prototype.hasOwnProperty.call(value, k)) {
-                        v = str(k, value);
+                        v = str(k, value, true, newKeys);
                         if (v) {
                             partial.push(quote(k) + (
                                 gap 
@@ -326,17 +344,22 @@
 // Join all of the member texts together, separated with commas,
 // and wrap them in braces.
 
-			if (inner === true && (outerKey === "variables" || outerKey === "barwidth" || outerKey === "fillcolor" ||
-				outerKey === "linecolor" || outerKey === "linewidth" || outerKey === "line1color" || outerKey === "line1width" ||
-				outerKey === "line2color" || outerKey === "line2width" || outerKey === "fillopacity" || outerKey === "baroffset" ||
-				outerKey === "barbase" || outerKey === "hidelines" || outerKey === "fillbase" || outerKey === "downfillcolor" ||
-				outerKey === "pointsize" || outerKey === "pointcolor" || outerKey === "pointshape" || outerKey === "pointopacity" ||
-				outerKey === "pointoutlinewidth" || outerKey === "pointoutlinecolor")) {
-				v = partial.length === 0
-					? '{}'
-					: '{' + partial.join(', ') + '}';
-				gap = mind;
-				return v;	
+			if (inner === true) {
+				var lastOuterKey = outerKey[outerKey.length - 1];
+				var options = ["barwidth", "fillcolor", "linecolor", "linewidth", "line1color", "line1width", "line2color",
+					"line2width", "fillopacity", "baroffset", "barbase", "hidelines", "fillbase", "downfillcolor", "pointsize",
+					"pointcolor", "pointshape", "pointopacity", "pointoutlinewidth", "pointoutlinecolor"];
+				var otherProperties = ["variables"];
+				var plotAxes = ["verticalaxis", "horizontalaxis"];
+
+				if (options.indexOf(lastOuterKey) !== -1 || otherProperties.indexOf(lastOuterKey) !== -1 ||
+					((outerKey.indexOf("plots") !== -1 || outerKey.indexOf("plot") !== -1) && plotAxes.indexOf(key) !== -1)) {
+					v = partial.length === 0
+						? '{}'
+						: '{' + partial.join(', ') + '}';
+					gap = mind;
+					return v;
+				}
 			}
 
             v = partial.length === 0
