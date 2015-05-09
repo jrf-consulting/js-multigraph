@@ -53,7 +53,6 @@
       }
     },
     {
-      "positionbase": "right",
       "id": "dewp",
       "type": "number",
       "position": 0,
@@ -61,6 +60,7 @@
       "max": 100,
       "minoffset": 5,
       "maxoffset": 10,
+      "positionbase": "right",
       "pregap": 0,
       "postgap": 0,
       "title": {

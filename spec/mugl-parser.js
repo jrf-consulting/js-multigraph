@@ -80,7 +80,7 @@ function reorderBackground (background) {
 function reorderAxis (axis) {
 	recreateTags(axis, ["id", "type", "length", "base", "anchor", "position",
 		"min", "max", "minoffset", "maxoffset", "minposition", "maxposition",
-		"color", "linewidth", "tickmin", "tickmax", "tickcolor", "highlightstyle",
+		"color", "linewidth", "tickmin", "tickmax", "tickcolor", "highlightstyle", "positionbase",
 		"pregap", "postgap", "title", "labels", "grid", "pan", "zoom", "binding"]);
 
 	if (axis.title) recreateTags(axis.title, ["text", "base", "anchor", "position", "angle"]);

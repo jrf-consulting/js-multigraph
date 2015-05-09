@@ -19,10 +19,10 @@
   },
   "verticalaxes": [
     {
-      "positionbase": "right",
       "id": "fahrenheit",
       "min": 0,
       "max": 95,
+      "positionbase": "right",
       "title": {
         "text": "Fahrenheit",
         "anchor": [0, 1],
@@ -40,8 +40,8 @@
       }
     },
     {
-      "positionbase": "left",
       "id": "celsius",
+      "positionbase": "left",
       "title": {
         "text": "Celsius",
         "anchor": [0, -1],
